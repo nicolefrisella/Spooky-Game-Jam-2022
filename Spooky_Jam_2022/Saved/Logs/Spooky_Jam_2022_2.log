@@ -3987,3 +3987,650 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2022.10.01-07.53.56:526][697]LogSavePackage: Moving '../../../../../../users/nicole/3D/Projects/ETC/Game Jams/Spooky Game Jam 2022/Spooky_Jam_2022/Saved/BookB4D6F8324E713B9E3B5AAA843C12A843.tmp' to '../../../../../../users/nicole/3D/Projects/ETC/Game Jams/Spooky Game Jam 2022/Spooky_Jam_2022/Content/Assets/Background/Dynamic_Props/Book.uasset'
 [2022.10.01-07.53.56:536][697]AssetCheck: New page: Asset Save: Book
 [2022.10.01-07.53.56:536][697]LogContentValidation: Display: Validating StaticMesh /Game/Assets/Background/Dynamic_Props/Book.Book
+[2022.10.01-07.58.43:270][153]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Room_Space2)
+[2022.10.01-07.58.46:251][432]LogEditorFactories: Performing atomic reimport of [D:/users/nicole/3D/Projects/ETC/Game Jams/Spooky Game Jam 2022/Assets/Background/Room Space.fbx]
+[2022.10.01-07.58.46:287][432]LogFbx: Loading FBX Scene from D:/users/nicole/3D/Projects/ETC/Game Jams/Spooky Game Jam 2022/Assets/Background/Room Space.fbx
+[2022.10.01-07.58.46:293][432]LogFbx: FBX Scene Loaded Succesfully
+[2022.10.01-07.58.46:330][432]LogStaticMesh: Building static mesh Room_Space...
+[2022.10.01-07.58.46:339][432]LogStaticMesh: Built static mesh [0.01s] /Game/Assets/Background/Room_Space.Room_Space
+[2022.10.01-07.58.46:349][432]LogEditorFactories: -- imported successfully
+[2022.10.01-07.58.46:352][432]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2022.10.01-07.59.05:538][196]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Room_Space2)
+[2022.10.01-07.59.07:550][364]LogEditorFactories: Performing atomic reimport of [D:/users/nicole/3D/Projects/ETC/Game Jams/Spooky Game Jam 2022/Assets/Background/Room Space.fbx]
+[2022.10.01-07.59.07:587][364]LogFbx: Loading FBX Scene from D:/users/nicole/3D/Projects/ETC/Game Jams/Spooky Game Jam 2022/Assets/Background/Room Space.fbx
+[2022.10.01-07.59.07:593][364]LogFbx: FBX Scene Loaded Succesfully
+[2022.10.01-07.59.07:615][364]LogStaticMesh: Building static mesh Room_Space...
+[2022.10.01-07.59.07:620][364]LogStaticMesh: Built static mesh [0.00s] /Game/Assets/Background/Room_Space.Room_Space
+[2022.10.01-07.59.07:628][364]LogEditorFactories: -- imported successfully
+[2022.10.01-07.59.07:631][364]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2022.10.01-08.03.34:179][899]LogUObjectHash: Compacting FUObjectHashTables data took   0.96ms
+[2022.10.01-08.03.34:201][899]LogSavePackage: Moving '../../../../../../users/nicole/3D/Projects/ETC/Game Jams/Spooky Game Jam 2022/Spooky_Jam_2022/Saved/Main_Level_Auto63556E04C413CEA352101D599ED8AFE49.tmp' to '../../../../../../users/nicole/3D/Projects/ETC/Game Jams/Spooky Game Jam 2022/Spooky_Jam_2022/Saved/Autosaves/Game/Main_Level_Auto6.umap'
+[2022.10.01-08.03.34:203][899]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Main_Level' took 0.039
+[2022.10.01-08.03.34:203][899]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.039
+[2022.10.01-08.03.34:203][899]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Assets/Background/Room_Space] ([1] browsable assets)...
+[2022.10.01-08.03.34:219][899]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/Assets/Background/Room_Space.Room_Space]
+[2022.10.01-08.03.34:219][899]OBJ SavePackage: Finished generating thumbnails for package [/Game/Assets/Background/Room_Space]
+[2022.10.01-08.03.34:229][899]LogSavePackage: Moving '../../../../../../users/nicole/3D/Projects/ETC/Game Jams/Spooky Game Jam 2022/Spooky_Jam_2022/Saved/Room_Space_Auto66357919B4963299B0F5C9CBDC74241A3.tmp' to '../../../../../../users/nicole/3D/Projects/ETC/Game Jams/Spooky Game Jam 2022/Spooky_Jam_2022/Saved/Autosaves/Game/Assets/Background/Room_Space_Auto6.uasset'
+[2022.10.01-08.03.34:230][899]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Assets/Background/Static_Props/Picture_Frame] ([1] browsable assets)...
+[2022.10.01-08.03.34:241][899]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/Assets/Background/Static_Props/Picture_Frame.Picture_Frame]
+[2022.10.01-08.03.34:241][899]OBJ SavePackage: Finished generating thumbnails for package [/Game/Assets/Background/Static_Props/Picture_Frame]
+[2022.10.01-08.03.34:248][899]LogSavePackage: Moving '../../../../../../users/nicole/3D/Projects/ETC/Game Jams/Spooky Game Jam 2022/Spooky_Jam_2022/Saved/Picture_Frame_Auto6078097E94D2D7E07896C848B545D0443.tmp' to '../../../../../../users/nicole/3D/Projects/ETC/Game Jams/Spooky Game Jam 2022/Spooky_Jam_2022/Saved/Autosaves/Game/Assets/Background/Static_Props/Picture_Frame_Auto6.uasset'
+[2022.10.01-08.03.34:250][899]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Assets/Background/Static_Props/Picture_Frame_Rotating_Image] ([1] browsable assets)...
+[2022.10.01-08.03.34:259][899]OBJ SavePackage:     Rendered thumbnail for [Material /Game/Assets/Background/Static_Props/Picture_Frame_Rotating_Image.Picture_Frame_Rotating_Image]
+[2022.10.01-08.03.34:259][899]OBJ SavePackage: Finished generating thumbnails for package [/Game/Assets/Background/Static_Props/Picture_Frame_Rotating_Image]
+[2022.10.01-08.03.34:265][899]LogSavePackage: Moving '../../../../../../users/nicole/3D/Projects/ETC/Game Jams/Spooky Game Jam 2022/Spooky_Jam_2022/Saved/Picture_Frame_Rotating_Image_Aut09F720E84660E4F5ACB5A098382AEA7C.tmp' to '../../../../../../users/nicole/3D/Projects/ETC/Game Jams/Spooky Game Jam 2022/Spooky_Jam_2022/Saved/Autosaves/Game/Assets/Background/Static_Props/Picture_Frame_Rotating_Image_Auto6.uasset'
+[2022.10.01-08.03.34:266][899]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Assets/Background/Static_Props/Picture_Frame_Wood] ([1] browsable assets)...
+[2022.10.01-08.03.34:275][899]OBJ SavePackage:     Rendered thumbnail for [Material /Game/Assets/Background/Static_Props/Picture_Frame_Wood.Picture_Frame_Wood]
+[2022.10.01-08.03.34:275][899]OBJ SavePackage: Finished generating thumbnails for package [/Game/Assets/Background/Static_Props/Picture_Frame_Wood]
+[2022.10.01-08.03.34:282][899]LogSavePackage: Moving '../../../../../../users/nicole/3D/Projects/ETC/Game Jams/Spooky Game Jam 2022/Spooky_Jam_2022/Saved/Picture_Frame_Wood_Auto67A7B180E4042CD00BFF4F7B57D9D6C3B.tmp' to '../../../../../../users/nicole/3D/Projects/ETC/Game Jams/Spooky Game Jam 2022/Spooky_Jam_2022/Saved/Autosaves/Game/Assets/Background/Static_Props/Picture_Frame_Wood_Auto6.uasset'
+[2022.10.01-08.03.34:283][899]LogFileHelpers: Auto-saving content packages took 0.080
+[2022.10.01-08.16.54:473][642]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 ../../../../../../users/nicole/3D/Projects/ETC/Game Jams/Spooky Game Jam 2022/Assets/Background/Bookshelf.fbx)
+[2022.10.01-08.16.54:484][642]LogFbx: Loading FBX Scene from ../../../../../../users/nicole/3D/Projects/ETC/Game Jams/Spooky Game Jam 2022/Assets/Background/Bookshelf.fbx
+[2022.10.01-08.16.54:490][642]LogFbx: FBX Scene Loaded Succesfully
+[2022.10.01-08.16.55:736][642]LogSlate: Window 'FBX Import Options' being destroyed
+[2022.10.01-08.16.55:758][642]LogMaterial: Display: Missing cached shader map for material lambert1, compiling. 
+[2022.10.01-08.16.55:767][642]LogShaderCompilers: Display: Worker (1/13): shaders left to compile 15
+[2022.10.01-08.16.55:767][642]LogShaderCompilers: Display: Worker (2/13): shaders left to compile 13
+[2022.10.01-08.16.55:767][642]LogShaderCompilers: Display: Worker (3/13): shaders left to compile 11
+[2022.10.01-08.16.55:767][642]LogShaderCompilers: Display: Worker (4/13): shaders left to compile 9
+[2022.10.01-08.16.55:767][642]LogShaderCompilers: Display: Worker (5/13): shaders left to compile 7
+[2022.10.01-08.16.55:767][642]LogShaderCompilers: Display: Worker (6/13): shaders left to compile 5
+[2022.10.01-08.16.55:767][642]LogShaderCompilers: Display: Worker (7/13): shaders left to compile 3
+[2022.10.01-08.16.55:767][642]LogShaderCompilers: Display: Worker (8/13): shaders left to compile 1
+[2022.10.01-08.16.55:768][642]LogStaticMesh: Building static mesh Bookshelf...
+[2022.10.01-08.16.55:777][642]LogStaticMesh: Built static mesh [0.01s] /Game/Assets/Background/Static_Props/Bookshelf.Bookshelf
+[2022.10.01-08.16.55:785][642]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2022.10.01-08.16.58:966][945]LogActorFactory: Actor Factory created Bookshelf
+[2022.10.01-08.16.59:448][990]LogActorFactory: Actor Factory created Bookshelf
+[2022.10.01-08.17.08:279][832]LogUObjectHash: Compacting FUObjectHashTables data took   0.70ms
+[2022.10.01-08.17.08:292][832]LogSavePackage: Moving '../../../../../../users/nicole/3D/Projects/ETC/Game Jams/Spooky Game Jam 2022/Spooky_Jam_2022/Saved/Main_Level3CFD252A41D569D06FE113BFEB492FD9.tmp' to '../../../../../../users/nicole/3D/Projects/ETC/Game Jams/Spooky Game Jam 2022/Spooky_Jam_2022/Content/Main_Level.umap'
+[2022.10.01-08.17.08:327][832]LogSavePackage: Moving '../../../../../../users/nicole/3D/Projects/ETC/Game Jams/Spooky Game Jam 2022/Spooky_Jam_2022/Saved/Main_Level_BuiltDataFE7D12D54C4D2D527C417A95C8A46069.tmp' to '../../../../../../users/nicole/3D/Projects/ETC/Game Jams/Spooky Game Jam 2022/Spooky_Jam_2022/Content/Main_Level_BuiltData.uasset'
+[2022.10.01-08.17.08:341][832]AssetCheck: New page: Asset Save: multiple assets
+[2022.10.01-08.17.08:341][832]LogContentValidation: Display: Validating World /Game/Main_Level.Main_Level
+[2022.10.01-08.17.08:341][832]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Main_Level_BuiltData.Main_Level_BuiltData
+[2022.10.01-08.17.45:732][447]Cmd: EDIT COPY
+[2022.10.01-08.17.46:038][464]Cmd: EDIT PASTE
+[2022.10.01-08.17.58:104][877]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Bookshelf)
+[2022.10.01-08.18.01:698][296]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Bookshelf2)
+[2022.10.01-08.18.05:434][732]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Bookshelf)
+[2022.10.01-08.18.08:952][142]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Bookshelf2)
+[2022.10.01-08.18.13:761][706]Cmd: EDIT COPY
+[2022.10.01-08.18.14:043][727]Cmd: EDIT PASTE
+[2022.10.01-08.18.17:871][176]Cmd: EDIT PASTE
+[2022.10.01-08.18.22:872][766]Cmd: EDIT PASTE
+[2022.10.01-08.18.26:317][169]Cmd: EDIT PASTE
+[2022.10.01-08.18.30:092][610]Cmd: EDIT PASTE
+[2022.10.01-08.18.35:906][296]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Bookshelf)
+[2022.10.01-08.18.38:133][556]Cmd: EDIT PASTE
+[2022.10.01-08.18.39:734][742]Cmd: TRANSACTION UNDO
+[2022.10.01-08.18.39:734][742]LogEditorTransaction: Undo Paste
+[2022.10.01-08.18.40:660][783]Cmd: EDIT COPY
+[2022.10.01-08.18.40:851][796]Cmd: EDIT PASTE
+[2022.10.01-08.19.14:377][ 29]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Bookshelf7)
+[2022.10.01-08.19.20:581][752]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Bookshelf5)
+[2022.10.01-08.19.21:514][856]Cmd: DELETE
+[2022.10.01-08.19.21:514][856]Cmd: ACTOR DELETE
+[2022.10.01-08.19.21:515][856]LogEditorActor: Deleted Actor: StaticMeshActor
+[2022.10.01-08.19.21:529][856]LogUObjectHash: Compacting FUObjectHashTables data took   0.61ms
+[2022.10.01-08.19.21:536][856]LogEditorActor: Deleted 1 Actors (0.022 secs)
+[2022.10.01-08.19.22:328][949]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Bookshelf4)
+[2022.10.01-08.19.22:678][983]Cmd: DELETE
+[2022.10.01-08.19.22:678][983]Cmd: ACTOR DELETE
+[2022.10.01-08.19.22:679][983]LogEditorActor: Deleted Actor: StaticMeshActor
+[2022.10.01-08.19.22:693][983]LogUObjectHash: Compacting FUObjectHashTables data took   0.24ms
+[2022.10.01-08.19.22:694][983]LogEditorActor: Deleted 1 Actors (0.016 secs)
+[2022.10.01-08.19.32:771][183]LogUObjectHash: Compacting FUObjectHashTables data took   0.27ms
+[2022.10.01-08.19.32:782][183]LogSavePackage: Moving '../../../../../../users/nicole/3D/Projects/ETC/Game Jams/Spooky Game Jam 2022/Spooky_Jam_2022/Saved/Main_Level0DA22A6E4ED7903B9DC843A4F995EEB1.tmp' to '../../../../../../users/nicole/3D/Projects/ETC/Game Jams/Spooky Game Jam 2022/Spooky_Jam_2022/Content/Main_Level.umap'
+[2022.10.01-08.19.32:816][183]LogSavePackage: Moving '../../../../../../users/nicole/3D/Projects/ETC/Game Jams/Spooky Game Jam 2022/Spooky_Jam_2022/Saved/Main_Level_BuiltDataCD7CACA24273CC4BDDAD7BA3E1D76DEA.tmp' to '../../../../../../users/nicole/3D/Projects/ETC/Game Jams/Spooky Game Jam 2022/Spooky_Jam_2022/Content/Main_Level_BuiltData.uasset'
+[2022.10.01-08.19.32:828][183]AssetCheck: New page: Asset Save: multiple assets
+[2022.10.01-08.19.32:828][183]LogContentValidation: Display: Validating World /Game/Main_Level.Main_Level
+[2022.10.01-08.19.32:828][183]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Main_Level_BuiltData.Main_Level_BuiltData
+[2022.10.01-08.19.39:128][888]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Bookshelf8)
+[2022.10.01-08.19.40:318][ 22]Cmd: EDIT COPY
+[2022.10.01-08.19.40:675][ 62]Cmd: EDIT PASTE
+[2022.10.01-08.19.44:363][494]Cmd: EDIT COPY
+[2022.10.01-08.19.44:687][530]Cmd: EDIT PASTE
+[2022.10.01-08.23.01:646][584]LogUObjectHash: Compacting FUObjectHashTables data took   0.72ms
+[2022.10.01-08.23.01:662][584]LogSavePackage: Moving '../../../../../../users/nicole/3D/Projects/ETC/Game Jams/Spooky Game Jam 2022/Spooky_Jam_2022/Saved/Main_Level4BBFF31D498E47F8E4D28DB4A5AA3195.tmp' to '../../../../../../users/nicole/3D/Projects/ETC/Game Jams/Spooky Game Jam 2022/Spooky_Jam_2022/Content/Main_Level.umap'
+[2022.10.01-08.23.01:697][584]LogSavePackage: Moving '../../../../../../users/nicole/3D/Projects/ETC/Game Jams/Spooky Game Jam 2022/Spooky_Jam_2022/Saved/Main_Level_BuiltData60C03249488252DBA29345B464FD0233.tmp' to '../../../../../../users/nicole/3D/Projects/ETC/Game Jams/Spooky Game Jam 2022/Spooky_Jam_2022/Content/Main_Level_BuiltData.uasset'
+[2022.10.01-08.23.01:706][584]AssetCheck: New page: Asset Save: multiple assets
+[2022.10.01-08.23.01:706][584]LogContentValidation: Display: Validating World /Game/Main_Level.Main_Level
+[2022.10.01-08.23.01:706][584]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Main_Level_BuiltData.Main_Level_BuiltData
+[2022.10.01-08.23.19:117][525]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 ../../../../../../users/nicole/3D/Projects/ETC/Game Jams/Spooky Game Jam 2022/Assets/Background/Dynamic Books.fbx)
+[2022.10.01-08.23.19:128][525]LogFbx: Loading FBX Scene from ../../../../../../users/nicole/3D/Projects/ETC/Game Jams/Spooky Game Jam 2022/Assets/Background/Dynamic Books.fbx
+[2022.10.01-08.23.19:134][525]LogFbx: FBX Scene Loaded Succesfully
+[2022.10.01-08.23.20:435][525]LogSlate: Window 'FBX Import Options' being destroyed
+[2022.10.01-08.23.20:460][525]LogMaterial: Display: Missing cached shader map for material lambert1, compiling. 
+[2022.10.01-08.23.20:474][525]LogShaderCompilers: Display: Worker (1/13): shaders left to compile 15
+[2022.10.01-08.23.20:474][525]LogShaderCompilers: Display: Worker (2/13): shaders left to compile 13
+[2022.10.01-08.23.20:474][525]LogShaderCompilers: Display: Worker (3/13): shaders left to compile 11
+[2022.10.01-08.23.20:474][525]LogShaderCompilers: Display: Worker (4/13): shaders left to compile 9
+[2022.10.01-08.23.20:474][525]LogShaderCompilers: Display: Worker (5/13): shaders left to compile 7
+[2022.10.01-08.23.20:474][525]LogShaderCompilers: Display: Worker (6/13): shaders left to compile 5
+[2022.10.01-08.23.20:474][525]LogShaderCompilers: Display: Worker (7/13): shaders left to compile 3
+[2022.10.01-08.23.20:474][525]LogShaderCompilers: Display: Worker (8/13): shaders left to compile 1
+[2022.10.01-08.23.20:474][525]LogStaticMesh: Building static mesh Dynamic_Books_Small_Book...
+[2022.10.01-08.23.20:483][525]LogStaticMesh: Built static mesh [0.01s] /Game/Assets/Background/Dynamic_Props/Dynamic_Books_Small_Book.Dynamic_Books_Small_Book
+[2022.10.01-08.23.20:491][525]LogStaticMesh: Building static mesh Dynamic_Books_Thin_Book1...
+[2022.10.01-08.23.20:503][525]LogStaticMesh: Built static mesh [0.01s] /Game/Assets/Background/Dynamic_Props/Dynamic_Books_Thin_Book1.Dynamic_Books_Thin_Book1
+[2022.10.01-08.23.20:514][525]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2022.10.01-08.33.01:706][153]LogUObjectHash: Compacting FUObjectHashTables data took   0.82ms
+[2022.10.01-08.33.01:712][153]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Main_Level' took 0.020
+[2022.10.01-08.33.01:713][153]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Assets/Background/Static_Props/Bookshelf] ([1] browsable assets)...
+[2022.10.01-08.33.01:721][153]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/Assets/Background/Static_Props/Bookshelf.Bookshelf]
+[2022.10.01-08.33.01:721][153]OBJ SavePackage: Finished generating thumbnails for package [/Game/Assets/Background/Static_Props/Bookshelf]
+[2022.10.01-08.33.01:730][153]LogSavePackage: Moving '../../../../../../users/nicole/3D/Projects/ETC/Game Jams/Spooky Game Jam 2022/Spooky_Jam_2022/Saved/Bookshelf_Auto751F167A84D455B00F020BE976B278ED0.tmp' to '../../../../../../users/nicole/3D/Projects/ETC/Game Jams/Spooky Game Jam 2022/Spooky_Jam_2022/Saved/Autosaves/Game/Assets/Background/Static_Props/Bookshelf_Auto7.uasset'
+[2022.10.01-08.33.01:731][153]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Assets/Background/Static_Props/lambert1] ([1] browsable assets)...
+[2022.10.01-08.33.01:739][153]OBJ SavePackage:     Rendered thumbnail for [Material /Game/Assets/Background/Static_Props/lambert1.lambert1]
+[2022.10.01-08.33.01:739][153]OBJ SavePackage: Finished generating thumbnails for package [/Game/Assets/Background/Static_Props/lambert1]
+[2022.10.01-08.33.01:745][153]LogSavePackage: Moving '../../../../../../users/nicole/3D/Projects/ETC/Game Jams/Spooky Game Jam 2022/Spooky_Jam_2022/Saved/lambert1_Auto735F00DAD4C6A1055091645B60DFC9384.tmp' to '../../../../../../users/nicole/3D/Projects/ETC/Game Jams/Spooky Game Jam 2022/Spooky_Jam_2022/Saved/Autosaves/Game/Assets/Background/Static_Props/lambert1_Auto7.uasset'
+[2022.10.01-08.33.01:747][153]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Assets/Background/Dynamic_Props/Dynamic_Books_Thin_Book1] ([1] browsable assets)...
+[2022.10.01-08.33.01:755][153]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/Assets/Background/Dynamic_Props/Dynamic_Books_Thin_Book1.Dynamic_Books_Thin_Book1]
+[2022.10.01-08.33.01:755][153]OBJ SavePackage: Finished generating thumbnails for package [/Game/Assets/Background/Dynamic_Props/Dynamic_Books_Thin_Book1]
+[2022.10.01-08.33.01:763][153]LogSavePackage: Moving '../../../../../../users/nicole/3D/Projects/ETC/Game Jams/Spooky Game Jam 2022/Spooky_Jam_2022/Saved/Dynamic_Books_Thin_Book1_Auto731355AFC4D8A39D5AFAF41878FB86A74.tmp' to '../../../../../../users/nicole/3D/Projects/ETC/Game Jams/Spooky Game Jam 2022/Spooky_Jam_2022/Saved/Autosaves/Game/Assets/Background/Dynamic_Props/Dynamic_Books_Thin_Book1_Auto7.uasset'
+[2022.10.01-08.33.01:764][153]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Assets/Background/Dynamic_Props/Dynamic_Books_Small_Book] ([1] browsable assets)...
+[2022.10.01-08.33.01:772][153]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/Assets/Background/Dynamic_Props/Dynamic_Books_Small_Book.Dynamic_Books_Small_Book]
+[2022.10.01-08.33.01:772][153]OBJ SavePackage: Finished generating thumbnails for package [/Game/Assets/Background/Dynamic_Props/Dynamic_Books_Small_Book]
+[2022.10.01-08.33.01:781][153]LogSavePackage: Moving '../../../../../../users/nicole/3D/Projects/ETC/Game Jams/Spooky Game Jam 2022/Spooky_Jam_2022/Saved/Dynamic_Books_Small_Book_Auto73ECBE629422A986A712AEEAE1353BD29.tmp' to '../../../../../../users/nicole/3D/Projects/ETC/Game Jams/Spooky Game Jam 2022/Spooky_Jam_2022/Saved/Autosaves/Game/Assets/Background/Dynamic_Props/Dynamic_Books_Small_Book_Auto7.uasset'
+[2022.10.01-08.33.01:782][153]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Assets/Background/Dynamic_Props/lambert1] ([1] browsable assets)...
+[2022.10.01-08.33.01:790][153]OBJ SavePackage:     Rendered thumbnail for [Material /Game/Assets/Background/Dynamic_Props/lambert1.lambert1]
+[2022.10.01-08.33.01:790][153]OBJ SavePackage: Finished generating thumbnails for package [/Game/Assets/Background/Dynamic_Props/lambert1]
+[2022.10.01-08.33.01:796][153]LogSavePackage: Moving '../../../../../../users/nicole/3D/Projects/ETC/Game Jams/Spooky Game Jam 2022/Spooky_Jam_2022/Saved/lambert1_Auto701996CA641B1CFDAE72D6CB1B69B33B3.tmp' to '../../../../../../users/nicole/3D/Projects/ETC/Game Jams/Spooky Game Jam 2022/Spooky_Jam_2022/Saved/Autosaves/Game/Assets/Background/Dynamic_Props/lambert1_Auto7.uasset'
+[2022.10.01-08.33.01:797][153]LogFileHelpers: Auto-saving content packages took 0.085
+[2022.10.01-08.33.03:034][240]LogEditorFactories: Performing atomic reimport of [D:/users/nicole/3D/Projects/ETC/Game Jams/Spooky Game Jam 2022/Assets/Background/Bookshelf.fbx]
+[2022.10.01-08.33.03:073][240]LogFbx: Loading FBX Scene from D:/users/nicole/3D/Projects/ETC/Game Jams/Spooky Game Jam 2022/Assets/Background/Bookshelf.fbx
+[2022.10.01-08.33.03:182][240]LogFbx: FBX Scene Loaded Succesfully
+[2022.10.01-08.33.03:418][240]LogStaticMesh: Building static mesh Bookshelf...
+[2022.10.01-08.33.05:582][240]LogStaticMesh: Built static mesh [2.16s] /Game/Assets/Background/Static_Props/Bookshelf.Bookshelf
+[2022.10.01-08.33.07:814][240]LogSlate: Window 'Reimport Material Conflicts Resolution' being destroyed
+[2022.10.01-08.33.07:819][240]LogEditorFactories: -- imported successfully
+[2022.10.01-08.33.07:831][240]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2022.10.01-08.33.16:737][193]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Bookshelf3)
+[2022.10.01-08.40.00:403][713]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Bookshelf9)
+[2022.10.01-08.40.02:518][953]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Bookshelf)
+[2022.10.01-08.40.04:623][182]Cmd: EDIT COPY
+[2022.10.01-08.40.04:865][197]Cmd: EDIT PASTE
+[2022.10.01-08.40.08:876][663]Cmd: EDIT COPY
+[2022.10.01-08.40.09:066][685]Cmd: EDIT PASTE
+[2022.10.01-08.40.15:312][353]LogUObjectHash: Compacting FUObjectHashTables data took   0.80ms
+[2022.10.01-08.40.15:330][353]LogSavePackage: Moving '../../../../../../users/nicole/3D/Projects/ETC/Game Jams/Spooky Game Jam 2022/Spooky_Jam_2022/Saved/Main_Level271A798145A53F8E70953AB466DBAA6F.tmp' to '../../../../../../users/nicole/3D/Projects/ETC/Game Jams/Spooky Game Jam 2022/Spooky_Jam_2022/Content/Main_Level.umap'
+[2022.10.01-08.40.15:366][353]LogSavePackage: Moving '../../../../../../users/nicole/3D/Projects/ETC/Game Jams/Spooky Game Jam 2022/Spooky_Jam_2022/Saved/Main_Level_BuiltData00721F8A4F07C682995F19B626C1C2D9.tmp' to '../../../../../../users/nicole/3D/Projects/ETC/Game Jams/Spooky Game Jam 2022/Spooky_Jam_2022/Content/Main_Level_BuiltData.uasset'
+[2022.10.01-08.40.15:377][353]AssetCheck: New page: Asset Save: multiple assets
+[2022.10.01-08.40.15:377][353]LogContentValidation: Display: Validating World /Game/Main_Level.Main_Level
+[2022.10.01-08.40.15:377][353]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Main_Level_BuiltData.Main_Level_BuiltData
+[2022.10.01-08.41.37:754][691]LogSavePackage: Moving '../../../../../../users/nicole/3D/Projects/ETC/Game Jams/Spooky Game Jam 2022/Spooky_Jam_2022/Saved/Bookshelf854C5572433F0F23498F3A8328AEC230.tmp' to '../../../../../../users/nicole/3D/Projects/ETC/Game Jams/Spooky Game Jam 2022/Spooky_Jam_2022/Content/Assets/Background/Static_Props/Bookshelf.uasset'
+[2022.10.01-08.41.37:764][691]AssetCheck: New page: Asset Save: Bookshelf
+[2022.10.01-08.41.37:764][691]LogContentValidation: Display: Validating StaticMesh /Game/Assets/Background/Static_Props/Bookshelf.Bookshelf
+[2022.10.01-08.41.39:091][842]LogUObjectHash: Compacting FUObjectHashTables data took   0.24ms
+[2022.10.01-08.41.40:210][842]LogSlate: Window 'Save Content' being destroyed
+[2022.10.01-08.41.40:241][842]LogSavePackage: Moving '../../../../../../users/nicole/3D/Projects/ETC/Game Jams/Spooky Game Jam 2022/Spooky_Jam_2022/Saved/Door_with_Door_FrameFC3D95E74397545EFA35F99318CA8C99.tmp' to '../../../../../../users/nicole/3D/Projects/ETC/Game Jams/Spooky Game Jam 2022/Spooky_Jam_2022/Content/Assets/Background/Door_with_Door_Frame.uasset'
+[2022.10.01-08.41.40:252][842]LogSavePackage: Moving '../../../../../../users/nicole/3D/Projects/ETC/Game Jams/Spooky Game Jam 2022/Spooky_Jam_2022/Saved/Door_with_frame72C0C67445F31736FCBB0E8C1EDCDC02.tmp' to '../../../../../../users/nicole/3D/Projects/ETC/Game Jams/Spooky Game Jam 2022/Spooky_Jam_2022/Content/Assets/Background/Door_with_frame.uasset'
+[2022.10.01-08.41.40:259][842]LogSavePackage: Moving '../../../../../../users/nicole/3D/Projects/ETC/Game Jams/Spooky Game Jam 2022/Spooky_Jam_2022/Saved/Dynamic_Books_Small_BookEF06EE5B4C42FC2C1A881EAC2ED60ABE.tmp' to '../../../../../../users/nicole/3D/Projects/ETC/Game Jams/Spooky Game Jam 2022/Spooky_Jam_2022/Content/Assets/Background/Dynamic_Props/Dynamic_Books_Small_Book.uasset'
+[2022.10.01-08.41.40:265][842]LogSavePackage: Moving '../../../../../../users/nicole/3D/Projects/ETC/Game Jams/Spooky Game Jam 2022/Spooky_Jam_2022/Saved/Dynamic_Books_Thin_Book1A6A22198476E010BCF348D9373FC4BB6.tmp' to '../../../../../../users/nicole/3D/Projects/ETC/Game Jams/Spooky Game Jam 2022/Spooky_Jam_2022/Content/Assets/Background/Dynamic_Props/Dynamic_Books_Thin_Book1.uasset'
+[2022.10.01-08.41.40:270][842]LogSavePackage: Moving '../../../../../../users/nicole/3D/Projects/ETC/Game Jams/Spooky Game Jam 2022/Spooky_Jam_2022/Saved/lambert134F2576344F3BD6EB7DC7EA1F47CB2AF.tmp' to '../../../../../../users/nicole/3D/Projects/ETC/Game Jams/Spooky Game Jam 2022/Spooky_Jam_2022/Content/Assets/Background/Dynamic_Props/lambert1.uasset'
+[2022.10.01-08.41.40:282][842]LogSavePackage: Moving '../../../../../../users/nicole/3D/Projects/ETC/Game Jams/Spooky Game Jam 2022/Spooky_Jam_2022/Saved/lambert11B2C50F34B7B14919ABFCCA3E0B1B9D9.tmp' to '../../../../../../users/nicole/3D/Projects/ETC/Game Jams/Spooky Game Jam 2022/Spooky_Jam_2022/Content/Assets/Background/lambert1.uasset'
+[2022.10.01-08.41.40:290][842]LogSavePackage: Moving '../../../../../../users/nicole/3D/Projects/ETC/Game Jams/Spooky Game Jam 2022/Spooky_Jam_2022/Saved/Room_Space440515884CC85AB5A34C30AFE7F3B515.tmp' to '../../../../../../users/nicole/3D/Projects/ETC/Game Jams/Spooky Game Jam 2022/Spooky_Jam_2022/Content/Assets/Background/Room_Space.uasset'
+[2022.10.01-08.41.40:294][842]LogSavePackage: Moving '../../../../../../users/nicole/3D/Projects/ETC/Game Jams/Spooky Game Jam 2022/Spooky_Jam_2022/Saved/lambert15F047BE94C76FC21F74F96AA8BBDBCF8.tmp' to '../../../../../../users/nicole/3D/Projects/ETC/Game Jams/Spooky Game Jam 2022/Spooky_Jam_2022/Content/Assets/Background/Static_Props/lambert1.uasset'
+[2022.10.01-08.41.40:301][842]LogSavePackage: Moving '../../../../../../users/nicole/3D/Projects/ETC/Game Jams/Spooky Game Jam 2022/Spooky_Jam_2022/Saved/Picture_Frame566E42924D085CFE707BF78AEEEF310E.tmp' to '../../../../../../users/nicole/3D/Projects/ETC/Game Jams/Spooky Game Jam 2022/Spooky_Jam_2022/Content/Assets/Background/Static_Props/Picture_Frame.uasset'
+[2022.10.01-08.41.40:306][842]LogSavePackage: Moving '../../../../../../users/nicole/3D/Projects/ETC/Game Jams/Spooky Game Jam 2022/Spooky_Jam_2022/Saved/Picture_Frame_Rotating_Image17ACFE05459E461AC99792AC44DDDFC9.tmp' to '../../../../../../users/nicole/3D/Projects/ETC/Game Jams/Spooky Game Jam 2022/Spooky_Jam_2022/Content/Assets/Background/Static_Props/Picture_Frame_Rotating_Image.uasset'
+[2022.10.01-08.41.40:313][842]LogSavePackage: Moving '../../../../../../users/nicole/3D/Projects/ETC/Game Jams/Spooky Game Jam 2022/Spooky_Jam_2022/Saved/Picture_Frame_Wood0A20AB094E882979118A74A5530C62A1.tmp' to '../../../../../../users/nicole/3D/Projects/ETC/Game Jams/Spooky Game Jam 2022/Spooky_Jam_2022/Content/Assets/Background/Static_Props/Picture_Frame_Wood.uasset'
+[2022.10.01-08.41.40:320][842]LogSavePackage: Moving '../../../../../../users/nicole/3D/Projects/ETC/Game Jams/Spooky Game Jam 2022/Spooky_Jam_2022/Saved/Window91452E8245E2B96CDBA79C95662EAB56.tmp' to '../../../../../../users/nicole/3D/Projects/ETC/Game Jams/Spooky Game Jam 2022/Spooky_Jam_2022/Content/Assets/Background/Window.uasset'
+[2022.10.01-08.41.40:327][842]LogSavePackage: Moving '../../../../../../users/nicole/3D/Projects/ETC/Game Jams/Spooky Game Jam 2022/Spooky_Jam_2022/Saved/Window1D666CCCC48C54EE59D885DB6F71D8690.tmp' to '../../../../../../users/nicole/3D/Projects/ETC/Game Jams/Spooky Game Jam 2022/Spooky_Jam_2022/Content/Assets/Background/Window1.uasset'
+[2022.10.01-08.41.40:389][842]LogSlate: Window 'Spooky_Jam_2022 - Unreal Editor' being destroyed
+[2022.10.01-08.41.40:631][842]AssetCheck: New page: Asset Save: multiple assets
+[2022.10.01-08.41.40:632][842]LogContentValidation: Display: Validating Material /Game/Assets/Background/Door_with_Door_Frame.Door_with_Door_Frame
+[2022.10.01-08.41.40:632][842]LogContentValidation: Display: Validating StaticMesh /Game/Assets/Background/Door_with_frame.Door_with_frame
+[2022.10.01-08.41.40:632][842]LogContentValidation: Display: Validating StaticMesh /Game/Assets/Background/Dynamic_Props/Dynamic_Books_Small_Book.Dynamic_Books_Small_Book
+[2022.10.01-08.41.40:632][842]LogContentValidation: Display: Validating StaticMesh /Game/Assets/Background/Dynamic_Props/Dynamic_Books_Thin_Book1.Dynamic_Books_Thin_Book1
+[2022.10.01-08.41.40:632][842]LogContentValidation: Display: Validating Material /Game/Assets/Background/Dynamic_Props/lambert1.lambert1
+[2022.10.01-08.41.40:632][842]LogContentValidation: Display: Validating Material /Game/Assets/Background/lambert1.lambert1
+[2022.10.01-08.41.40:632][842]LogContentValidation: Display: Validating StaticMesh /Game/Assets/Background/Room_Space.Room_Space
+[2022.10.01-08.41.40:632][842]LogContentValidation: Display: Validating Material /Game/Assets/Background/Static_Props/lambert1.lambert1
+[2022.10.01-08.41.40:632][842]LogContentValidation: Display: Validating StaticMesh /Game/Assets/Background/Static_Props/Picture_Frame.Picture_Frame
+[2022.10.01-08.41.40:632][842]LogContentValidation: Display: Validating Material /Game/Assets/Background/Static_Props/Picture_Frame_Rotating_Image.Picture_Frame_Rotating_Image
+[2022.10.01-08.41.40:632][842]LogContentValidation: Display: Validating Material /Game/Assets/Background/Static_Props/Picture_Frame_Wood.Picture_Frame_Wood
+[2022.10.01-08.41.40:632][842]LogContentValidation: Display: Validating StaticMesh /Game/Assets/Background/Window.Window
+[2022.10.01-08.41.40:632][842]LogContentValidation: Display: Validating Material /Game/Assets/Background/Window1.Window1
+[2022.10.01-08.41.40:648][843]Cmd: QUIT_EDITOR
+[2022.10.01-08.41.40:648][843]LogCore: Engine exit requested (reason: UUnrealEdEngine::CloseEditor())
+[2022.10.01-08.41.40:656][843]LogCore: Engine exit requested (reason: EngineExit() was called; note: exit was already requested)
+[2022.10.01-08.41.41:185][843]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2022.10.01-08.41.41:198][843]LogExit: Preparing to exit.
+[2022.10.01-08.41.41:932][843]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2022.10.01-08.41.41:932][843]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2022.10.01-08.41.41:932][843]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2022.10.01-08.41.41:932][843]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2022.10.01-08.41.41:932][843]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2022.10.01-08.41.41:932][843]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2022.10.01-08.41.41:932][843]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2022.10.01-08.41.41:932][843]LogWorld: UWorld::CleanupWorld for None, bSessionEnded=true, bCleanupResources=true
+[2022.10.01-08.41.41:932][843]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2022.10.01-08.41.41:932][843]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2022.10.01-08.41.41:933][843]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2022.10.01-08.41.41:933][843]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2022.10.01-08.41.41:933][843]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2022.10.01-08.41.41:933][843]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2022.10.01-08.41.41:933][843]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2022.10.01-08.41.41:933][843]LogWorld: UWorld::CleanupWorld for None, bSessionEnded=true, bCleanupResources=true
+[2022.10.01-08.41.41:933][843]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2022.10.01-08.41.41:933][843]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2022.10.01-08.41.41:933][843]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2022.10.01-08.41.41:933][843]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2022.10.01-08.41.41:933][843]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2022.10.01-08.41.41:933][843]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2022.10.01-08.41.41:933][843]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2022.10.01-08.41.41:933][843]LogWorld: UWorld::CleanupWorld for None, bSessionEnded=true, bCleanupResources=true
+[2022.10.01-08.41.41:943][843]LogDemo: Cleaned up 0 splitscreen connections with owner deletion
+[2022.10.01-08.41.41:954][843]LogExit: Editor shut down
+[2022.10.01-08.41.41:960][843]LogExit: Transaction tracking system shut down
+[2022.10.01-08.41.42:180][843]LogAISub: UAISubsystem::~UAISubsystem AISubsystem (000001D277EFA980), frame # 311843
+[2022.10.01-08.41.42:180][843]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000001D279323B00), frame # 311843
+[2022.10.01-08.41.42:180][843]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000001D277EF6400), frame # 311843
+[2022.10.01-08.41.42:204][843]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000001D2777CA200), frame # 311843
+[2022.10.01-08.41.42:204][843]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000001D27C0B5200), frame # 311843
+[2022.10.01-08.41.42:269][843]LogExit: Object subsystem successfully closed.
+[2022.10.01-08.41.42:305][843]LogShaderCompilers: Display: Shaders left to compile 0
+[2022.10.01-08.41.42:359][843]LogModuleManager: Shutting down and abandoning module HierarchicalLODUtilities (800)
+[2022.10.01-08.41.42:359][843]LogModuleManager: Shutting down and abandoning module ExternalImagePicker (798)
+[2022.10.01-08.41.42:359][843]LogModuleManager: Shutting down and abandoning module StaticMeshEditor (796)
+[2022.10.01-08.41.42:359][843]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (794)
+[2022.10.01-08.41.42:359][843]LogModuleManager: Shutting down and abandoning module Voice (792)
+[2022.10.01-08.41.42:376][843]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (790)
+[2022.10.01-08.41.42:376][843]LogModuleManager: Shutting down and abandoning module SceneOutliner (788)
+[2022.10.01-08.41.42:376][843]LogModuleManager: Shutting down and abandoning module AddContentDialog (786)
+[2022.10.01-08.41.42:378][843]LogModuleManager: Shutting down and abandoning module WidgetCarousel (785)
+[2022.10.01-08.41.42:378][843]LogModuleManager: Shutting down and abandoning module EditorWidgets (782)
+[2022.10.01-08.41.42:378][843]LogModuleManager: Shutting down and abandoning module CollectionManager (780)
+[2022.10.01-08.41.42:379][843]LogModuleManager: Shutting down and abandoning module StatsViewer (778)
+[2022.10.01-08.41.42:379][843]LogModuleManager: Shutting down and abandoning module VirtualTexturingEditor (776)
+[2022.10.01-08.41.42:379][843]LogModuleManager: Shutting down and abandoning module FoliageEdit (774)
+[2022.10.01-08.41.42:379][843]LogModuleManager: Shutting down and abandoning module LandscapeEditor (772)
+[2022.10.01-08.41.42:379][843]LogModuleManager: Shutting down and abandoning module MeshPaintMode (770)
+[2022.10.01-08.41.42:379][843]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (768)
+[2022.10.01-08.41.42:379][843]LogModuleManager: Shutting down and abandoning module ActorPickerMode (766)
+[2022.10.01-08.41.42:379][843]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (764)
+[2022.10.01-08.41.42:379][843]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (762)
+[2022.10.01-08.41.42:379][843]LogModuleManager: Shutting down and abandoning module AutomationWorker (760)
+[2022.10.01-08.41.42:379][843]LogModuleManager: Shutting down and abandoning module SteamVREditor (758)
+[2022.10.01-08.41.42:379][843]LogModuleManager: Shutting down and abandoning module OculusMR (756)
+[2022.10.01-08.41.42:379][843]LogModuleManager: Shutting down and abandoning module GooglePADEditor (754)
+[2022.10.01-08.41.42:379][843]LogModuleManager: Shutting down and abandoning module AudioCaptureEditor (752)
+[2022.10.01-08.41.42:379][843]LogModuleManager: Shutting down and abandoning module TemplateSequenceEditor (750)
+[2022.10.01-08.41.42:379][843]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (748)
+[2022.10.01-08.41.42:379][843]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (746)
+[2022.10.01-08.41.42:379][843]LogModuleManager: Shutting down and abandoning module ActorSequenceEditor (744)
+[2022.10.01-08.41.42:379][843]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (742)
+[2022.10.01-08.41.42:380][843]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (740)
+[2022.10.01-08.41.42:380][843]LogModuleManager: Shutting down and abandoning module WebMMediaFactory (738)
+[2022.10.01-08.41.42:380][843]LogModuleManager: Shutting down and abandoning module WebMMediaEditor (736)
+[2022.10.01-08.41.42:380][843]LogModuleManager: Shutting down and abandoning module WebMMedia (734)
+[2022.10.01-08.41.42:380][843]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (732)
+[2022.10.01-08.41.42:380][843]LogModuleManager: Shutting down and abandoning module MediaCompositingEditor (730)
+[2022.10.01-08.41.42:380][843]LogModuleManager: Shutting down and abandoning module SequenceRecorder (729)
+[2022.10.01-08.41.42:380][843]LogModuleManager: Shutting down and abandoning module OpenExrWrapper (726)
+[2022.10.01-08.41.42:380][843]LogModuleManager: Shutting down and abandoning module ImgMediaFactory (724)
+[2022.10.01-08.41.42:380][843]LogModuleManager: Shutting down and abandoning module ImgMediaEditor (722)
+[2022.10.01-08.41.42:380][843]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (720)
+[2022.10.01-08.41.42:380][843]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (718)
+[2022.10.01-08.41.42:380][843]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (716)
+[2022.10.01-08.41.42:380][843]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (714)
+[2022.10.01-08.41.42:380][843]LogModuleManager: Shutting down and abandoning module MagicLeapMediaCodecFactory (712)
+[2022.10.01-08.41.42:380][843]LogModuleManager: Shutting down and abandoning module MagicLeapMediaFactory (710)
+[2022.10.01-08.41.42:380][843]LogModuleManager: Shutting down and abandoning module MagicLeapMediaEditor (708)
+[2022.10.01-08.41.42:380][843]LogModuleManager: Shutting down and abandoning module PlanarCut (706)
+[2022.10.01-08.41.42:380][843]LogModuleManager: Shutting down and abandoning module CharacterAI (704)
+[2022.10.01-08.41.42:380][843]LogModuleManager: Shutting down and abandoning module TextureAlignMode (702)
+[2022.10.01-08.41.42:380][843]LogModuleManager: Shutting down and abandoning module BspMode (700)
+[2022.10.01-08.41.42:380][843]LogModuleManager: Shutting down and abandoning module PlacementMode (699)
+[2022.10.01-08.41.42:380][843]LogModuleManager: Shutting down and abandoning module GeometryMode (696)
+[2022.10.01-08.41.42:380][843]LogModuleManager: Shutting down and abandoning module CameraShakePreviewer (694)
+[2022.10.01-08.41.42:380][843]LogModuleManager: Shutting down and abandoning module SmartSnapping (692)
+[2022.10.01-08.41.42:380][843]LogModuleManager: Shutting down and abandoning module SessionServices (690)
+[2022.10.01-08.41.42:380][843]LogModuleManager: Shutting down and abandoning module MeshPaint (688)
+[2022.10.01-08.41.42:380][843]LogModuleManager: Shutting down and abandoning module ViewportSnapping (686)
+[2022.10.01-08.41.42:380][843]LogModuleManager: Shutting down and abandoning module ViewportInteraction (684)
+[2022.10.01-08.41.42:380][843]LogModuleManager: Shutting down and abandoning module ClothPainter (682)
+[2022.10.01-08.41.42:380][843]LogModuleManager: Shutting down and abandoning module SkeletalMeshEditor (681)
+[2022.10.01-08.41.42:380][843]LogModuleManager: Shutting down and abandoning module LogVisualizer (678)
+[2022.10.01-08.41.42:380][843]LogModuleManager: Shutting down and abandoning module IntroTutorials (676)
+[2022.10.01-08.41.42:380][843]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (675)
+[2022.10.01-08.41.42:380][843]LogModuleManager: Shutting down and abandoning module LuminPlatformEditor (672)
+[2022.10.01-08.41.42:380][843]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (670)
+[2022.10.01-08.41.42:380][843]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (668)
+[2022.10.01-08.41.42:380][843]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (667)
+[2022.10.01-08.41.43:352][843]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (664)
+[2022.10.01-08.41.43:352][843]LogModuleManager: Shutting down and abandoning module LuminRuntimeSettings (662)
+[2022.10.01-08.41.43:352][843]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (660)
+[2022.10.01-08.41.43:352][843]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (658)
+[2022.10.01-08.41.43:352][843]LogModuleManager: Shutting down and abandoning module TraceInsights (656)
+[2022.10.01-08.41.43:352][843]LogModuleManager: Shutting down and abandoning module TraceServices (655)
+[2022.10.01-08.41.43:352][843]LogModuleManager: Shutting down and abandoning module EditorInteractiveToolsFramework (652)
+[2022.10.01-08.41.43:353][843]LogModuleManager: Shutting down and abandoning module TimeManagementEditor (650)
+[2022.10.01-08.41.43:353][843]LogModuleManager: Shutting down and abandoning module InputBindingEditor (648)
+[2022.10.01-08.41.43:353][843]LogModuleManager: Shutting down and abandoning module MergeActors (646)
+[2022.10.01-08.41.43:353][843]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (644)
+[2022.10.01-08.41.43:353][843]LogModuleManager: Shutting down and abandoning module LocalizationService (643)
+[2022.10.01-08.41.43:353][843]LogModuleManager: Shutting down and abandoning module HardwareTargeting (640)
+[2022.10.01-08.41.43:353][843]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (638)
+[2022.10.01-08.41.43:353][843]LogModuleManager: Shutting down and abandoning module UndoHistory (636)
+[2022.10.01-08.41.43:353][843]LogModuleManager: Shutting down and abandoning module XmlParser (634)
+[2022.10.01-08.41.43:353][843]LogModuleManager: Shutting down and abandoning module Blutility (632)
+[2022.10.01-08.41.43:353][843]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (630)
+[2022.10.01-08.41.43:353][843]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (629)
+[2022.10.01-08.41.43:353][843]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (626)
+[2022.10.01-08.41.43:353][843]LogModuleManager: Shutting down and abandoning module SettingsEditor (624)
+[2022.10.01-08.41.43:354][843]LogModuleManager: Shutting down and abandoning module ProjectLauncher (622)
+[2022.10.01-08.41.43:354][843]LogModuleManager: Shutting down and abandoning module SessionFrontend (620)
+[2022.10.01-08.41.43:354][843]LogModuleManager: Shutting down and abandoning module ProfilerClient (618)
+[2022.10.01-08.41.43:354][843]LogModuleManager: Shutting down and abandoning module DeviceManager (616)
+[2022.10.01-08.41.43:354][843]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (615)
+[2022.10.01-08.41.43:386][843]LogModuleManager: Shutting down and abandoning module AutomationController (612)
+[2022.10.01-08.41.43:386][843]LogModuleManager: Shutting down and abandoning module AutomationWindow (610)
+[2022.10.01-08.41.43:386][843]LogModuleManager: Shutting down and abandoning module Layers (608)
+[2022.10.01-08.41.43:386][843]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (606)
+[2022.10.01-08.41.43:386][843]LogModuleManager: Shutting down and abandoning module DetailCustomizations (604)
+[2022.10.01-08.41.43:386][843]LogModuleManager: Shutting down and abandoning module PackagesDialog (602)
+[2022.10.01-08.41.43:386][843]LogModuleManager: Shutting down and abandoning module AnimationBlueprintEditor (600)
+[2022.10.01-08.41.43:386][843]LogModuleManager: Shutting down and abandoning module Persona (598)
+[2022.10.01-08.41.43:386][843]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (597)
+[2022.10.01-08.41.43:386][843]LogModuleManager: Shutting down and abandoning module AnimGraph (595)
+[2022.10.01-08.41.43:386][843]LogModuleManager: Shutting down and abandoning module Kismet (592)
+[2022.10.01-08.41.43:387][843]LogModuleManager: Shutting down and abandoning module KismetWidgets (591)
+[2022.10.01-08.41.43:387][843]LogModuleManager: Shutting down and abandoning module GraphEditor (588)
+[2022.10.01-08.41.43:387][843]LogModuleManager: Shutting down and abandoning module StructViewer (586)
+[2022.10.01-08.41.43:387][843]LogModuleManager: Shutting down and abandoning module ClassViewer (584)
+[2022.10.01-08.41.43:387][843]LogModuleManager: Shutting down and abandoning module Toolbox (582)
+[2022.10.01-08.41.43:387][843]LogModuleManager: Shutting down and abandoning module ModuleUI (580)
+[2022.10.01-08.41.43:387][843]LogModuleManager: Shutting down and abandoning module OutputLog (578)
+[2022.10.01-08.41.43:390][843]LogModuleManager: Shutting down and abandoning module GammaUI (576)
+[2022.10.01-08.41.43:390][843]LogModuleManager: Shutting down and abandoning module Documentation (574)
+[2022.10.01-08.41.43:390][843]LogModuleManager: Shutting down and abandoning module LiveCoding (572)
+[2022.10.01-08.41.43:390][843]LogModuleManager: Shutting down and abandoning module LevelSequence (570)
+[2022.10.01-08.41.43:390][843]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (568)
+[2022.10.01-08.41.43:390][843]LogModuleManager: Shutting down and abandoning module MovieScene (566)
+[2022.10.01-08.41.43:390][843]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (564)
+[2022.10.01-08.41.43:390][843]LogModuleManager: Shutting down and abandoning module LauncherPlatform (562)
+[2022.10.01-08.41.43:390][843]LogModuleManager: Shutting down and abandoning module AnalyticsET (560)
+[2022.10.01-08.41.43:390][843]LogModuleManager: Shutting down and abandoning module PortalServices (558)
+[2022.10.01-08.41.43:390][843]LogModuleManager: Shutting down and abandoning module PortalRpc (556)
+[2022.10.01-08.41.43:390][843]LogModuleManager: Shutting down and abandoning module MessagingRpc (554)
+[2022.10.01-08.41.43:390][843]LogModuleManager: Shutting down and abandoning module AudioMixerXAudio2 (552)
+[2022.10.01-08.41.43:390][843]LogModuleManager: Shutting down and abandoning module AudioMixerCore (551)
+[2022.10.01-08.41.43:390][843]LogModuleManager: Shutting down and abandoning module AIModule (548)
+[2022.10.01-08.41.43:390][843]LogModuleManager: Shutting down and abandoning module GameplayDebugger (547)
+[2022.10.01-08.41.43:390][843]LogModuleManager: Shutting down and abandoning module AITestSuite (545)
+[2022.10.01-08.41.43:390][843]LogModuleManager: Shutting down and abandoning module NavigationSystem (543)
+[2022.10.01-08.41.43:390][843]LogModuleManager: Shutting down and abandoning module ProfilerService (540)
+[2022.10.01-08.41.43:574][843]LogModuleManager: Shutting down and abandoning module TaskGraph (538)
+[2022.10.01-08.41.43:574][843]LogModuleManager: Shutting down and abandoning module ScreenshotTools (536)
+[2022.10.01-08.41.43:574][843]LogModuleManager: Shutting down and abandoning module SynthesisEditor (534)
+[2022.10.01-08.41.43:574][843]LogModuleManager: Shutting down and abandoning module Synthesis (532)
+[2022.10.01-08.41.43:574][843]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (530)
+[2022.10.01-08.41.43:574][843]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (528)
+[2022.10.01-08.41.43:574][843]LogModuleManager: Shutting down and abandoning module OculusEditor (526)
+[2022.10.01-08.41.43:574][843]LogModuleManager: Shutting down and abandoning module OculusInput (524)
+[2022.10.01-08.41.43:574][843]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (522)
+[2022.10.01-08.41.43:574][843]LogModuleManager: Shutting down and abandoning module GooglePAD (520)
+[2022.10.01-08.41.43:574][843]LogModuleManager: Shutting down and abandoning module EditableMesh (518)
+[2022.10.01-08.41.43:574][843]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (516)
+[2022.10.01-08.41.43:574][843]LogModuleManager: Shutting down and abandoning module CableComponent (514)
+[2022.10.01-08.41.43:574][843]LogModuleManager: Shutting down and abandoning module AudioCapture (512)
+[2022.10.01-08.41.43:574][843]LogModuleManager: Shutting down and abandoning module AudioCaptureRtAudio (511)
+[2022.10.01-08.41.43:574][843]LogModuleManager: Shutting down and abandoning module AssetTags (508)
+[2022.10.01-08.41.43:574][843]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (506)
+[2022.10.01-08.41.43:574][843]LogModuleManager: Shutting down and abandoning module AppleImageUtilsBlueprintSupport (504)
+[2022.10.01-08.41.43:574][843]LogModuleManager: Shutting down and abandoning module AppleImageUtils (502)
+[2022.10.01-08.41.43:574][843]LogModuleManager: Shutting down and abandoning module AndroidPermission (500)
+[2022.10.01-08.41.43:574][843]LogModuleManager: Shutting down and abandoning module NUTUnrealEngine4 (498)
+[2022.10.01-08.41.43:574][843]LogModuleManager: Shutting down and abandoning module NetcodeUnitTest (496)
+[2022.10.01-08.41.43:574][843]LogModuleManager: Shutting down and abandoning module TemplateSequence (494)
+[2022.10.01-08.41.43:574][843]LogModuleManager: Shutting down and abandoning module MovieRenderPipelineEditor (492)
+[2022.10.01-08.41.43:574][843]LogModuleManager: Shutting down and abandoning module MovieRenderPipelineRenderPasses (490)
+[2022.10.01-08.41.43:574][843]LogModuleManager: Shutting down and abandoning module MovieRenderPipelineSettings (488)
+[2022.10.01-08.41.43:574][843]LogModuleManager: Shutting down and abandoning module MovieRenderPipelineCore (486)
+[2022.10.01-08.41.43:574][843]LogModuleManager: Shutting down and abandoning module ImageWriteQueue (485)
+[2022.10.01-08.41.43:579][843]LogModuleManager: Shutting down and abandoning module MeshPaintingToolset (482)
+[2022.10.01-08.41.43:579][843]LogModuleManager: Shutting down and abandoning module MeshPaintEditorMode (480)
+[2022.10.01-08.41.43:579][843]LogModuleManager: Shutting down and abandoning module MediaCompositing (478)
+[2022.10.01-08.41.43:579][843]LogModuleManager: Shutting down and abandoning module ImgMedia (476)
+[2022.10.01-08.41.43:579][843]LogModuleManager: Shutting down and abandoning module MagicLeapSharedWorld (474)
+[2022.10.01-08.41.43:579][843]LogModuleManager: Shutting down and abandoning module MagicLeapLightEstimation (472)
+[2022.10.01-08.41.43:579][843]LogModuleManager: Shutting down and abandoning module MagicLeapHelperVulkan (470)
+[2022.10.01-08.41.43:579][843]LogModuleManager: Shutting down and abandoning module MagicLeapHelperOpenGL (468)
+[2022.10.01-08.41.43:579][843]LogModuleManager: Shutting down and abandoning module MagicLeapAudio (466)
+[2022.10.01-08.41.43:579][843]LogModuleManager: Shutting down and abandoning module NiagaraEditorWidgets (464)
+[2022.10.01-08.41.43:579][843]LogModuleManager: Shutting down and abandoning module MeshSolverUtilities (462)
+[2022.10.01-08.41.43:579][843]LogModuleManager: Shutting down and abandoning module MeshConversion (460)
+[2022.10.01-08.41.43:580][843]LogModuleManager: Shutting down and abandoning module DynamicMesh (458)
+[2022.10.01-08.41.43:580][843]LogModuleManager: Shutting down and abandoning module GeometryAlgorithms (456)
+[2022.10.01-08.41.43:580][843]LogModuleManager: Shutting down and abandoning module GeometricObjects (454)
+[2022.10.01-08.41.43:580][843]LogModuleManager: Shutting down and abandoning module GeometryCollectionTracks (452)
+[2022.10.01-08.41.43:580][843]LogModuleManager: Shutting down and abandoning module GeometryCollectionSequencer (451)
+[2022.10.01-08.41.43:580][843]LogModuleManager: Shutting down and abandoning module GeometryCollectionEditor (448)
+[2022.10.01-08.41.43:580][843]LogModuleManager: Shutting down and abandoning module GeometryCacheTracks (446)
+[2022.10.01-08.41.43:580][843]LogModuleManager: Shutting down and abandoning module GeometryCacheSequencer (444)
+[2022.10.01-08.41.43:580][843]LogModuleManager: Shutting down and abandoning module ChaosSolverEditor (442)
+[2022.10.01-08.41.43:580][843]LogModuleManager: Shutting down and abandoning module ChaosNiagara (440)
+[2022.10.01-08.41.43:580][843]LogModuleManager: Shutting down and abandoning module FractureEditor (438)
+[2022.10.01-08.41.43:580][843]LogModuleManager: Shutting down and abandoning module ChaosClothEditor (436)
+[2022.10.01-08.41.43:580][843]LogModuleManager: Shutting down and abandoning module ChaosCloth (434)
+[2022.10.01-08.41.43:580][843]LogModuleManager: Shutting down and abandoning module BackChannel (432)
+[2022.10.01-08.41.43:580][843]LogModuleManager: Shutting down and abandoning module AutomationUtilsEditor (430)
+[2022.10.01-08.41.43:580][843]LogModuleManager: Shutting down and abandoning module AutomationUtils (428)
+[2022.10.01-08.41.43:580][843]LogModuleManager: Shutting down and abandoning module AlembicImporter (426)
+[2022.10.01-08.41.43:580][843]LogModuleManager: Shutting down and abandoning module AlembicLibrary (425)
+[2022.10.01-08.41.43:580][843]LogModuleManager: Shutting down and abandoning module GeometryCache (424)
+[2022.10.01-08.41.43:580][843]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (423)
+[2022.10.01-08.41.43:580][843]LogModuleManager: Shutting down and abandoning module VariantManagerContentEditor (418)
+[2022.10.01-08.41.43:580][843]LogModuleManager: Shutting down and abandoning module DatasmithContentEditor (416)
+[2022.10.01-08.41.43:580][843]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (414)
+[2022.10.01-08.41.43:580][843]LogModuleManager: Shutting down and abandoning module PluginBrowser (412)
+[2022.10.01-08.41.43:580][843]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (410)
+[2022.10.01-08.41.43:580][843]LogModuleManager: Shutting down and abandoning module MaterialAnalyzer (408)
+[2022.10.01-08.41.43:580][843]LogModuleManager: Shutting down and abandoning module EditorScriptingUtilities (406)
+[2022.10.01-08.41.43:580][843]LogModuleManager: Shutting down and abandoning module CurveEditorTools (404)
+[2022.10.01-08.41.43:580][843]LogModuleManager: Shutting down and abandoning module CryptoKeysOpenSSL (402)
+[2022.10.01-08.41.43:580][843]LogModuleManager: Shutting down and abandoning module CryptoKeys (400)
+[2022.10.01-08.41.43:580][843]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (398)
+[2022.10.01-08.41.43:580][843]LogModuleManager: Shutting down and abandoning module VisualStudioCodeSourceCodeAccess (396)
+[2022.10.01-08.41.43:580][843]LogModuleManager: Shutting down and abandoning module UObjectPlugin (394)
+[2022.10.01-08.41.43:580][843]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (392)
+[2022.10.01-08.41.43:580][843]LogModuleManager: Shutting down and abandoning module RiderSourceCodeAccess (390)
+[2022.10.01-08.41.43:580][843]LogModuleManager: Shutting down and abandoning module PlasticSourceControl (388)
+[2022.10.01-08.41.43:580][843]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (386)
+[2022.10.01-08.41.43:580][843]LogModuleManager: Shutting down and abandoning module GitSourceControl (384)
+[2022.10.01-08.41.43:580][843]LogModuleManager: Shutting down and abandoning module SourceControl (383)
+[2022.10.01-08.41.43:580][843]LogModuleManager: Shutting down and abandoning module CLionSourceCodeAccess (380)
+[2022.10.01-08.41.43:580][843]LogModuleManager: Shutting down and abandoning module AnimationSharingEd (378)
+[2022.10.01-08.41.43:580][843]LogModuleManager: Shutting down and abandoning module ActorLayerUtilitiesEditor (376)
+[2022.10.01-08.41.43:580][843]LogModuleManager: Shutting down and abandoning module ActorLayerUtilities (374)
+[2022.10.01-08.41.43:580][843]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (372)
+[2022.10.01-08.41.43:580][843]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (370)
+[2022.10.01-08.41.43:580][843]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (368)
+[2022.10.01-08.41.43:580][843]LogModuleManager: Shutting down and abandoning module Paper2DEditor (366)
+[2022.10.01-08.41.43:580][843]LogModuleManager: Shutting down and abandoning module SoundFields (364)
+[2022.10.01-08.41.43:580][843]LogModuleManager: Shutting down and abandoning module SignificanceManager (362)
+[2022.10.01-08.41.43:580][843]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (360)
+[2022.10.01-08.41.43:581][843]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (358)
+[2022.10.01-08.41.43:581][843]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (354)
+[2022.10.01-08.41.43:581][843]LogModuleManager: Shutting down and abandoning module ActorSequence (352)
+[2022.10.01-08.41.43:581][843]LogModuleManager: Shutting down and abandoning module UdpMessaging (350)
+[2022.10.01-08.41.43:681][843]LogModuleManager: Shutting down and abandoning module TcpMessaging (348)
+[2022.10.01-08.41.43:781][843]LogModuleManager: Shutting down and abandoning module MagicLeapARPin (346)
+[2022.10.01-08.41.43:781][843]LogModuleManager: Shutting down and abandoning module MagicLeapHandMeshing (344)
+[2022.10.01-08.41.43:781][843]LogModuleManager: Shutting down and abandoning module MagicLeapSecureStorage (342)
+[2022.10.01-08.41.43:781][843]LogModuleManager: Shutting down and abandoning module MagicLeapPrivileges (340)
+[2022.10.01-08.41.43:781][843]LogModuleManager: Shutting down and abandoning module MagicLeapPlanes (338)
+[2022.10.01-08.41.43:781][843]LogMagicLeapPlanes: Planes tracker already destroyed.
+[2022.10.01-08.41.43:781][843]LogModuleManager: Shutting down and abandoning module MagicLeapImageTracker (336)
+[2022.10.01-08.41.43:781][843]LogModuleManager: Shutting down and abandoning module MagicLeapIdentity (334)
+[2022.10.01-08.41.43:781][843]LogModuleManager: Shutting down and abandoning module MagicLeapHandTracking (332)
+[2022.10.01-08.41.43:781][843]LogModuleManager: Shutting down and abandoning module MagicLeapEyeTracker (330)
+[2022.10.01-08.41.43:781][843]LogModuleManager: Shutting down and abandoning module MagicLeapController (328)
+[2022.10.01-08.41.43:781][843]LogSlate: Slate User Destroyed.  User Index 0, Is Virtual User: 0
+[2022.10.01-08.41.43:781][843]LogModuleManager: Shutting down and abandoning module MagicLeapARPinImpl (326)
+[2022.10.01-08.41.43:781][843]LogModuleManager: Shutting down and abandoning module MagicLeapAR (324)
+[2022.10.01-08.41.43:781][843]LogModuleManager: Shutting down and abandoning module AugmentedReality (323)
+[2022.10.01-08.41.43:781][843]LogModuleManager: Shutting down and abandoning module NiagaraAnimNotifies (320)
+[2022.10.01-08.41.43:781][843]LogModuleManager: Shutting down and abandoning module Niagara (318)
+[2022.10.01-08.41.43:781][843]LogModuleManager: Shutting down and abandoning module SignalProcessing (317)
+[2022.10.01-08.41.43:781][843]LogModuleManager: Shutting down and abandoning module NiagaraEditor (315)
+[2022.10.01-08.41.43:782][843]LogModuleManager: Shutting down and abandoning module NiagaraCore (312)
+[2022.10.01-08.41.43:782][843]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (310)
+[2022.10.01-08.41.43:782][843]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (308)
+[2022.10.01-08.41.43:782][843]LogModuleManager: Shutting down and abandoning module FacialAnimation (306)
+[2022.10.01-08.41.43:782][843]LogModuleManager: Shutting down and abandoning module DataValidation (304)
+[2022.10.01-08.41.43:782][843]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (302)
+[2022.10.01-08.41.43:782][843]LogModuleManager: Shutting down and abandoning module LevelEditor (301)
+[2022.10.01-08.41.43:783][843]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (300)
+[2022.10.01-08.41.43:783][843]LogModuleManager: Shutting down and abandoning module CommonMenuExtensions (298)
+[2022.10.01-08.41.43:784][843]LogModuleManager: Shutting down and abandoning module MainFrame (296)
+[2022.10.01-08.41.43:784][843]LogModuleManager: Shutting down and abandoning module HotReload (295)
+[2022.10.01-08.41.43:784][843]LogModuleManager: Shutting down and abandoning module ToolMenus (291)
+[2022.10.01-08.41.43:784][843]LogModuleManager: Shutting down and abandoning module TreeMap (289)
+[2022.10.01-08.41.43:784][843]LogModuleManager: Shutting down and abandoning module AnimationSharing (286)
+[2022.10.01-08.41.43:784][843]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (284)
+[2022.10.01-08.41.43:784][843]LogModuleManager: Shutting down and abandoning module Paper2D (282)
+[2022.10.01-08.41.43:784][843]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (280)
+[2022.10.01-08.41.43:788][843]LogModuleManager: Shutting down and abandoning module WebMMoviePlayer (278)
+[2022.10.01-08.41.43:788][843]LogModuleManager: Shutting down and abandoning module NetworkReplayStreaming (276)
+[2022.10.01-08.41.43:788][843]LogModuleManager: Shutting down and abandoning module PacketHandler (274)
+[2022.10.01-08.41.43:788][843]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (272)
+[2022.10.01-08.41.43:788][843]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntimeNv (270)
+[2022.10.01-08.41.43:788][843]LogModuleManager: Shutting down and abandoning module MediaAssets (268)
+[2022.10.01-08.41.43:788][843]LogModuleManager: Shutting down and abandoning module Overlay (266)
+[2022.10.01-08.41.43:788][843]LogModuleManager: Shutting down and abandoning module OverlayEditor (265)
+[2022.10.01-08.41.43:788][843]LogModuleManager: Shutting down and abandoning module VREditor (262)
+[2022.10.01-08.41.43:788][843]LogModuleManager: Shutting down and abandoning module StringTableEditor (260)
+[2022.10.01-08.41.43:788][843]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (258)
+[2022.10.01-08.41.43:788][843]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (256)
+[2022.10.01-08.41.43:788][843]LogModuleManager: Shutting down and abandoning module FunctionalTesting (254)
+[2022.10.01-08.41.43:788][843]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (252)
+[2022.10.01-08.41.43:788][843]LogModuleManager: Shutting down and abandoning module UMG (250)
+[2022.10.01-08.41.43:788][843]LogModuleManager: Shutting down and abandoning module UMGEditor (249)
+[2022.10.01-08.41.43:788][843]LogModuleManager: Shutting down and abandoning module MessageLog (247)
+[2022.10.01-08.41.43:788][843]LogModuleManager: Shutting down and abandoning module MaterialEditor (245)
+[2022.10.01-08.41.43:788][843]LogModuleManager: Shutting down and abandoning module ContentBrowser (244)
+[2022.10.01-08.41.43:791][843]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (243)
+[2022.10.01-08.41.43:791][843]LogModuleManager: Shutting down and abandoning module SlateReflector (236)
+[2022.10.01-08.41.43:791][843]LogModuleManager: Shutting down and abandoning module Slate (234)
+[2022.10.01-08.41.43:791][843]LogModuleManager: Shutting down and abandoning module SlateCore (232)
+[2022.10.01-08.41.43:791][843]LogModuleManager: Shutting down and abandoning module LandscapeEditorUtilities (230)
+[2022.10.01-08.41.43:791][843]LogModuleManager: Shutting down and abandoning module UnrealEd (228)
+[2022.10.01-08.41.43:791][843]LogModuleManager: Shutting down and abandoning module MRMesh (226)
+[2022.10.01-08.41.43:791][843]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (224)
+[2022.10.01-08.41.43:791][843]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (222)
+[2022.10.01-08.41.43:791][843]LogModuleManager: Shutting down and abandoning module XAudio2 (220)
+[2022.10.01-08.41.43:791][843]LogModuleManager: Shutting down and abandoning module Networking (218)
+[2022.10.01-08.41.43:791][843]LogModuleManager: Shutting down and abandoning module Core (216)
+[2022.10.01-08.41.43:791][843]LogModuleManager: Shutting down and abandoning module MovieSceneTools (214)
+[2022.10.01-08.41.43:791][843]LogModuleManager: Shutting down and abandoning module CurveEditor (213)
+[2022.10.01-08.41.43:791][843]LogModuleManager: Shutting down and abandoning module Sequencer (211)
+[2022.10.01-08.41.43:791][843]LogModuleManager: Shutting down and abandoning module EditorStyle (210)
+[2022.10.01-08.41.43:794][843]LogModuleManager: Shutting down and abandoning module KismetCompiler (206)
+[2022.10.01-08.41.43:794][843]LogModuleManager: Shutting down and abandoning module MeshBuilder (204)
+[2022.10.01-08.41.43:794][843]LogModuleManager: Shutting down and abandoning module MeshUtilities (202)
+[2022.10.01-08.41.43:794][843]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (201)
+[2022.10.01-08.41.43:794][843]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (200)
+[2022.10.01-08.41.43:794][843]LogModuleManager: Shutting down and abandoning module MeshBoneReduction (199)
+[2022.10.01-08.41.43:794][843]LogModuleManager: Shutting down and abandoning module SkeletalMeshReduction (197)
+[2022.10.01-08.41.43:794][843]LogModuleManager: Shutting down and abandoning module ProxyLODMeshReduction (195)
+[2022.10.01-08.41.43:794][843]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (193)
+[2022.10.01-08.41.43:794][843]LogModuleManager: Shutting down and abandoning module MaterialBaking (189)
+[2022.10.01-08.41.43:794][843]LogModuleManager: Shutting down and abandoning module NullInstallBundleManager (184)
+[2022.10.01-08.41.43:794][843]LogModuleManager: Shutting down and abandoning module DerivedDataCache (182)
+[2022.10.01-08.41.43:794][843]LogModuleManager: Shutting down and abandoning module XGEController (180)
+[2022.10.01-08.41.43:794][843]LogModuleManager: Shutting down and abandoning module TargetPlatform (178)
+[2022.10.01-08.41.43:794][843]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (177)
+[2022.10.01-08.41.43:794][843]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (175)
+[2022.10.01-08.41.43:794][843]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (173)
+[2022.10.01-08.41.43:794][843]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (171)
+[2022.10.01-08.41.43:794][843]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (169)
+[2022.10.01-08.41.43:794][843]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (167)
+[2022.10.01-08.41.43:794][843]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (165)
+[2022.10.01-08.41.43:794][843]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (163)
+[2022.10.01-08.41.43:794][843]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (161)
+[2022.10.01-08.41.43:795][843]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (159)
+[2022.10.01-08.41.43:795][843]LogModuleManager: Shutting down and abandoning module ImageWrapper (158)
+[2022.10.01-08.41.43:795][843]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (155)
+[2022.10.01-08.41.43:795][843]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (153)
+[2022.10.01-08.41.43:795][843]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (151)
+[2022.10.01-08.41.43:795][843]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (149)
+[2022.10.01-08.41.43:795][843]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (147)
+[2022.10.01-08.41.43:795][843]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (145)
+[2022.10.01-08.41.43:795][843]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (143)
+[2022.10.01-08.41.43:795][843]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (141)
+[2022.10.01-08.41.43:795][843]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (139)
+[2022.10.01-08.41.43:805][843]LogModuleManager: Shutting down and abandoning module LuminTargetPlatform (137)
+[2022.10.01-08.41.43:809][843]LogModuleManager: Shutting down and abandoning module LinuxAArch64ServerTargetPlatform (135)
+[2022.10.01-08.41.43:809][843]LogModuleManager: Shutting down and abandoning module LinuxAArch64ClientTargetPlatform (133)
+[2022.10.01-08.41.43:809][843]LogModuleManager: Shutting down and abandoning module LinuxAArch64NoEditorTargetPlatform (131)
+[2022.10.01-08.41.43:809][843]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (129)
+[2022.10.01-08.41.43:809][843]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (127)
+[2022.10.01-08.41.43:809][843]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (125)
+[2022.10.01-08.41.43:809][843]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (123)
+[2022.10.01-08.41.43:809][843]LogModuleManager: Shutting down and abandoning module Messaging (121)
+[2022.10.01-08.41.43:809][843]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (119)
+[2022.10.01-08.41.43:813][843]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (117)
+[2022.10.01-08.41.43:828][843]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (115)
+[2022.10.01-08.41.43:828][843]LogModuleManager: Shutting down and abandoning module InputCore (112)
+[2022.10.01-08.41.43:828][843]LogModuleManager: Shutting down and abandoning module Settings (110)
+[2022.10.01-08.41.43:828][843]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (108)
+[2022.10.01-08.41.43:829][843]LogModuleManager: Shutting down and abandoning module PhysXCooking (106)
+[2022.10.01-08.41.43:829][843]LogModuleManager: Shutting down and abandoning module ChaosSolvers (104)
+[2022.10.01-08.41.43:829][843]LogModuleManager: Shutting down and abandoning module FieldSystemEngine (103)
+[2022.10.01-08.41.43:829][843]LogModuleManager: Shutting down and abandoning module Chaos (100)
+[2022.10.01-08.41.43:829][843]LogModuleManager: Shutting down and abandoning module WindowsPlatformFeatures (98)
+[2022.10.01-08.41.43:829][843]LogModuleManager: Shutting down and abandoning module GameplayMediaEncoder (97)
+[2022.10.01-08.41.43:829][843]LogModuleManager: Shutting down and abandoning module AVEncoder (96)
+[2022.10.01-08.41.43:830][843]LogModuleManager: Shutting down and abandoning module SteamVRInputDevice (92)
+[2022.10.01-08.41.43:830][843]LogModuleManager: Shutting down and abandoning module SteamVRInput (90)
+[2022.10.01-08.41.43:830][843]LogModuleManager: Shutting down and abandoning module SteamVR (88)
+[2022.10.01-08.41.43:830][843]LogHMD: Freeing OpenVRDLLHandle.
+[2022.10.01-08.41.43:830][843]LogModuleManager: Shutting down and abandoning module OculusHMD (86)
+[2022.10.01-08.41.43:830][843]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (84)
+[2022.10.01-08.41.43:830][843]LogModuleManager: Shutting down and abandoning module LauncherChunkInstaller (82)
+[2022.10.01-08.41.43:830][843]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (80)
+[2022.10.01-08.41.43:830][843]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (76)
+[2022.10.01-08.41.43:831][843]LogModuleManager: Shutting down and abandoning module XMPP (71)
+[2022.10.01-08.41.43:831][843]LogModuleManager: Shutting down and abandoning module WebSockets (70)
+[2022.10.01-08.41.43:836][843]LogModuleManager: Shutting down and abandoning module HTTP (67)
+[2022.10.01-08.41.43:836][843]LogHttp: Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2022.10.01-08.41.43:836][843]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BB65A62CC-423A-EDD8-0EDA-A884C9B23FAE%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.25.3-13942748%2B%2B%2BUE4%2BRelease-4.25&UserID=53f7f05e4ef3203b9187d28f34afefe2%7Cb08017b21c054b82ac33f6d5e2df2f2e%7Cef51899f-f4da-49fd-a159-2e95055f9c61&AppEnvironment=datacollector-source&UploadType=eteventstream] refs=[1] status=Processing
+[2022.10.01-08.41.43:862][843]LogModuleManager: Shutting down and abandoning module SSL (66)
+[2022.10.01-08.41.43:864][843]LogModuleManager: Shutting down and abandoning module WmfMedia (62)
+[2022.10.01-08.41.43:865][843]LogModuleManager: Shutting down and abandoning module Media (61)
+[2022.10.01-08.41.43:866][843]LogModuleManager: Shutting down and abandoning module MagicLeap (58)
+[2022.10.01-08.41.43:866][843]LogModuleManager: Shutting down and abandoning module NiagaraVertexFactories (56)
+[2022.10.01-08.41.43:866][843]LogModuleManager: Shutting down and abandoning module NiagaraShader (54)
+[2022.10.01-08.41.43:866][843]LogModuleManager: Shutting down and abandoning module VariantManagerContent (52)
+[2022.10.01-08.41.43:866][843]LogModuleManager: Shutting down and abandoning module DatasmithContent (50)
+[2022.10.01-08.41.43:866][843]LogModuleManager: Shutting down and abandoning module AISupportModule (48)
+[2022.10.01-08.41.43:866][843]LogModuleManager: Shutting down and abandoning module DesktopPlatform (46)
+[2022.10.01-08.41.43:866][843]LogModuleManager: Shutting down and abandoning module PlatformCryptoOpenSSL (44)
+[2022.10.01-08.41.43:866][843]LogModuleManager: Shutting down and abandoning module PlatformCryptoTypes (42)
+[2022.10.01-08.41.43:866][843]LogModuleManager: Shutting down and abandoning module PlatformCrypto (40)
+[2022.10.01-08.41.43:866][843]LogModuleManager: Shutting down and abandoning module AnimationModifiers (38)
+[2022.10.01-08.41.43:866][843]LogModuleManager: Shutting down and abandoning module PropertyEditor (37)
+[2022.10.01-08.41.43:866][843]LogModuleManager: Shutting down and abandoning module AudioEditor (34)
+[2022.10.01-08.41.43:867][843]LogModuleManager: Shutting down and abandoning module TextureCompressor (32)
+[2022.10.01-08.41.43:867][843]LogModuleManager: Shutting down and abandoning module RenderCore (30)
+[2022.10.01-08.41.43:867][843]LogModuleManager: Shutting down and abandoning module Landscape (28)
+[2022.10.01-08.41.43:867][843]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (26)
+[2022.10.01-08.41.43:869][843]LogModuleManager: Shutting down and abandoning module OpenGLDrv (24)
+[2022.10.01-08.41.43:869][843]LogModuleManager: Shutting down and abandoning module D3D11RHI (22)
+[2022.10.01-08.41.43:869][843]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (20)
+[2022.10.01-08.41.43:869][843]LogModuleManager: Shutting down and abandoning module Renderer (18)
+[2022.10.01-08.41.43:869][843]LogModuleManager: Shutting down and abandoning module Engine (16)
+[2022.10.01-08.41.43:869][843]LogModuleManager: Shutting down and abandoning module CoreUObject (14)
+[2022.10.01-08.41.43:869][843]LogModuleManager: Shutting down and abandoning module NetworkFile (12)
+[2022.10.01-08.41.43:869][843]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (10)
+[2022.10.01-08.41.43:869][843]LogModuleManager: Shutting down and abandoning module StreamingFile (8)
+[2022.10.01-08.41.43:869][843]LogModuleManager: Shutting down and abandoning module SandboxFile (6)
+[2022.10.01-08.41.43:869][843]LogModuleManager: Shutting down and abandoning module PakFile (4)
+[2022.10.01-08.41.43:869][843]LogModuleManager: Shutting down and abandoning module RSA (3)
+[2022.10.01-08.41.43:869][843]LogContentStreaming: Display: There are 1 unreleased StreamingManagers
+[2022.10.01-08.41.43:880][843]LogD3D11RHI: Shutdown
+[2022.10.01-08.41.43:880][843]LogD3D11RHI: CleanupD3DDevice
+[2022.10.01-08.41.43:911][843]LogExit: Exiting.
+[2022.10.01-08.41.43:937][843]Log file closed, 10/01/22 01:41:43
