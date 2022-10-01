@@ -11077,3 +11077,9 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2022.10.01-20.44.40:285][642]LogContentValidation: Display: Validating World /Game/Prop_test.Prop_Test
 [2022.10.01-20.44.40:285][642]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Prop_test_BuiltData.Prop_test_BuiltData
 [2022.10.01-20.44.40:285][642]LogContentValidation: Display: Validating Blueprint /Game/Actors/Picture_frame.Picture_frame
+[2022.10.01-20.46.26:473][819]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Actors/Picture_frame" FILE="D:/barry/Spooky-Game-Jam-2022/Spooky_Jam_2022/Content/Actors/Picture_frame.uasset" SILENT=true
+[2022.10.01-20.46.26:486][819]LogSavePackage: Moving 'D:/barry/Spooky-Game-Jam-2022/Spooky_Jam_2022/Saved/Picture_frame24A0F25C48D0898D7721FABBB5F89ADC.tmp' to 'D:/barry/Spooky-Game-Jam-2022/Spooky_Jam_2022/Content/Actors/Picture_frame.uasset'
+[2022.10.01-20.46.26:499][819]AssetCheck: New page: Asset Save: Picture_frame
+[2022.10.01-20.46.26:499][819]LogContentValidation: Display: Validating Blueprint /Game/Actors/Picture_frame.Picture_frame
+[2022.10.01-20.46.27:333][911]BlueprintLog: New page: Compile Picture_frame
+[2022.10.01-20.46.27:365][911]LogUObjectHash: Compacting FUObjectHashTables data took   1.77ms
