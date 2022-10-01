@@ -1,8 +1,8 @@
-﻿Log file open, 10/01/22 12:57:02
+﻿Log file open, 10/01/22 13:57:53
 LogInit: Display: Running engine for game: Spooky_Jam_2022
 LogPlatformFile: Not using cached read wrapper
 LogTaskGraph: Started task graph with 5 named threads and 47 total threads with 3 sets of task threads.
-LogStats: Stats thread started at 0.196851
+LogStats: Stats thread started at 1.213185
 LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
 LogICUInternationalization: ICU TimeZone Detection - Raw Offset: -8:00, Platform Override: ''
 LogPluginManager: Mounting plugin Paper2D
@@ -194,472 +194,523 @@ LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
 LogInit: Object subsystem initialized
 LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
 LogConfig: Setting CVar [[r.setres:1280x720]]
-[2022.10.01-19.57.02:348][  0]LogConfig: Setting CVar [[r.VSync:0]]
-[2022.10.01-19.57.02:348][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
-[2022.10.01-19.57.02:348][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [D:/users/nicole/3D/Projects/ETC/Game Jams/Spooky Game Jam 2022/Spooky_Jam_2022/Saved/Config/Windows/Engine.ini]
-[2022.10.01-19.57.02:348][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
-[2022.10.01-19.57.02:348][  0]LogConfig: Setting CVar [[r.AllowGlobalClipPlane:1]]
-[2022.10.01-19.57.02:348][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [D:/users/nicole/3D/Projects/ETC/Game Jams/Spooky Game Jam 2022/Spooky_Jam_2022/Saved/Config/Windows/Engine.ini]
-[2022.10.01-19.57.02:348][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [D:/users/nicole/3D/Projects/ETC/Game Jams/Spooky Game Jam 2022/Spooky_Jam_2022/Saved/Config/Windows/Engine.ini]
-[2022.10.01-19.57.02:348][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
-[2022.10.01-19.57.02:348][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
-[2022.10.01-19.57.02:348][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
-[2022.10.01-19.57.02:348][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
-[2022.10.01-19.57.02:348][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
-[2022.10.01-19.57.02:348][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
-[2022.10.01-19.57.02:348][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
-[2022.10.01-19.57.02:348][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
-[2022.10.01-19.57.02:348][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
-[2022.10.01-19.57.02:348][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
-[2022.10.01-19.57.02:348][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
-[2022.10.01-19.57.02:348][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
-[2022.10.01-19.57.02:348][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
-[2022.10.01-19.57.02:348][  0]LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
-[2022.10.01-19.57.02:348][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [D:/users/nicole/3D/Projects/ETC/Game Jams/Spooky Game Jam 2022/Spooky_Jam_2022/Saved/Config/Windows/Engine.ini]
-[2022.10.01-19.57.02:348][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
-[2022.10.01-19.57.02:348][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
-[2022.10.01-19.57.02:348][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
-[2022.10.01-19.57.02:348][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
-[2022.10.01-19.57.02:348][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
-[2022.10.01-19.57.02:348][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
-[2022.10.01-19.57.02:348][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:25165824]]
-[2022.10.01-19.57.02:348][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
-[2022.10.01-19.57.02:348][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
-[2022.10.01-19.57.02:348][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
-[2022.10.01-19.57.02:348][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
-[2022.10.01-19.57.02:348][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
-[2022.10.01-19.57.02:348][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
-[2022.10.01-19.57.02:348][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [D:/users/nicole/3D/Projects/ETC/Game Jams/Spooky Game Jam 2022/Spooky_Jam_2022/Saved/Config/Windows/Engine.ini]
-[2022.10.01-19.57.02:348][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [D:/users/nicole/3D/Projects/ETC/Game Jams/Spooky Game Jam 2022/Spooky_Jam_2022/Saved/Config/Windows/Engine.ini]
-[2022.10.01-19.57.02:352][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [D:/users/nicole/3D/Projects/ETC/Game Jams/Spooky Game Jam 2022/Spooky_Jam_2022/Saved/Config/Windows/Scalability.ini]
-[2022.10.01-19.57.02:352][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
-[2022.10.01-19.57.02:352][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
-[2022.10.01-19.57.02:352][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [D:/users/nicole/3D/Projects/ETC/Game Jams/Spooky Game Jam 2022/Spooky_Jam_2022/Saved/Config/Windows/Scalability.ini]
-[2022.10.01-19.57.02:352][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
-[2022.10.01-19.57.02:352][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [D:/users/nicole/3D/Projects/ETC/Game Jams/Spooky Game Jam 2022/Spooky_Jam_2022/Saved/Config/Windows/Scalability.ini]
-[2022.10.01-19.57.02:352][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
-[2022.10.01-19.57.02:352][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
-[2022.10.01-19.57.02:352][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
-[2022.10.01-19.57.02:352][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
-[2022.10.01-19.57.02:352][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
-[2022.10.01-19.57.02:352][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
-[2022.10.01-19.57.02:352][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
-[2022.10.01-19.57.02:352][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
-[2022.10.01-19.57.02:352][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
-[2022.10.01-19.57.02:352][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
-[2022.10.01-19.57.02:352][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
-[2022.10.01-19.57.02:352][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
-[2022.10.01-19.57.02:352][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
-[2022.10.01-19.57.02:352][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
-[2022.10.01-19.57.02:352][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
-[2022.10.01-19.57.02:352][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
-[2022.10.01-19.57.02:352][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
-[2022.10.01-19.57.02:352][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
-[2022.10.01-19.57.02:352][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [D:/users/nicole/3D/Projects/ETC/Game Jams/Spooky Game Jam 2022/Spooky_Jam_2022/Saved/Config/Windows/Scalability.ini]
-[2022.10.01-19.57.02:352][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
-[2022.10.01-19.57.02:352][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
-[2022.10.01-19.57.02:352][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
-[2022.10.01-19.57.02:352][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
-[2022.10.01-19.57.02:352][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
-[2022.10.01-19.57.02:352][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
-[2022.10.01-19.57.02:352][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
-[2022.10.01-19.57.02:352][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
-[2022.10.01-19.57.02:352][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
-[2022.10.01-19.57.02:352][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
-[2022.10.01-19.57.02:352][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
-[2022.10.01-19.57.02:352][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
-[2022.10.01-19.57.02:352][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
-[2022.10.01-19.57.02:353][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
-[2022.10.01-19.57.02:353][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
-[2022.10.01-19.57.02:353][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
-[2022.10.01-19.57.02:353][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
-[2022.10.01-19.57.02:353][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
-[2022.10.01-19.57.02:353][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
-[2022.10.01-19.57.02:353][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
-[2022.10.01-19.57.02:353][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
-[2022.10.01-19.57.02:353][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
-[2022.10.01-19.57.02:353][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
-[2022.10.01-19.57.02:353][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
-[2022.10.01-19.57.02:353][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
-[2022.10.01-19.57.02:353][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
-[2022.10.01-19.57.02:353][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
-[2022.10.01-19.57.02:353][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
-[2022.10.01-19.57.02:353][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
-[2022.10.01-19.57.02:353][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
-[2022.10.01-19.57.02:353][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [D:/users/nicole/3D/Projects/ETC/Game Jams/Spooky Game Jam 2022/Spooky_Jam_2022/Saved/Config/Windows/Scalability.ini]
-[2022.10.01-19.57.02:353][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
-[2022.10.01-19.57.02:353][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
-[2022.10.01-19.57.02:353][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
-[2022.10.01-19.57.02:353][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
-[2022.10.01-19.57.02:353][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
-[2022.10.01-19.57.02:353][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
-[2022.10.01-19.57.02:353][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
-[2022.10.01-19.57.02:353][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
-[2022.10.01-19.57.02:353][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
-[2022.10.01-19.57.02:353][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [D:/users/nicole/3D/Projects/ETC/Game Jams/Spooky Game Jam 2022/Spooky_Jam_2022/Saved/Config/Windows/Scalability.ini]
-[2022.10.01-19.57.02:353][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
-[2022.10.01-19.57.02:353][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
-[2022.10.01-19.57.02:353][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
-[2022.10.01-19.57.02:353][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
-[2022.10.01-19.57.02:353][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
-[2022.10.01-19.57.02:353][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
-[2022.10.01-19.57.02:353][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
-[2022.10.01-19.57.02:353][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
-[2022.10.01-19.57.02:353][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
-[2022.10.01-19.57.02:353][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
-[2022.10.01-19.57.02:353][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
-[2022.10.01-19.57.02:353][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
-[2022.10.01-19.57.02:353][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
-[2022.10.01-19.57.02:353][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
-[2022.10.01-19.57.02:353][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
-[2022.10.01-19.57.02:353][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
-[2022.10.01-19.57.02:353][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
-[2022.10.01-19.57.02:353][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
-[2022.10.01-19.57.02:353][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
-[2022.10.01-19.57.02:353][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
-[2022.10.01-19.57.02:353][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
-[2022.10.01-19.57.02:353][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
-[2022.10.01-19.57.02:353][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
-[2022.10.01-19.57.02:353][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
-[2022.10.01-19.57.02:353][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
-[2022.10.01-19.57.02:353][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
-[2022.10.01-19.57.02:353][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [D:/users/nicole/3D/Projects/ETC/Game Jams/Spooky Game Jam 2022/Spooky_Jam_2022/Saved/Config/Windows/Scalability.ini]
-[2022.10.01-19.57.02:353][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
-[2022.10.01-19.57.02:353][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
-[2022.10.01-19.57.02:353][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [D:/users/nicole/3D/Projects/ETC/Game Jams/Spooky Game Jam 2022/Spooky_Jam_2022/Saved/Config/Windows/Scalability.ini]
-[2022.10.01-19.57.02:353][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
-[2022.10.01-19.57.02:353][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
-[2022.10.01-19.57.02:353][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
-[2022.10.01-19.57.02:353][  0]LogConfig: Setting CVar [[r.HairStrands.DeepShadow.SuperSampling:0]]
-[2022.10.01-19.57.02:353][  0]LogConfig: Setting CVar [[r.HairStrands.VisibilityPPLL:0]]
-[2022.10.01-19.57.02:353][  0]LogConfig: Setting CVar [[r.HairStrands.RasterizationScale:0.5]]
-[2022.10.01-19.57.02:353][  0]LogConfig: Setting CVar [[r.HairStrands.VelocityRasterizationScale:1]]
-[2022.10.01-19.57.02:353][  0]LogInit: Selected Device Profile: [Windows]
-[2022.10.01-19.57.02:353][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2022.10.01-19.57.02:353][  0]LogHAL: Display: Platform has ~ 16 GB [17122967552 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
-[2022.10.01-19.57.02:353][  0]LogInit: Going up to parent DeviceProfile []
-[2022.10.01-19.57.02:353][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [D:/users/nicole/3D/Projects/ETC/Game Jams/Spooky Game Jam 2022/Spooky_Jam_2022/Saved/Config/Windows/Scalability.ini]
-[2022.10.01-19.57.02:353][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
-[2022.10.01-19.57.02:353][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
-[2022.10.01-19.57.02:354][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [D:/users/nicole/3D/Projects/ETC/Game Jams/Spooky Game Jam 2022/Spooky_Jam_2022/Saved/Config/Windows/Scalability.ini]
-[2022.10.01-19.57.02:354][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
-[2022.10.01-19.57.02:354][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [D:/users/nicole/3D/Projects/ETC/Game Jams/Spooky Game Jam 2022/Spooky_Jam_2022/Saved/Config/Windows/Scalability.ini]
-[2022.10.01-19.57.02:354][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
-[2022.10.01-19.57.02:354][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
-[2022.10.01-19.57.02:354][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
-[2022.10.01-19.57.02:354][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
-[2022.10.01-19.57.02:354][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
-[2022.10.01-19.57.02:354][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
-[2022.10.01-19.57.02:354][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
-[2022.10.01-19.57.02:354][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
-[2022.10.01-19.57.02:354][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
-[2022.10.01-19.57.02:354][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
-[2022.10.01-19.57.02:354][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
-[2022.10.01-19.57.02:354][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
-[2022.10.01-19.57.02:354][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
-[2022.10.01-19.57.02:354][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
-[2022.10.01-19.57.02:354][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
-[2022.10.01-19.57.02:354][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
-[2022.10.01-19.57.02:354][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
-[2022.10.01-19.57.02:354][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
-[2022.10.01-19.57.02:354][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [D:/users/nicole/3D/Projects/ETC/Game Jams/Spooky Game Jam 2022/Spooky_Jam_2022/Saved/Config/Windows/Scalability.ini]
-[2022.10.01-19.57.02:354][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
-[2022.10.01-19.57.02:354][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
-[2022.10.01-19.57.02:354][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
-[2022.10.01-19.57.02:354][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
-[2022.10.01-19.57.02:354][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
-[2022.10.01-19.57.02:354][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
-[2022.10.01-19.57.02:354][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
-[2022.10.01-19.57.02:354][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
-[2022.10.01-19.57.02:354][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
-[2022.10.01-19.57.02:354][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
-[2022.10.01-19.57.02:354][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
-[2022.10.01-19.57.02:354][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
-[2022.10.01-19.57.02:354][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
-[2022.10.01-19.57.02:354][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
-[2022.10.01-19.57.02:354][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
-[2022.10.01-19.57.02:354][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
-[2022.10.01-19.57.02:354][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
-[2022.10.01-19.57.02:354][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
-[2022.10.01-19.57.02:354][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
-[2022.10.01-19.57.02:354][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
-[2022.10.01-19.57.02:354][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
-[2022.10.01-19.57.02:354][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
-[2022.10.01-19.57.02:354][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
-[2022.10.01-19.57.02:354][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
-[2022.10.01-19.57.02:354][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
-[2022.10.01-19.57.02:354][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
-[2022.10.01-19.57.02:354][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
-[2022.10.01-19.57.02:354][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
-[2022.10.01-19.57.02:354][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
-[2022.10.01-19.57.02:354][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
-[2022.10.01-19.57.02:354][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [D:/users/nicole/3D/Projects/ETC/Game Jams/Spooky Game Jam 2022/Spooky_Jam_2022/Saved/Config/Windows/Scalability.ini]
-[2022.10.01-19.57.02:354][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
-[2022.10.01-19.57.02:354][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
-[2022.10.01-19.57.02:354][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
-[2022.10.01-19.57.02:354][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
-[2022.10.01-19.57.02:354][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
-[2022.10.01-19.57.02:354][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
-[2022.10.01-19.57.02:354][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
-[2022.10.01-19.57.02:354][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
-[2022.10.01-19.57.02:354][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
-[2022.10.01-19.57.02:354][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [D:/users/nicole/3D/Projects/ETC/Game Jams/Spooky Game Jam 2022/Spooky_Jam_2022/Saved/Config/Windows/Scalability.ini]
-[2022.10.01-19.57.02:354][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
-[2022.10.01-19.57.02:354][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
-[2022.10.01-19.57.02:354][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
-[2022.10.01-19.57.02:354][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
-[2022.10.01-19.57.02:354][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
-[2022.10.01-19.57.02:354][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
-[2022.10.01-19.57.02:354][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
-[2022.10.01-19.57.02:354][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
-[2022.10.01-19.57.02:354][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
-[2022.10.01-19.57.02:354][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
-[2022.10.01-19.57.02:354][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
-[2022.10.01-19.57.02:354][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
-[2022.10.01-19.57.02:354][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
-[2022.10.01-19.57.02:354][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
-[2022.10.01-19.57.02:354][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
-[2022.10.01-19.57.02:354][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
-[2022.10.01-19.57.02:354][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
-[2022.10.01-19.57.02:354][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
-[2022.10.01-19.57.02:354][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
-[2022.10.01-19.57.02:355][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
-[2022.10.01-19.57.02:355][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
-[2022.10.01-19.57.02:355][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
-[2022.10.01-19.57.02:355][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
-[2022.10.01-19.57.02:355][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
-[2022.10.01-19.57.02:355][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
-[2022.10.01-19.57.02:355][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
-[2022.10.01-19.57.02:355][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [D:/users/nicole/3D/Projects/ETC/Game Jams/Spooky Game Jam 2022/Spooky_Jam_2022/Saved/Config/Windows/Scalability.ini]
-[2022.10.01-19.57.02:355][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
-[2022.10.01-19.57.02:355][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
-[2022.10.01-19.57.02:355][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [D:/users/nicole/3D/Projects/ETC/Game Jams/Spooky Game Jam 2022/Spooky_Jam_2022/Saved/Config/Windows/Scalability.ini]
-[2022.10.01-19.57.02:355][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
-[2022.10.01-19.57.02:355][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
-[2022.10.01-19.57.02:355][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
-[2022.10.01-19.57.02:355][  0]LogConfig: Setting CVar [[r.HairStrands.DeepShadow.SuperSampling:0]]
-[2022.10.01-19.57.02:355][  0]LogConfig: Setting CVar [[r.HairStrands.VisibilityPPLL:0]]
-[2022.10.01-19.57.02:355][  0]LogConfig: Setting CVar [[r.HairStrands.RasterizationScale:0.5]]
-[2022.10.01-19.57.02:355][  0]LogConfig: Setting CVar [[r.HairStrands.VelocityRasterizationScale:1]]
-[2022.10.01-19.57.02:355][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
-[2022.10.01-19.57.02:355][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
-[2022.10.01-19.57.02:355][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
-[2022.10.01-19.57.02:355][  0]LogConfig: Setting CVar [[fx.SkipVectorVMBackendOptimizations:1]]
-[2022.10.01-19.57.02:355][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [D:/users/nicole/3D/Projects/ETC/Game Jams/Spooky Game Jam 2022/Spooky_Jam_2022/Saved/Config/Windows/Engine.ini]
-[2022.10.01-19.57.02:355][  0]LogInit: Computer: ORENSTEIN
-[2022.10.01-19.57.02:355][  0]LogInit: User: nicol
-[2022.10.01-19.57.02:355][  0]LogInit: CPU Page size=4096, Cores=8
-[2022.10.01-19.57.02:355][  0]LogInit: High frequency timer resolution =10.000000 MHz
-[2022.10.01-19.57.02:356][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
-[2022.10.01-19.57.02:356][  0]LogMemory: Platform Memory Stats for Windows
-[2022.10.01-19.57.02:356][  0]LogMemory: Process Physical Memory: 116.61 MB used, 116.62 MB peak
-[2022.10.01-19.57.02:356][  0]LogMemory: Process Virtual Memory: 98.11 MB used, 98.11 MB peak
-[2022.10.01-19.57.02:356][  0]LogMemory: Physical Memory: 9042.12 MB used,  7287.62 MB free, 16329.73 MB total
-[2022.10.01-19.57.02:356][  0]LogMemory: Virtual Memory: 5187.32 MB used,  134212544.00 MB free, 134217728.00 MB total
-[2022.10.01-19.57.02:360][  0]LogWindows: WindowsPlatformFeatures enabled
-[2022.10.01-19.57.02:409][  0]LogInit: Physics initialised using underlying interface: PhysX
-[2022.10.01-19.57.02:410][  0]LogInit: Using OS detected language (en-US).
-[2022.10.01-19.57.02:410][  0]LogInit: Using OS detected locale (en-US).
-[2022.10.01-19.57.02:411][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
-[2022.10.01-19.57.02:616][  0]LogInit: Setting process to per monitor DPI aware
-[2022.10.01-19.57.02:649][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
-[2022.10.01-19.57.02:649][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
-[2022.10.01-19.57.02:883][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2022.10.01-19.57.02:884][  0]LogD3D11RHI: D3D11 min allowed feature level: 11_0
-[2022.10.01-19.57.02:884][  0]LogD3D11RHI: D3D11 max allowed feature level: 11_0
-[2022.10.01-19.57.02:884][  0]LogD3D11RHI: D3D11 adapters:
-[2022.10.01-19.57.03:004][  0]LogD3D11RHI:    0. 'NVIDIA GeForce RTX 2070' (Feature Level 11_0)
-[2022.10.01-19.57.03:004][  0]LogD3D11RHI:       8031/0/8164 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
-[2022.10.01-19.57.03:007][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2022.10.01-19.57.03:007][  0]LogD3D11RHI:       0/0/8164 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
-[2022.10.01-19.57.03:007][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2022.10.01-19.57.03:018][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2022.10.01-19.57.03:018][  0]LogD3D11RHI:     GPU DeviceId: 0x1f02 (for the marketing name, search the web for "GPU Device Id")
-[2022.10.01-19.57.03:018][  0]LogWindows: EnumDisplayDevices:
-[2022.10.01-19.57.03:018][  0]LogWindows:    0. 'NVIDIA GeForce RTX 2070' (P:1 D:1)
-[2022.10.01-19.57.03:019][  0]LogWindows:    1. 'NVIDIA GeForce RTX 2070' (P:0 D:1)
-[2022.10.01-19.57.03:019][  0]LogWindows:    2. 'NVIDIA GeForce RTX 2070' (P:0 D:0)
-[2022.10.01-19.57.03:019][  0]LogWindows:    3. 'NVIDIA GeForce RTX 2070' (P:0 D:0)
-[2022.10.01-19.57.03:019][  0]LogWindows: DebugString: FoundDriverCount:4 
-[2022.10.01-19.57.03:019][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce RTX 2070
-[2022.10.01-19.57.03:019][  0]LogD3D11RHI:   Driver Version: 511.23 (internal:30.0.15.1123, unified:511.23)
-[2022.10.01-19.57.03:019][  0]LogD3D11RHI:      Driver Date: 1-10-2022
-[2022.10.01-19.57.03:019][  0]LogRHI: Texture pool is 5621 MB (70% of 8031 MB)
-[2022.10.01-19.57.03:090][  0]LogD3D11RHI: RHI has support for 64 bit atomics
-[2022.10.01-19.57.03:091][  0]LogD3D11RHI: [Aftermath] Enabled and primed
-[2022.10.01-19.57.03:091][  0]LogD3D11RHI: Async texture creation enabled
-[2022.10.01-19.57.03:091][  0]LogD3D11RHI: Array index from any shader is supported
-[2022.10.01-19.57.03:092][  0]LogD3D11RHI: HDR output is supported on display 0 (NvId: 0x80061086).
-[2022.10.01-19.57.03:108][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
-[2022.10.01-19.57.03:384][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AllDesktop'
-[2022.10.01-19.57.03:407][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android'
-[2022.10.01-19.57.03:407][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTC'
-[2022.10.01-19.57.03:407][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXT'
-[2022.10.01-19.57.03:407][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2'
-[2022.10.01-19.57.03:407][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AndroidClient'
-[2022.10.01-19.57.03:407][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTCClient'
-[2022.10.01-19.57.03:407][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXTClient'
-[2022.10.01-19.57.03:407][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2Client'
-[2022.10.01-19.57.03:407][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_Multi'
-[2022.10.01-19.57.03:407][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_MultiClient'
-[2022.10.01-19.57.03:432][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOSClient'
-[2022.10.01-19.57.03:432][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOS'
-[2022.10.01-19.57.03:444][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Linux'
-[2022.10.01-19.57.03:454][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxNoEditor'
-[2022.10.01-19.57.03:464][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxClient'
-[2022.10.01-19.57.03:474][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxServer'
-[2022.10.01-19.57.03:484][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64NoEditor'
-[2022.10.01-19.57.03:494][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Client'
-[2022.10.01-19.57.03:504][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Server'
-[2022.10.01-19.57.03:535][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Lumin'
-[2022.10.01-19.57.03:535][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LuminClient'
-[2022.10.01-19.57.03:552][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOSClient'
-[2022.10.01-19.57.03:552][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOS'
-[2022.10.01-19.57.03:562][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsNoEditor'
-[2022.10.01-19.57.03:573][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Windows'
-[2022.10.01-19.57.03:583][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsClient'
-[2022.10.01-19.57.03:594][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsServer'
-[2022.10.01-19.57.03:594][  0]LogTargetPlatformManager: Display: Building Assets For Windows
-[2022.10.01-19.57.03:602][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
-[2022.10.01-19.57.03:659][  0]LogShaderCompilers: Guid format shader working directory is -47 characters bigger than the processId version (../../../../../../users/nicole/3D/Projects/ETC/Game Jams/Spooky Game Jam 2022/Spooky_Jam_2022/Intermediate/Shaders/WorkingDirectory/21488/).
-[2022.10.01-19.57.03:659][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'D:/users/nicole/AppData/Local/Temp/UnrealShaderWorkingDir/5F03DA39467A5FE316431F823D9A6EC6/'.
-[2022.10.01-19.57.03:659][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
-[2022.10.01-19.57.03:660][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
-[2022.10.01-19.57.03:660][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
-[2022.10.01-19.57.04:415][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
-[2022.10.01-19.57.04:474][  0]LogDerivedDataCache: Loaded boot cache 0.06s 94MB C:/Users/nicol/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc.
-[2022.10.01-19.57.04:474][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/nicol/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc
-[2022.10.01-19.57.04:474][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../users/nicole/3D/Projects/ETC/Game Jams/Spooky Game Jam 2022/Spooky_Jam_2022/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2022.10.01-19.57.04:474][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2022.10.01-19.57.04:474][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../users/nicole/3D/Projects/ETC/Game Jams/Spooky Game Jam 2022/Spooky_Jam_2022/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2022.10.01-19.57.04:474][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2022.10.01-19.57.04:485][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2022.10.01-19.57.04:485][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2022.10.01-19.57.04:485][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
-[2022.10.01-19.57.04:486][  0]LogDerivedDataCache: Using Local data cache path C:/Users/nicol/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2022.10.01-19.57.04:486][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
-[2022.10.01-19.57.04:486][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
-[2022.10.01-19.57.04:536][  0]LogSlate: Using FreeType 2.10.0
-[2022.10.01-19.57.04:537][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2022.10.01-19.57.04:561][  0]LogAssetRegistry: FAssetRegistry took 0.0029 seconds to start up
-[2022.10.01-19.57.04:794][  0]LogInit: Selected Device Profile: [Windows]
-[2022.10.01-19.57.04:900][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
-[2022.10.01-19.57.04:900][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
-[2022.10.01-19.57.04:900][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
-[2022.10.01-19.57.04:900][  0]LogMeshReduction: No distributed automatic mesh merging module available
-[2022.10.01-19.57.04:900][  0]LogMeshMerging: No distributed automatic mesh merging module available
-[2022.10.01-19.57.04:916][  0]LogNetVersion: Spooky_Jam_2022 1.0.0, NetCL: 13144385, EngineNetVer: 14, GameNetVer: 0 (Checksum: 2951437859)
-[2022.10.01-19.57.05:297][  0]LogAISub: UAISubsystem::UAISubsystem AISubsystem (000001EE4EF51BC0), frame # 0
-[2022.10.01-19.57.05:297][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001EE4EEA51C0), frame # 0
-[2022.10.01-19.57.05:299][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001EE4EF1CA00), frame # 0
-[2022.10.01-19.57.05:343][  0]LogPackageLocalizationCache: Processed 19 localized package path(s) for 1 prioritized culture(s) in 0.038201 seconds
-[2022.10.01-19.57.05:348][  0]LogUObjectArray: 15917 objects as part of root set at end of initial load.
-[2022.10.01-19.57.05:348][  0]LogUObjectAllocator: 3965568 out of 0 bytes used by permanent object pool.
-[2022.10.01-19.57.05:348][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2022.10.01-19.57.05:677][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2022.10.01-19.57.05:682][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2022.10.01-19.57.05:758][  0]SourceControl: Source control is disabled
-[2022.10.01-19.57.05:758][  0]SourceControl: Source control is disabled
-[2022.10.01-19.57.05:761][  0]SourceControl: Source control is disabled
-[2022.10.01-19.57.05:764][  0]SourceControl: Source control is disabled
-[2022.10.01-19.57.05:771][  0]SourceControl: Source control is disabled
-[2022.10.01-19.57.05:783][  0]LogVSAccessor: Display: Unable to create Visual Studio setup instance: 80040154
-[2022.10.01-19.57.05:784][  0]LogVSAccessor: Display: Unable to create Visual Studio setup instance: 80040154
-[2022.10.01-19.57.06:009][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
-[2022.10.01-19.57.06:029][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
-[2022.10.01-19.57.06:029][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
-[2022.10.01-19.57.06:077][  0]LogOcInput: OculusInput pre-init called
-[2022.10.01-19.57.06:088][  0]LogWindows: Failed to load 'OVRPlugin.dll' (GetLastError=126)
-[2022.10.01-19.57.06:088][  0]LogWindows: File 'OVRPlugin.dll' does not exist
-[2022.10.01-19.57.06:151][  0]LogEngine: Initializing Engine...
-[2022.10.01-19.57.06:152][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2022.10.01-19.57.06:152][  0]LogMagicLeap: Warning: VR disabled because ZI is not enabled.  To enable, in the editor, Edit -> Project Settings -> Plugins -> Magic Leap Plugin -> Enable Zero Iteration
-[2022.10.01-19.57.06:153][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.000 s
-[2022.10.01-19.57.06:260][  0]LogInit: Initializing FReadOnlyCVARCache
-[2022.10.01-19.57.06:267][  0]LogAIModule: Creating AISystem for world Untitled
-[2022.10.01-19.57.06:267][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001EE56EFFC00), frame # 0
-[2022.10.01-19.57.06:267][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001EE56F625C0), frame # 0
-[2022.10.01-19.57.06:283][  0]LogAudioMixer: Display: Audio Mixer Platform Settings:
-[2022.10.01-19.57.06:283][  0]LogAudioMixer: Display: 	Sample Rate:						  48000
-[2022.10.01-19.57.06:283][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
-[2022.10.01-19.57.06:283][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
-[2022.10.01-19.57.06:283][  0]LogAudioMixer: Display: 	Number of buffers to queue:			  2
-[2022.10.01-19.57.06:283][  0]LogAudioMixer: Display: 	Max Channels (voices):				  32
-[2022.10.01-19.57.06:283][  0]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
-[2022.10.01-19.57.06:283][  0]LogAudio: Display: AudioDevice MaxSources: 32
-[2022.10.01-19.57.06:283][  0]LogAudio: Display: Using built-in audio occlusion.
-[2022.10.01-19.57.06:283][  0]LogAudioMixer: Display: Initializing audio mixer.
-[2022.10.01-19.57.06:294][  0]LogAudioMixer: Display: 0: FrontLeft
-[2022.10.01-19.57.06:294][  0]LogAudioMixer: Display: 1: FrontRight
-[2022.10.01-19.57.06:324][  0]LogAudioMixer: Display: Using Audio Device Headphones (High Definition Audio Device)
-[2022.10.01-19.57.06:326][  0]LogAudioMixer: Display: Initializing Sound Submixes...
-[2022.10.01-19.57.06:329][  0]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
-[2022.10.01-19.57.06:329][  0]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
-[2022.10.01-19.57.06:330][  0]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
-[2022.10.01-19.57.06:331][  0]LogInit: FAudioDevice initialized.
-[2022.10.01-19.57.06:331][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
-[2022.10.01-19.57.06:521][  0]LogDerivedDataCache: Saved boot cache 0.19s 94MB C:/Users/nicol/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc.
-[2022.10.01-19.57.06:525][  0]LogInit: Texture streaming: Enabled
-[2022.10.01-19.57.06:542][  0]LogEngineSessionManager: EngineSessionManager initialized
-[2022.10.01-19.57.06:542][  0]LogEditorSessionSummary: Verbose: Initializing EditorSessionSummaryWriter for editor session tracking
-[2022.10.01-19.57.06:543][  0]LogEditorSessionSummary: EditorSessionSummaryWriter initialized
-[2022.10.01-19.57.06:589][  0]LogInit: Transaction tracking system initialized
-[2022.10.01-19.57.06:609][  0]BlueprintLog: New page: Editor Load
-[2022.10.01-19.57.06:675][  0]LocalizationService: Localization service is disabled
-[2022.10.01-19.57.06:751][  0]LogVSAccessor: Display: Unable to create Visual Studio setup instance: 80040154
-[2022.10.01-19.57.06:752][  0]LogVSAccessor: Display: Unable to create Visual Studio setup instance: 80040154
-[2022.10.01-19.57.06:815][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
-[2022.10.01-19.57.06:815][  0]LogCook: Display: Mobile HDR setting 1
-[2022.10.01-19.57.06:940][  0]LogFileCache: Scanning file cache for directory 'D:/users/nicole/3D/Projects/ETC/Game Jams/Spooky Game Jam 2022/Spooky_Jam_2022/Content/' took 0.00s
-[2022.10.01-19.57.07:109][  0]SourceControl: Source control is disabled
-[2022.10.01-19.57.07:109][  0]LogUnrealEdMisc: Loading editor; pre map load, took 6.834
-[2022.10.01-19.57.07:109][  0]Cmd: MAP LOAD FILE="../../../../../../users/nicole/3D/Projects/ETC/Game Jams/Spooky Game Jam 2022/Spooky_Jam_2022/Content/Main_Level.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2022.10.01-19.57.07:109][  0]LightingResults: New page: Lighting Build
-[2022.10.01-19.57.07:110][  0]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
-[2022.10.01-19.57.07:110][  0]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
-[2022.10.01-19.57.07:110][  0]MapCheck: New page: Map Check
-[2022.10.01-19.57.07:110][  0]LightingResults: New page: Lighting Build
-[2022.10.01-19.57.07:145][  0]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000001EE56EFFC00), frame # 0
-[2022.10.01-19.57.07:145][  0]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000001EE56F625C0), frame # 0
-[2022.10.01-19.57.07:146][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.67ms
-[2022.10.01-19.57.07:188][  0]LogMaterial: Display: Missing cached shader map for material Passive_Frame_Canvas, compiling. 
-[2022.10.01-19.57.07:237][  0]LogShaderCompilers: Display: Worker (1/13): shaders left to compile 15
-[2022.10.01-19.57.07:237][  0]LogShaderCompilers: Display: Worker (2/13): shaders left to compile 13
-[2022.10.01-19.57.07:237][  0]LogShaderCompilers: Display: Worker (3/13): shaders left to compile 11
-[2022.10.01-19.57.07:237][  0]LogShaderCompilers: Display: Worker (4/13): shaders left to compile 9
-[2022.10.01-19.57.07:237][  0]LogShaderCompilers: Display: Worker (5/13): shaders left to compile 7
-[2022.10.01-19.57.07:237][  0]LogShaderCompilers: Display: Worker (6/13): shaders left to compile 5
-[2022.10.01-19.57.07:237][  0]LogShaderCompilers: Display: Worker (7/13): shaders left to compile 3
-[2022.10.01-19.57.07:237][  0]LogShaderCompilers: Display: Worker (8/13): shaders left to compile 1
-[2022.10.01-19.57.07:241][  0]LogAIModule: Creating AISystem for world Main_Level
-[2022.10.01-19.57.07:241][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001EE402B5400), frame # 0
-[2022.10.01-19.57.07:241][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001EE573156C0), frame # 0
-[2022.10.01-19.57.07:245][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2022.10.01-19.57.07:256][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.61ms
-[2022.10.01-19.57.07:256][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2022.10.01-19.57.07:256][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.111ms to complete.
-[2022.10.01-19.57.07:256][  0]LogFileHelpers: Loading map 'Main_Level' took 0.147
-[2022.10.01-19.57.07:258][  0]LogUnrealEdMisc: Total Editor Startup Time, took 6.983
-[2022.10.01-19.57.07:419][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2022.10.01-19.57.07:430][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2022.10.01-19.57.07:441][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2022.10.01-19.57.07:452][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2022.10.01-19.57.07:460][  0]LogCollectionManager: Loaded 0 collections in 0.001434 seconds
-[2022.10.01-19.57.07:483][  0]LogFileCache: Scanning file cache for directory 'D:/users/nicole/3D/Projects/ETC/Game Jams/Spooky Game Jam 2022/Spooky_Jam_2022/Saved/Collections/' took 0.00s
-[2022.10.01-19.57.07:483][  0]LogFileCache: Scanning file cache for directory 'D:/users/nicole/3D/Projects/ETC/Game Jams/Spooky Game Jam 2022/Spooky_Jam_2022/Content/Developers/nicol/Collections/' took 0.00s
-[2022.10.01-19.57.07:483][  0]LogFileCache: Scanning file cache for directory 'D:/users/nicole/3D/Projects/ETC/Game Jams/Spooky Game Jam 2022/Spooky_Jam_2022/Content/Collections/' took 0.00s
-[2022.10.01-19.57.07:483][  0]LogContentBrowser: Native class hierarchy populated in 0.0145 seconds. Added 3427 classes and 821 folders.
-[2022.10.01-19.57.07:487][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0004 seconds. Added 0 classes and 0 folders.
-[2022.10.01-19.57.07:632][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0006 seconds. Added 0 classes and 0 folders.
-[2022.10.01-19.57.07:634][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0004 seconds. Added 2 classes and 0 folders.
-[2022.10.01-19.57.07:804][  0]LogSlate: Took 0.001147 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2022.10.01-19.57.07:807][  0]LogSlate: Took 0.000514 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
-[2022.10.01-19.57.07:817][  0]LogSlate: Took 0.000401 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
-[2022.10.01-19.57.07:939][  0]LogRenderer: Reallocating scene render targets to support 912x480 Format 10 NumSamples 1 (Frame:1).
-[2022.10.01-19.57.07:967][  0]LogRenderer: Reallocating scene render targets to support 1820x960 Format 10 NumSamples 1 (Frame:1).
-[2022.10.01-19.57.08:167][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0009 seconds. Added 0 classes and 0 folders.
-[2022.10.01-19.57.08:168][  0]LogLoad: (Engine Initialization) Total time: 7.89 seconds
-[2022.10.01-19.57.08:168][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
-[2022.10.01-19.57.08:227][  0]LogAssetRegistry: Asset discovery search completed in 3.6671 seconds
-[2022.10.01-19.57.08:235][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000004 seconds (updated 0 objects)
-[2022.10.01-19.57.08:237][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2022.10.01-20.57.54:324][  0]LogConfig: Setting CVar [[r.VSync:0]]
+[2022.10.01-20.57.54:324][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
+[2022.10.01-20.57.54:324][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [D:/users/nicole/3D/Projects/ETC/Game Jams/Spooky Game Jam 2022/Spooky_Jam_2022/Saved/Config/Windows/Engine.ini]
+[2022.10.01-20.57.54:324][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2022.10.01-20.57.54:324][  0]LogConfig: Setting CVar [[r.AllowGlobalClipPlane:1]]
+[2022.10.01-20.57.54:324][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [D:/users/nicole/3D/Projects/ETC/Game Jams/Spooky Game Jam 2022/Spooky_Jam_2022/Saved/Config/Windows/Engine.ini]
+[2022.10.01-20.57.54:324][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [D:/users/nicole/3D/Projects/ETC/Game Jams/Spooky Game Jam 2022/Spooky_Jam_2022/Saved/Config/Windows/Engine.ini]
+[2022.10.01-20.57.54:324][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2022.10.01-20.57.54:324][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2022.10.01-20.57.54:324][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2022.10.01-20.57.54:324][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2022.10.01-20.57.54:324][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2022.10.01-20.57.54:324][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2022.10.01-20.57.54:324][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2022.10.01-20.57.54:324][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2022.10.01-20.57.54:324][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2022.10.01-20.57.54:324][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2022.10.01-20.57.54:324][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2022.10.01-20.57.54:324][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2022.10.01-20.57.54:324][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2022.10.01-20.57.54:324][  0]LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
+[2022.10.01-20.57.54:324][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [D:/users/nicole/3D/Projects/ETC/Game Jams/Spooky Game Jam 2022/Spooky_Jam_2022/Saved/Config/Windows/Engine.ini]
+[2022.10.01-20.57.54:324][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2022.10.01-20.57.54:324][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2022.10.01-20.57.54:324][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2022.10.01-20.57.54:324][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2022.10.01-20.57.54:324][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2022.10.01-20.57.54:324][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2022.10.01-20.57.54:324][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:25165824]]
+[2022.10.01-20.57.54:324][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2022.10.01-20.57.54:324][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2022.10.01-20.57.54:324][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2022.10.01-20.57.54:324][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2022.10.01-20.57.54:324][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2022.10.01-20.57.54:324][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2022.10.01-20.57.54:324][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [D:/users/nicole/3D/Projects/ETC/Game Jams/Spooky Game Jam 2022/Spooky_Jam_2022/Saved/Config/Windows/Engine.ini]
+[2022.10.01-20.57.54:324][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [D:/users/nicole/3D/Projects/ETC/Game Jams/Spooky Game Jam 2022/Spooky_Jam_2022/Saved/Config/Windows/Engine.ini]
+[2022.10.01-20.57.54:328][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [D:/users/nicole/3D/Projects/ETC/Game Jams/Spooky Game Jam 2022/Spooky_Jam_2022/Saved/Config/Windows/Scalability.ini]
+[2022.10.01-20.57.54:328][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2022.10.01-20.57.54:328][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2022.10.01-20.57.54:328][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [D:/users/nicole/3D/Projects/ETC/Game Jams/Spooky Game Jam 2022/Spooky_Jam_2022/Saved/Config/Windows/Scalability.ini]
+[2022.10.01-20.57.54:328][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2022.10.01-20.57.54:328][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [D:/users/nicole/3D/Projects/ETC/Game Jams/Spooky Game Jam 2022/Spooky_Jam_2022/Saved/Config/Windows/Scalability.ini]
+[2022.10.01-20.57.54:328][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2022.10.01-20.57.54:328][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2022.10.01-20.57.54:328][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2022.10.01-20.57.54:328][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2022.10.01-20.57.54:328][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2022.10.01-20.57.54:328][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2022.10.01-20.57.54:328][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2022.10.01-20.57.54:328][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2022.10.01-20.57.54:328][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2022.10.01-20.57.54:328][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2022.10.01-20.57.54:328][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2022.10.01-20.57.54:328][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2022.10.01-20.57.54:328][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2022.10.01-20.57.54:328][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2022.10.01-20.57.54:328][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2022.10.01-20.57.54:328][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2022.10.01-20.57.54:328][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2022.10.01-20.57.54:328][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2022.10.01-20.57.54:328][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [D:/users/nicole/3D/Projects/ETC/Game Jams/Spooky Game Jam 2022/Spooky_Jam_2022/Saved/Config/Windows/Scalability.ini]
+[2022.10.01-20.57.54:328][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2022.10.01-20.57.54:328][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2022.10.01-20.57.54:328][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2022.10.01-20.57.54:328][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2022.10.01-20.57.54:328][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2022.10.01-20.57.54:328][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2022.10.01-20.57.54:328][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2022.10.01-20.57.54:328][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2022.10.01-20.57.54:328][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2022.10.01-20.57.54:328][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2022.10.01-20.57.54:328][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2022.10.01-20.57.54:329][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2022.10.01-20.57.54:329][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2022.10.01-20.57.54:329][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2022.10.01-20.57.54:329][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2022.10.01-20.57.54:329][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2022.10.01-20.57.54:329][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2022.10.01-20.57.54:329][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2022.10.01-20.57.54:329][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2022.10.01-20.57.54:329][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2022.10.01-20.57.54:329][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2022.10.01-20.57.54:329][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2022.10.01-20.57.54:329][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2022.10.01-20.57.54:329][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2022.10.01-20.57.54:329][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2022.10.01-20.57.54:329][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2022.10.01-20.57.54:329][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2022.10.01-20.57.54:329][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2022.10.01-20.57.54:329][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2022.10.01-20.57.54:329][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2022.10.01-20.57.54:329][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [D:/users/nicole/3D/Projects/ETC/Game Jams/Spooky Game Jam 2022/Spooky_Jam_2022/Saved/Config/Windows/Scalability.ini]
+[2022.10.01-20.57.54:329][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2022.10.01-20.57.54:329][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2022.10.01-20.57.54:329][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2022.10.01-20.57.54:329][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2022.10.01-20.57.54:329][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2022.10.01-20.57.54:329][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2022.10.01-20.57.54:329][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2022.10.01-20.57.54:329][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2022.10.01-20.57.54:329][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2022.10.01-20.57.54:329][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [D:/users/nicole/3D/Projects/ETC/Game Jams/Spooky Game Jam 2022/Spooky_Jam_2022/Saved/Config/Windows/Scalability.ini]
+[2022.10.01-20.57.54:329][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2022.10.01-20.57.54:329][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2022.10.01-20.57.54:329][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2022.10.01-20.57.54:329][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2022.10.01-20.57.54:329][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2022.10.01-20.57.54:329][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2022.10.01-20.57.54:329][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2022.10.01-20.57.54:329][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2022.10.01-20.57.54:329][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2022.10.01-20.57.54:329][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2022.10.01-20.57.54:329][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2022.10.01-20.57.54:329][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
+[2022.10.01-20.57.54:329][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2022.10.01-20.57.54:329][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2022.10.01-20.57.54:329][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2022.10.01-20.57.54:329][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2022.10.01-20.57.54:329][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
+[2022.10.01-20.57.54:329][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2022.10.01-20.57.54:329][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2022.10.01-20.57.54:329][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2022.10.01-20.57.54:329][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
+[2022.10.01-20.57.54:329][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2022.10.01-20.57.54:329][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
+[2022.10.01-20.57.54:329][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2022.10.01-20.57.54:329][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2022.10.01-20.57.54:329][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2022.10.01-20.57.54:329][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [D:/users/nicole/3D/Projects/ETC/Game Jams/Spooky Game Jam 2022/Spooky_Jam_2022/Saved/Config/Windows/Scalability.ini]
+[2022.10.01-20.57.54:329][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2022.10.01-20.57.54:329][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2022.10.01-20.57.54:329][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [D:/users/nicole/3D/Projects/ETC/Game Jams/Spooky Game Jam 2022/Spooky_Jam_2022/Saved/Config/Windows/Scalability.ini]
+[2022.10.01-20.57.54:329][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
+[2022.10.01-20.57.54:329][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
+[2022.10.01-20.57.54:329][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
+[2022.10.01-20.57.54:329][  0]LogConfig: Setting CVar [[r.HairStrands.DeepShadow.SuperSampling:0]]
+[2022.10.01-20.57.54:329][  0]LogConfig: Setting CVar [[r.HairStrands.VisibilityPPLL:0]]
+[2022.10.01-20.57.54:329][  0]LogConfig: Setting CVar [[r.HairStrands.RasterizationScale:0.5]]
+[2022.10.01-20.57.54:329][  0]LogConfig: Setting CVar [[r.HairStrands.VelocityRasterizationScale:1]]
+[2022.10.01-20.57.54:329][  0]LogInit: Selected Device Profile: [Windows]
+[2022.10.01-20.57.54:329][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2022.10.01-20.57.54:329][  0]LogHAL: Display: Platform has ~ 16 GB [17122967552 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2022.10.01-20.57.54:329][  0]LogInit: Going up to parent DeviceProfile []
+[2022.10.01-20.57.54:329][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [D:/users/nicole/3D/Projects/ETC/Game Jams/Spooky Game Jam 2022/Spooky_Jam_2022/Saved/Config/Windows/Scalability.ini]
+[2022.10.01-20.57.54:330][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2022.10.01-20.57.54:330][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2022.10.01-20.57.54:330][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [D:/users/nicole/3D/Projects/ETC/Game Jams/Spooky Game Jam 2022/Spooky_Jam_2022/Saved/Config/Windows/Scalability.ini]
+[2022.10.01-20.57.54:330][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2022.10.01-20.57.54:330][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [D:/users/nicole/3D/Projects/ETC/Game Jams/Spooky Game Jam 2022/Spooky_Jam_2022/Saved/Config/Windows/Scalability.ini]
+[2022.10.01-20.57.54:330][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2022.10.01-20.57.54:330][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2022.10.01-20.57.54:330][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2022.10.01-20.57.54:330][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2022.10.01-20.57.54:330][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2022.10.01-20.57.54:330][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2022.10.01-20.57.54:330][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2022.10.01-20.57.54:330][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2022.10.01-20.57.54:330][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2022.10.01-20.57.54:330][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2022.10.01-20.57.54:330][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2022.10.01-20.57.54:330][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2022.10.01-20.57.54:330][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2022.10.01-20.57.54:330][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2022.10.01-20.57.54:330][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2022.10.01-20.57.54:330][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2022.10.01-20.57.54:330][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2022.10.01-20.57.54:330][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2022.10.01-20.57.54:330][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [D:/users/nicole/3D/Projects/ETC/Game Jams/Spooky Game Jam 2022/Spooky_Jam_2022/Saved/Config/Windows/Scalability.ini]
+[2022.10.01-20.57.54:330][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2022.10.01-20.57.54:330][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2022.10.01-20.57.54:330][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2022.10.01-20.57.54:330][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2022.10.01-20.57.54:330][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2022.10.01-20.57.54:330][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2022.10.01-20.57.54:330][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2022.10.01-20.57.54:330][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2022.10.01-20.57.54:330][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2022.10.01-20.57.54:330][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2022.10.01-20.57.54:330][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2022.10.01-20.57.54:330][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2022.10.01-20.57.54:330][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2022.10.01-20.57.54:330][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2022.10.01-20.57.54:330][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2022.10.01-20.57.54:330][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2022.10.01-20.57.54:330][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2022.10.01-20.57.54:330][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2022.10.01-20.57.54:330][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2022.10.01-20.57.54:330][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2022.10.01-20.57.54:330][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2022.10.01-20.57.54:330][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2022.10.01-20.57.54:330][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2022.10.01-20.57.54:330][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2022.10.01-20.57.54:330][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2022.10.01-20.57.54:330][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2022.10.01-20.57.54:330][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2022.10.01-20.57.54:330][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2022.10.01-20.57.54:330][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2022.10.01-20.57.54:330][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2022.10.01-20.57.54:330][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [D:/users/nicole/3D/Projects/ETC/Game Jams/Spooky Game Jam 2022/Spooky_Jam_2022/Saved/Config/Windows/Scalability.ini]
+[2022.10.01-20.57.54:330][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2022.10.01-20.57.54:330][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2022.10.01-20.57.54:330][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2022.10.01-20.57.54:330][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2022.10.01-20.57.54:330][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2022.10.01-20.57.54:330][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2022.10.01-20.57.54:330][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2022.10.01-20.57.54:330][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2022.10.01-20.57.54:330][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2022.10.01-20.57.54:330][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [D:/users/nicole/3D/Projects/ETC/Game Jams/Spooky Game Jam 2022/Spooky_Jam_2022/Saved/Config/Windows/Scalability.ini]
+[2022.10.01-20.57.54:330][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2022.10.01-20.57.54:330][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2022.10.01-20.57.54:330][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2022.10.01-20.57.54:330][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2022.10.01-20.57.54:330][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2022.10.01-20.57.54:330][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2022.10.01-20.57.54:330][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2022.10.01-20.57.54:330][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2022.10.01-20.57.54:330][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2022.10.01-20.57.54:330][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2022.10.01-20.57.54:330][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2022.10.01-20.57.54:330][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
+[2022.10.01-20.57.54:330][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2022.10.01-20.57.54:330][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2022.10.01-20.57.54:330][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2022.10.01-20.57.54:330][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2022.10.01-20.57.54:331][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
+[2022.10.01-20.57.54:331][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2022.10.01-20.57.54:331][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2022.10.01-20.57.54:331][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2022.10.01-20.57.54:331][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
+[2022.10.01-20.57.54:331][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2022.10.01-20.57.54:331][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
+[2022.10.01-20.57.54:331][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2022.10.01-20.57.54:331][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2022.10.01-20.57.54:331][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2022.10.01-20.57.54:331][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [D:/users/nicole/3D/Projects/ETC/Game Jams/Spooky Game Jam 2022/Spooky_Jam_2022/Saved/Config/Windows/Scalability.ini]
+[2022.10.01-20.57.54:331][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2022.10.01-20.57.54:331][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2022.10.01-20.57.54:331][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [D:/users/nicole/3D/Projects/ETC/Game Jams/Spooky Game Jam 2022/Spooky_Jam_2022/Saved/Config/Windows/Scalability.ini]
+[2022.10.01-20.57.54:331][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
+[2022.10.01-20.57.54:331][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
+[2022.10.01-20.57.54:331][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
+[2022.10.01-20.57.54:331][  0]LogConfig: Setting CVar [[r.HairStrands.DeepShadow.SuperSampling:0]]
+[2022.10.01-20.57.54:331][  0]LogConfig: Setting CVar [[r.HairStrands.VisibilityPPLL:0]]
+[2022.10.01-20.57.54:331][  0]LogConfig: Setting CVar [[r.HairStrands.RasterizationScale:0.5]]
+[2022.10.01-20.57.54:331][  0]LogConfig: Setting CVar [[r.HairStrands.VelocityRasterizationScale:1]]
+[2022.10.01-20.57.54:331][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2022.10.01-20.57.54:332][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2022.10.01-20.57.54:332][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
+[2022.10.01-20.57.54:332][  0]LogConfig: Setting CVar [[fx.SkipVectorVMBackendOptimizations:1]]
+[2022.10.01-20.57.54:332][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [D:/users/nicole/3D/Projects/ETC/Game Jams/Spooky Game Jam 2022/Spooky_Jam_2022/Saved/Config/Windows/Engine.ini]
+[2022.10.01-20.57.54:332][  0]LogInit: Computer: ORENSTEIN
+[2022.10.01-20.57.54:332][  0]LogInit: User: nicol
+[2022.10.01-20.57.54:332][  0]LogInit: CPU Page size=4096, Cores=8
+[2022.10.01-20.57.54:332][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2022.10.01-20.57.54:332][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2022.10.01-20.57.54:332][  0]LogMemory: Platform Memory Stats for Windows
+[2022.10.01-20.57.54:332][  0]LogMemory: Process Physical Memory: 120.31 MB used, 120.31 MB peak
+[2022.10.01-20.57.54:332][  0]LogMemory: Process Virtual Memory: 98.12 MB used, 98.12 MB peak
+[2022.10.01-20.57.54:332][  0]LogMemory: Physical Memory: 10250.91 MB used,  6078.82 MB free, 16329.73 MB total
+[2022.10.01-20.57.54:332][  0]LogMemory: Virtual Memory: 5187.89 MB used,  134212536.00 MB free, 134217728.00 MB total
+[2022.10.01-20.57.54:338][  0]LogWindows: WindowsPlatformFeatures enabled
+[2022.10.01-20.57.54:734][  0]LogInit: Physics initialised using underlying interface: PhysX
+[2022.10.01-20.57.54:750][  0]LogInit: Using OS detected language (en-US).
+[2022.10.01-20.57.54:750][  0]LogInit: Using OS detected locale (en-US).
+[2022.10.01-20.57.54:782][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2022.10.01-20.57.55:240][  0]LogInit: Setting process to per monitor DPI aware
+[2022.10.01-20.57.55:391][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2022.10.01-20.57.55:391][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2022.10.01-20.57.55:907][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2022.10.01-20.57.55:907][  0]LogD3D11RHI: D3D11 min allowed feature level: 11_0
+[2022.10.01-20.57.55:907][  0]LogD3D11RHI: D3D11 max allowed feature level: 11_0
+[2022.10.01-20.57.55:907][  0]LogD3D11RHI: D3D11 adapters:
+[2022.10.01-20.57.56:084][  0]LogD3D11RHI:    0. 'NVIDIA GeForce RTX 2070' (Feature Level 11_0)
+[2022.10.01-20.57.56:085][  0]LogD3D11RHI:       8031/0/8164 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2022.10.01-20.57.56:089][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2022.10.01-20.57.56:089][  0]LogD3D11RHI:       0/0/8164 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2022.10.01-20.57.56:089][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2022.10.01-20.57.56:099][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2022.10.01-20.57.56:099][  0]LogD3D11RHI:     GPU DeviceId: 0x1f02 (for the marketing name, search the web for "GPU Device Id")
+[2022.10.01-20.57.56:099][  0]LogWindows: EnumDisplayDevices:
+[2022.10.01-20.57.56:099][  0]LogWindows:    0. 'NVIDIA GeForce RTX 2070' (P:1 D:1)
+[2022.10.01-20.57.56:100][  0]LogWindows:    1. 'NVIDIA GeForce RTX 2070' (P:0 D:1)
+[2022.10.01-20.57.56:100][  0]LogWindows:    2. 'NVIDIA GeForce RTX 2070' (P:0 D:0)
+[2022.10.01-20.57.56:100][  0]LogWindows:    3. 'NVIDIA GeForce RTX 2070' (P:0 D:0)
+[2022.10.01-20.57.56:100][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2022.10.01-20.57.56:100][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce RTX 2070
+[2022.10.01-20.57.56:100][  0]LogD3D11RHI:   Driver Version: 511.23 (internal:30.0.15.1123, unified:511.23)
+[2022.10.01-20.57.56:100][  0]LogD3D11RHI:      Driver Date: 1-10-2022
+[2022.10.01-20.57.56:100][  0]LogRHI: Texture pool is 5621 MB (70% of 8031 MB)
+[2022.10.01-20.57.56:244][  0]LogD3D11RHI: RHI has support for 64 bit atomics
+[2022.10.01-20.57.56:246][  0]LogD3D11RHI: [Aftermath] Enabled and primed
+[2022.10.01-20.57.56:246][  0]LogD3D11RHI: Async texture creation enabled
+[2022.10.01-20.57.56:246][  0]LogD3D11RHI: Array index from any shader is supported
+[2022.10.01-20.57.56:247][  0]LogD3D11RHI: HDR output is supported on display 0 (NvId: 0x80061086).
+[2022.10.01-20.57.56:264][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2022.10.01-20.57.57:306][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AllDesktop'
+[2022.10.01-20.57.57:336][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android'
+[2022.10.01-20.57.57:336][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTC'
+[2022.10.01-20.57.57:336][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXT'
+[2022.10.01-20.57.57:337][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2'
+[2022.10.01-20.57.57:337][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AndroidClient'
+[2022.10.01-20.57.57:337][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTCClient'
+[2022.10.01-20.57.57:337][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXTClient'
+[2022.10.01-20.57.57:337][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2Client'
+[2022.10.01-20.57.57:337][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_Multi'
+[2022.10.01-20.57.57:337][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_MultiClient'
+[2022.10.01-20.57.57:400][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOSClient'
+[2022.10.01-20.57.57:400][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOS'
+[2022.10.01-20.57.57:417][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Linux'
+[2022.10.01-20.57.57:438][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxNoEditor'
+[2022.10.01-20.57.57:465][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxClient'
+[2022.10.01-20.57.57:476][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxServer'
+[2022.10.01-20.57.57:488][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64NoEditor'
+[2022.10.01-20.57.57:499][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Client'
+[2022.10.01-20.57.57:511][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Server'
+[2022.10.01-20.57.57:582][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Lumin'
+[2022.10.01-20.57.57:582][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LuminClient'
+[2022.10.01-20.57.57:609][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOSClient'
+[2022.10.01-20.57.57:610][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOS'
+[2022.10.01-20.57.57:630][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsNoEditor'
+[2022.10.01-20.57.57:642][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Windows'
+[2022.10.01-20.57.57:661][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsClient'
+[2022.10.01-20.57.57:672][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsServer'
+[2022.10.01-20.57.57:672][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2022.10.01-20.57.57:725][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+[2022.10.01-20.57.58:010][  0]LogShaderCompilers: Guid format shader working directory is -47 characters bigger than the processId version (../../../../../../users/nicole/3D/Projects/ETC/Game Jams/Spooky Game Jam 2022/Spooky_Jam_2022/Intermediate/Shaders/WorkingDirectory/26732/).
+[2022.10.01-20.57.58:010][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'D:/users/nicole/AppData/Local/Temp/UnrealShaderWorkingDir/06BF15E54D5419C8C0DD618154A7B52D/'.
+[2022.10.01-20.57.58:019][  0]LogXGEController: Cleaning working directory: D:/users/nicole/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2022.10.01-20.57.58:019][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2022.10.01-20.57.58:019][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2022.10.01-20.57.58:019][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2022.10.01-20.57.59:174][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2022.10.01-20.57.59:467][  0]LogDerivedDataCache: Loaded boot cache 0.29s 94MB C:/Users/nicol/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc.
+[2022.10.01-20.57.59:467][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/nicol/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc
+[2022.10.01-20.57.59:467][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../users/nicole/3D/Projects/ETC/Game Jams/Spooky Game Jam 2022/Spooky_Jam_2022/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2022.10.01-20.57.59:468][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2022.10.01-20.57.59:468][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../users/nicole/3D/Projects/ETC/Game Jams/Spooky Game Jam 2022/Spooky_Jam_2022/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2022.10.01-20.57.59:468][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2022.10.01-20.57.59:478][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2022.10.01-20.57.59:478][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2022.10.01-20.57.59:478][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
+[2022.10.01-20.57.59:480][  0]LogDerivedDataCache: Using Local data cache path C:/Users/nicol/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2022.10.01-20.57.59:480][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2022.10.01-20.57.59:480][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2022.10.01-20.57.59:531][  0]LogSlate: Using FreeType 2.10.0
+[2022.10.01-20.57.59:580][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2022.10.01-20.57.59:705][  0]LogAssetRegistry: FAssetRegistry took 0.0024 seconds to start up
+[2022.10.01-20.58.00:017][  0]LogInit: Selected Device Profile: [Windows]
+[2022.10.01-20.58.00:492][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2022.10.01-20.58.00:492][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
+[2022.10.01-20.58.00:492][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2022.10.01-20.58.00:492][  0]LogMeshReduction: No distributed automatic mesh merging module available
+[2022.10.01-20.58.00:492][  0]LogMeshMerging: No distributed automatic mesh merging module available
+[2022.10.01-20.58.00:513][  0]LogNetVersion: Spooky_Jam_2022 1.0.0, NetCL: 13144385, EngineNetVer: 14, GameNetVer: 0 (Checksum: 2951437859)
+[2022.10.01-20.58.02:479][  0]LogAISub: UAISubsystem::UAISubsystem AISubsystem (00000181AFDCD800), frame # 0
+[2022.10.01-20.58.02:479][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (00000181AFC8CCC0), frame # 0
+[2022.10.01-20.58.02:481][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (00000181AFE02800), frame # 0
+[2022.10.01-20.58.02:522][  0]LogPackageLocalizationCache: Processed 19 localized package path(s) for 1 prioritized culture(s) in 0.035667 seconds
+[2022.10.01-20.58.02:528][  0]LogUObjectArray: 15917 objects as part of root set at end of initial load.
+[2022.10.01-20.58.02:528][  0]LogUObjectAllocator: 3965568 out of 0 bytes used by permanent object pool.
+[2022.10.01-20.58.02:528][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2022.10.01-20.58.04:936][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2022.10.01-20.58.04:951][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2022.10.01-20.58.05:314][  0]SourceControl: Source control is disabled
+[2022.10.01-20.58.05:314][  0]SourceControl: Source control is disabled
+[2022.10.01-20.58.05:348][  0]SourceControl: Source control is disabled
+[2022.10.01-20.58.05:447][  0]SourceControl: Source control is disabled
+[2022.10.01-20.58.05:470][  0]SourceControl: Source control is disabled
+[2022.10.01-20.58.05:493][  0]LogVSAccessor: Display: Unable to create Visual Studio setup instance: 80040154
+[2022.10.01-20.58.05:493][  0]LogVSAccessor: Display: Unable to create Visual Studio setup instance: 80040154
+[2022.10.01-20.58.06:615][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2022.10.01-20.58.06:664][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2022.10.01-20.58.06:664][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2022.10.01-20.58.07:057][  0]LogOcInput: OculusInput pre-init called
+[2022.10.01-20.58.07:122][  0]LogWindows: Failed to load 'OVRPlugin.dll' (GetLastError=126)
+[2022.10.01-20.58.07:122][  0]LogWindows: File 'OVRPlugin.dll' does not exist
+[2022.10.01-20.58.07:334][  0]LogEngine: Initializing Engine...
+[2022.10.01-20.58.07:335][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2022.10.01-20.58.07:335][  0]LogMagicLeap: Warning: VR disabled because ZI is not enabled.  To enable, in the editor, Edit -> Project Settings -> Plugins -> Magic Leap Plugin -> Enable Zero Iteration
+[2022.10.01-20.58.07:336][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.000 s
+[2022.10.01-20.58.07:451][  0]LogInit: Initializing FReadOnlyCVARCache
+[2022.10.01-20.58.07:555][  0]LogAIModule: Creating AISystem for world Untitled
+[2022.10.01-20.58.07:555][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (00000181B6B51C00), frame # 0
+[2022.10.01-20.58.07:555][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (00000181B6B76200), frame # 0
+[2022.10.01-20.58.07:606][  0]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.10.01-20.58.07:606][  0]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.10.01-20.58.07:606][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.10.01-20.58.07:606][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.10.01-20.58.07:606][  0]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.10.01-20.58.07:606][  0]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2022.10.01-20.58.07:606][  0]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.10.01-20.58.07:606][  0]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.10.01-20.58.07:606][  0]LogAudio: Display: Using built-in audio occlusion.
+[2022.10.01-20.58.07:606][  0]LogAudioMixer: Display: Initializing audio mixer.
+[2022.10.01-20.58.07:632][  0]LogAudioMixer: Display: 0: FrontLeft
+[2022.10.01-20.58.07:632][  0]LogAudioMixer: Display: 1: FrontRight
+[2022.10.01-20.58.07:661][  0]LogAudioMixer: Display: Using Audio Device Headphones (High Definition Audio Device)
+[2022.10.01-20.58.07:667][  0]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.10.01-20.58.07:669][  0]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.10.01-20.58.07:669][  0]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.10.01-20.58.07:670][  0]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2022.10.01-20.58.07:671][  0]LogInit: FAudioDevice initialized.
+[2022.10.01-20.58.07:671][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2022.10.01-20.58.07:868][  0]LogDerivedDataCache: Saved boot cache 0.20s 94MB C:/Users/nicol/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc.
+[2022.10.01-20.58.07:873][  0]LogInit: Texture streaming: Enabled
+[2022.10.01-20.58.08:292][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2022.10.01-20.58.08:292][  0]LogEditorSessionSummary: Verbose: Initializing EditorSessionSummaryWriter for editor session tracking
+[2022.10.01-20.58.08:294][  0]LogEditorSessionSummary: EditorSessionSummaryWriter initialized
+[2022.10.01-20.58.08:414][  0]LogInit: Transaction tracking system initialized
+[2022.10.01-20.58.08:623][  0]BlueprintLog: New page: Editor Load
+[2022.10.01-20.58.09:100][  0]LocalizationService: Localization service is disabled
+[2022.10.01-20.58.09:561][  0]LogVSAccessor: Display: Unable to create Visual Studio setup instance: 80040154
+[2022.10.01-20.58.09:561][  0]LogVSAccessor: Display: Unable to create Visual Studio setup instance: 80040154
+[2022.10.01-20.58.09:636][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2022.10.01-20.58.09:636][  0]LogCook: Display: Mobile HDR setting 1
+[2022.10.01-20.58.10:602][  0]LogFileCache: Scanning file cache for directory 'D:/users/nicole/3D/Projects/ETC/Game Jams/Spooky Game Jam 2022/Spooky_Jam_2022/Content/' took 0.00s
+[2022.10.01-20.58.11:089][  0]SourceControl: Source control is disabled
+[2022.10.01-20.58.11:089][  0]LogUnrealEdMisc: Loading editor; pre map load, took 25.975
+[2022.10.01-20.58.11:089][  0]Cmd: MAP LOAD FILE="../../../../../../users/nicole/3D/Projects/ETC/Game Jams/Spooky Game Jam 2022/Spooky_Jam_2022/Content/Levels/Room_Master.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2022.10.01-20.58.11:090][  0]LightingResults: New page: Lighting Build
+[2022.10.01-20.58.11:097][  0]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
+[2022.10.01-20.58.11:097][  0]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.10.01-20.58.11:097][  0]MapCheck: New page: Map Check
+[2022.10.01-20.58.11:097][  0]LightingResults: New page: Lighting Build
+[2022.10.01-20.58.11:118][  0]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (00000181B6B51C00), frame # 0
+[2022.10.01-20.58.11:118][  0]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (00000181B6B76200), frame # 0
+[2022.10.01-20.58.11:119][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.70ms
+[2022.10.01-20.58.11:137][  0]LogAIModule: Creating AISystem for world Room_Master
+[2022.10.01-20.58.11:138][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (00000181AF393E00), frame # 0
+[2022.10.01-20.58.11:138][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (00000181AF38FB00), frame # 0
+[2022.10.01-20.58.11:139][  0]LogStreaming: Display: ULevelStreaming::RequestLevel(/Game/Levels/Room_SL_Static_Environment) is flushing async loading
+[2022.10.01-20.58.11:139][  0]LogStreaming: Display: Flushing async loaders.
+[2022.10.01-20.58.11:586][  0]LogStreaming: Display: ULevelStreaming::RequestLevel(/Game/Levels/Room_SL_Systems) is flushing async loading
+[2022.10.01-20.58.11:594][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2022.10.01-20.58.11:608][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.58ms
+[2022.10.01-20.58.11:608][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2022.10.01-20.58.11:608][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.174ms to complete.
+[2022.10.01-20.58.11:608][  0]LogFileHelpers: Loading map 'Room_Master' took 0.519
+[2022.10.01-20.58.11:610][  0]LogUnrealEdMisc: Total Editor Startup Time, took 26.496
+[2022.10.01-20.58.11:835][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.10.01-20.58.11:842][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.10.01-20.58.11:850][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.10.01-20.58.11:857][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.10.01-20.58.12:042][  0]LogCollectionManager: Loaded 0 collections in 0.001058 seconds
+[2022.10.01-20.58.12:226][  0]LogFileCache: Scanning file cache for directory 'D:/users/nicole/3D/Projects/ETC/Game Jams/Spooky Game Jam 2022/Spooky_Jam_2022/Saved/Collections/' took 0.00s
+[2022.10.01-20.58.12:226][  0]LogFileCache: Scanning file cache for directory 'D:/users/nicole/3D/Projects/ETC/Game Jams/Spooky Game Jam 2022/Spooky_Jam_2022/Content/Developers/nicol/Collections/' took 0.00s
+[2022.10.01-20.58.12:226][  0]LogFileCache: Scanning file cache for directory 'D:/users/nicole/3D/Projects/ETC/Game Jams/Spooky Game Jam 2022/Spooky_Jam_2022/Content/Collections/' took 0.00s
+[2022.10.01-20.58.12:226][  0]LogContentBrowser: Native class hierarchy populated in 0.0104 seconds. Added 3427 classes and 821 folders.
+[2022.10.01-20.58.12:545][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2022.10.01-20.58.13:727][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2022.10.01-20.58.13:741][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0003 seconds. Added 2 classes and 0 folders.
+[2022.10.01-20.58.14:120][  0]LogSlate: Took 0.010435 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2022.10.01-20.58.14:131][  0]LogSlate: Took 0.009229 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2022.10.01-20.58.14:147][  0]LogSlate: Took 0.011164 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2022.10.01-20.58.14:212][  0]LogRenderer: Reallocating scene render targets to support 912x480 Format 10 NumSamples 1 (Frame:1).
+[2022.10.01-20.58.14:259][  0]LogRenderer: Reallocating scene render targets to support 1820x960 Format 10 NumSamples 1 (Frame:1).
+[2022.10.01-20.58.14:507][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2022.10.01-20.58.14:507][  0]LogLoad: (Engine Initialization) Total time: 29.39 seconds
+[2022.10.01-20.58.14:507][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2022.10.01-20.58.14:545][  0]LogAssetRegistry: Asset discovery search completed in 14.8402 seconds
+[2022.10.01-20.58.14:549][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000003 seconds (updated 0 objects)
+[2022.10.01-20.58.14:550][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2022.10.01-20.58.58:577][699]LogContentBrowser: Native class hierarchy updated for 'WorldBrowser' in 0.0004 seconds. Added 2 classes and 3 folders.
+[2022.10.01-20.59.00:891][909]LogSlate: Window 'Levels' being destroyed
+[2022.10.01-21.11.29:881][635]LogSlate: Took 0.029469 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2022.10.01-21.11.30:051][635]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 ../../../../../../users/nicole/3D/Projects/ETC/Game Jams/Spooky Game Jam 2022/Assets/Background/Dynamic Books.fbx)
+[2022.10.01-21.11.30:232][635]LogFbx: Loading FBX Scene from ../../../../../../users/nicole/3D/Projects/ETC/Game Jams/Spooky Game Jam 2022/Assets/Background/Dynamic Books.fbx
+[2022.10.01-21.11.30:249][635]LogFbx: FBX Scene Loaded Succesfully
+[2022.10.01-21.11.32:608][635]LogSlate: Window 'FBX Import Options' being destroyed
+[2022.10.01-21.11.33:010][635]LogStaticMesh: Building static mesh Dynamic_Books_Small_Book...
+[2022.10.01-21.11.33:078][635]LogStaticMesh: Built static mesh [0.07s] /Game/Assets/Background/Dynamic_Props/Dynamic_Books_Small_Book.Dynamic_Books_Small_Book
+[2022.10.01-21.11.33:209][635]LogStaticMesh: Building static mesh Dynamic_Books_Thin_Book1...
+[2022.10.01-21.11.33:216][635]LogStaticMesh: Built static mesh [0.01s] /Game/Assets/Background/Dynamic_Props/Dynamic_Books_Thin_Book1.Dynamic_Books_Thin_Book1
+[2022.10.01-21.11.33:266][635]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2022.10.01-21.11.36:442][947]LogUObjectHash: Compacting FUObjectHashTables data took   0.65ms
+[2022.10.01-21.11.36:443][947]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Levels/Room_Master' took 0.014
+[2022.10.01-21.11.36:578][947]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Assets/Background/Dynamic_Props/Dynamic_Books_Thin_Book1] ([1] browsable assets)...
+[2022.10.01-21.11.36:622][947]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/Assets/Background/Dynamic_Props/Dynamic_Books_Thin_Book1.Dynamic_Books_Thin_Book1]
+[2022.10.01-21.11.36:622][947]OBJ SavePackage: Finished generating thumbnails for package [/Game/Assets/Background/Dynamic_Props/Dynamic_Books_Thin_Book1]
+[2022.10.01-21.11.36:667][947]LogSavePackage: Moving '../../../../../../users/nicole/3D/Projects/ETC/Game Jams/Spooky Game Jam 2022/Spooky_Jam_2022/Saved/Dynamic_Books_Thin_Book1_Auto1308CAA7E4A0A4C0DFA25D9BAB1446654.tmp' to '../../../../../../users/nicole/3D/Projects/ETC/Game Jams/Spooky Game Jam 2022/Spooky_Jam_2022/Saved/Autosaves/Game/Assets/Background/Dynamic_Props/Dynamic_Books_Thin_Book1_Auto1.uasset'
+[2022.10.01-21.11.36:678][947]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Assets/Background/Dynamic_Props/Dynamic_Books_Small_Book] ([1] browsable assets)...
+[2022.10.01-21.11.36:686][947]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/Assets/Background/Dynamic_Props/Dynamic_Books_Small_Book.Dynamic_Books_Small_Book]
+[2022.10.01-21.11.36:686][947]OBJ SavePackage: Finished generating thumbnails for package [/Game/Assets/Background/Dynamic_Props/Dynamic_Books_Small_Book]
+[2022.10.01-21.11.36:696][947]LogSavePackage: Moving '../../../../../../users/nicole/3D/Projects/ETC/Game Jams/Spooky Game Jam 2022/Spooky_Jam_2022/Saved/Dynamic_Books_Small_Book_Auto158A30756479A9E38A8B7FEBD2760ABB8.tmp' to '../../../../../../users/nicole/3D/Projects/ETC/Game Jams/Spooky Game Jam 2022/Spooky_Jam_2022/Saved/Autosaves/Game/Assets/Background/Dynamic_Props/Dynamic_Books_Small_Book_Auto1.uasset'
+[2022.10.01-21.11.36:696][947]LogFileHelpers: Auto-saving content packages took 0.253
+[2022.10.01-21.11.42:245][ 89]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 ../../../../../../users/nicole/3D/Projects/ETC/Game Jams/Spooky Game Jam 2022/Assets/Background/Open Book.fbx)
+[2022.10.01-21.11.42:255][ 89]LogFbx: Loading FBX Scene from ../../../../../../users/nicole/3D/Projects/ETC/Game Jams/Spooky Game Jam 2022/Assets/Background/Open Book.fbx
+[2022.10.01-21.11.42:262][ 89]LogFbx: FBX Scene Loaded Succesfully
+[2022.10.01-21.11.43:452][ 89]LogSlate: Window 'FBX Import Options' being destroyed
+[2022.10.01-21.11.43:476][ 89]LogStaticMesh: Building static mesh Open_Book...
+[2022.10.01-21.11.43:486][ 89]LogStaticMesh: Built static mesh [0.01s] /Game/Assets/Background/Dynamic_Props/Open_Book.Open_Book
+[2022.10.01-21.11.43:493][ 89]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2022.10.01-21.11.46:943][462]LogActorFactory: Actor Factory created Open_Book
+[2022.10.01-21.11.47:323][497]LogActorFactory: Actor Factory created Open_Book
+[2022.10.01-21.11.48:207][538]LogSlate: Took 0.005733 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2022.10.01-21.12.01:679][889]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Room_Space2)
+[2022.10.01-21.12.09:617][797]LogActorFactory: Actor Factory created Book
+[2022.10.01-21.12.10:072][839]LogActorFactory: Actor Factory created Book
+[2022.10.01-21.12.23:404][255]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Open_Book)
+[2022.10.01-21.12.24:216][346]Cmd: DELETE
+[2022.10.01-21.12.24:216][346]Cmd: ACTOR DELETE
+[2022.10.01-21.12.24:398][346]LogEditorActor: Deleted Actor: StaticMeshActor
+[2022.10.01-21.12.24:412][346]LogUObjectHash: Compacting FUObjectHashTables data took   0.60ms
+[2022.10.01-21.12.24:413][346]LogEditorActor: Deleted 1 Actors (0.027 secs)
+[2022.10.01-21.12.24:818][393]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Book)
+[2022.10.01-21.12.24:849][393]Cmd: DELETE
+[2022.10.01-21.12.24:849][393]Cmd: ACTOR DELETE
+[2022.10.01-21.12.24:850][393]LogEditorActor: Deleted Actor: StaticMeshActor
+[2022.10.01-21.12.24:863][393]LogUObjectHash: Compacting FUObjectHashTables data took   0.23ms
+[2022.10.01-21.12.24:866][393]LogEditorActor: Deleted 1 Actors (0.016 secs)
+[2022.10.01-21.12.30:523][ 10]LogUObjectHash: Compacting FUObjectHashTables data took   0.24ms
+[2022.10.01-21.12.30:556][ 10]LogSavePackage: Moving '../../../../../../users/nicole/3D/Projects/ETC/Game Jams/Spooky Game Jam 2022/Spooky_Jam_2022/Saved/Room_SL_Static_EnvironmentB3BFC36F4E0CB2F6D4C3A889D1B0F2FF.tmp' to '../../../../../../users/nicole/3D/Projects/ETC/Game Jams/Spooky Game Jam 2022/Spooky_Jam_2022/Content/Levels/Room_SL_Static_Environment.umap'
+[2022.10.01-21.12.30:578][ 10]AssetCheck: New page: Asset Save: Room_SL_Static_Environment
+[2022.10.01-21.12.30:578][ 10]LogContentValidation: Display: Validating World /Game/Levels/Room_SL_Static_Environment.Room_SL_Static_Environment
+[2022.10.01-21.12.40:685][217]LogUObjectHash: Compacting FUObjectHashTables data took   0.24ms
+[2022.10.01-21.12.40:698][217]LogSavePackage: Moving '../../../../../../users/nicole/3D/Projects/ETC/Game Jams/Spooky Game Jam 2022/Spooky_Jam_2022/Saved/Room_SL_Static_Environment40D019374356650401F918AC30A5E37C.tmp' to '../../../../../../users/nicole/3D/Projects/ETC/Game Jams/Spooky Game Jam 2022/Spooky_Jam_2022/Content/Levels/Room_SL_Static_Environment.umap'
+[2022.10.01-21.12.40:707][217]AssetCheck: New page: Asset Save: Room_SL_Static_Environment
+[2022.10.01-21.12.40:707][217]LogContentValidation: Display: Validating World /Game/Levels/Room_SL_Static_Environment.Room_SL_Static_Environment
