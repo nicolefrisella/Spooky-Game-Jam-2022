@@ -781,3 +781,49 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2022.10.01-21.39.00:490][504]LogSavePackage: Moving '../../../../../../users/nicole/3D/Projects/ETC/Game Jams/Spooky Game Jam 2022/Spooky_Jam_2022/Saved/Room_SL_Static_Environment869ED65248263A25627E17B576D497EC.tmp' to '../../../../../../users/nicole/3D/Projects/ETC/Game Jams/Spooky Game Jam 2022/Spooky_Jam_2022/Content/Levels/Room_SL_Static_Environment.umap'
 [2022.10.01-21.39.00:500][504]AssetCheck: New page: Asset Save: Room_SL_Static_Environment
 [2022.10.01-21.39.00:500][504]LogContentValidation: Display: Validating World /Game/Levels/Room_SL_Static_Environment.Room_SL_Static_Environment
+[2022.10.01-21.56.29:906][747]LogEditorFactories: Performing atomic reimport of [D:/users/nicole/3D/Projects/ETC/Game Jams/Spooky Game Jam 2022/Assets/Background/Open Book.fbx]
+[2022.10.01-21.56.29:938][747]LogFbx: Loading FBX Scene from D:/users/nicole/3D/Projects/ETC/Game Jams/Spooky Game Jam 2022/Assets/Background/Open Book.fbx
+[2022.10.01-21.56.29:945][747]LogFbx: FBX Scene Loaded Succesfully
+[2022.10.01-21.56.29:989][747]LogStaticMesh: Building static mesh Open_Book...
+[2022.10.01-21.56.29:999][747]LogStaticMesh: Built static mesh [0.01s] /Game/Assets/Background/Dynamic_Props/Open_Book.Open_Book
+[2022.10.01-21.56.30:095][747]LogEditorFactories: -- imported successfully
+[2022.10.01-21.56.30:097][747]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2022.10.01-21.57.42:154][802]LogSlate: Window 'Message' being destroyed
+[2022.10.01-21.57.42:159][802]Message dialog closed, result: Yes, title: Message, text: Do you want to overwrite the existing asset?
+
+An asset already exists at the import location: /Game/Assets/Background/Dynamic_Props/Shattered_Whiskey_Glass
+[2022.10.01-21.57.42:159][802]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 ../../../../../../users/nicole/3D/Projects/ETC/Game Jams/Spooky Game Jam 2022/Assets/Background/Shattered Whiskey Glass.fbx)
+[2022.10.01-21.57.42:161][802]LogEditorFactories: Performing atomic reimport of [D:/users/nicole/3D/Projects/ETC/Game Jams/Spooky Game Jam 2022/Assets/Background/Shattered Whiskey Glass.fbx]
+[2022.10.01-21.57.42:172][802]LogFbx: Loading FBX Scene from D:/users/nicole/3D/Projects/ETC/Game Jams/Spooky Game Jam 2022/Assets/Background/Shattered Whiskey Glass.fbx
+[2022.10.01-21.57.42:179][802]LogFbx: FBX Scene Loaded Succesfully
+[2022.10.01-21.57.42:187][802]LogStaticMesh: Building static mesh Shattered_Whiskey_Glass...
+[2022.10.01-21.57.42:204][802]LogStaticMesh: Built static mesh [0.02s] /Game/Assets/Background/Dynamic_Props/Shattered_Whiskey_Glass.Shattered_Whiskey_Glass
+[2022.10.01-21.57.42:209][802]LogEditorFactories: -- imported successfully
+[2022.10.01-21.57.42:212][802]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2022.10.01-21.57.42:502][803]LogUObjectHash: Compacting FUObjectHashTables data took   0.63ms
+[2022.10.01-21.57.42:503][803]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Levels/Room_Master' took 0.015
+[2022.10.01-21.57.42:504][803]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Assets/Background/Dynamic_Props/Open_Book] ([1] browsable assets)...
+[2022.10.01-21.57.42:512][803]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/Assets/Background/Dynamic_Props/Open_Book.Open_Book]
+[2022.10.01-21.57.42:512][803]OBJ SavePackage: Finished generating thumbnails for package [/Game/Assets/Background/Dynamic_Props/Open_Book]
+[2022.10.01-21.57.42:522][803]LogSavePackage: Moving '../../../../../../users/nicole/3D/Projects/ETC/Game Jams/Spooky Game Jam 2022/Spooky_Jam_2022/Saved/Open_Book_Auto4DD5761F64ACBE6B13517D0A809424A89.tmp' to '../../../../../../users/nicole/3D/Projects/ETC/Game Jams/Spooky Game Jam 2022/Spooky_Jam_2022/Saved/Autosaves/Game/Assets/Background/Dynamic_Props/Open_Book_Auto4.uasset'
+[2022.10.01-21.57.42:523][803]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Assets/Background/Dynamic_Props/Shattered_Whiskey_Glass] ([1] browsable assets)...
+[2022.10.01-21.57.42:532][803]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/Assets/Background/Dynamic_Props/Shattered_Whiskey_Glass.Shattered_Whiskey_Glass]
+[2022.10.01-21.57.42:532][803]OBJ SavePackage: Finished generating thumbnails for package [/Game/Assets/Background/Dynamic_Props/Shattered_Whiskey_Glass]
+[2022.10.01-21.57.42:541][803]LogSavePackage: Moving '../../../../../../users/nicole/3D/Projects/ETC/Game Jams/Spooky Game Jam 2022/Spooky_Jam_2022/Saved/Shattered_Whiskey_Glass_Auto4C3F1CF0741BF8CA1E981E9A789810EC9.tmp' to '../../../../../../users/nicole/3D/Projects/ETC/Game Jams/Spooky Game Jam 2022/Spooky_Jam_2022/Saved/Autosaves/Game/Assets/Background/Dynamic_Props/Shattered_Whiskey_Glass_Auto4.uasset'
+[2022.10.01-21.57.42:541][803]LogFileHelpers: Auto-saving content packages took 0.038
+[2022.10.01-22.00.21:459][806]LogUObjectHash: Compacting FUObjectHashTables data took   0.56ms
+[2022.10.01-22.00.21:490][806]LogSavePackage: Moving '../../../../../../users/nicole/3D/Projects/ETC/Game Jams/Spooky Game Jam 2022/Spooky_Jam_2022/Saved/Dynamic_Books_Thin_Book1E1BF461446046D8F27EACCA7DB449223.tmp' to '../../../../../../users/nicole/3D/Projects/ETC/Game Jams/Spooky Game Jam 2022/Spooky_Jam_2022/Content/Assets/Background/Dynamic_Props/Dynamic_Books_Thin_Book1.uasset'
+[2022.10.01-22.00.21:499][806]LogSavePackage: Moving '../../../../../../users/nicole/3D/Projects/ETC/Game Jams/Spooky Game Jam 2022/Spooky_Jam_2022/Saved/Dynamic_Books_Small_Book932D405C4E445AAE773AA08C3DDC74BA.tmp' to '../../../../../../users/nicole/3D/Projects/ETC/Game Jams/Spooky Game Jam 2022/Spooky_Jam_2022/Content/Assets/Background/Dynamic_Props/Dynamic_Books_Small_Book.uasset'
+[2022.10.01-22.00.21:507][806]LogSavePackage: Moving '../../../../../../users/nicole/3D/Projects/ETC/Game Jams/Spooky Game Jam 2022/Spooky_Jam_2022/Saved/Open_Book45752E2547BD55AB5C112A880BDA7BA2.tmp' to '../../../../../../users/nicole/3D/Projects/ETC/Game Jams/Spooky Game Jam 2022/Spooky_Jam_2022/Content/Assets/Background/Dynamic_Props/Open_Book.uasset'
+[2022.10.01-22.00.21:514][806]LogSavePackage: Moving '../../../../../../users/nicole/3D/Projects/ETC/Game Jams/Spooky Game Jam 2022/Spooky_Jam_2022/Saved/Shattered_Whiskey_Glass8383AFC540DD1C058BC0C380C871DDD4.tmp' to '../../../../../../users/nicole/3D/Projects/ETC/Game Jams/Spooky Game Jam 2022/Spooky_Jam_2022/Content/Assets/Background/Dynamic_Props/Shattered_Whiskey_Glass.uasset'
+[2022.10.01-22.00.21:521][806]LogSavePackage: Moving '../../../../../../users/nicole/3D/Projects/ETC/Game Jams/Spooky Game Jam 2022/Spooky_Jam_2022/Saved/Solid_Whiskey_Glass9AA3B60247CBBD908448D29B9433EF2F.tmp' to '../../../../../../users/nicole/3D/Projects/ETC/Game Jams/Spooky Game Jam 2022/Spooky_Jam_2022/Content/Assets/Background/Dynamic_Props/Solid_Whiskey_Glass.uasset'
+[2022.10.01-22.00.21:541][806]AssetCheck: New page: Asset Save: multiple assets
+[2022.10.01-22.00.21:541][806]LogContentValidation: Display: Validating StaticMesh /Game/Assets/Background/Dynamic_Props/Dynamic_Books_Thin_Book1.Dynamic_Books_Thin_Book1
+[2022.10.01-22.00.21:541][806]LogContentValidation: Display: Validating StaticMesh /Game/Assets/Background/Dynamic_Props/Dynamic_Books_Small_Book.Dynamic_Books_Small_Book
+[2022.10.01-22.00.21:541][806]LogContentValidation: Display: Validating StaticMesh /Game/Assets/Background/Dynamic_Props/Open_Book.Open_Book
+[2022.10.01-22.00.21:541][806]LogContentValidation: Display: Validating StaticMesh /Game/Assets/Background/Dynamic_Props/Shattered_Whiskey_Glass.Shattered_Whiskey_Glass
+[2022.10.01-22.00.21:541][806]LogContentValidation: Display: Validating StaticMesh /Game/Assets/Background/Dynamic_Props/Solid_Whiskey_Glass.Solid_Whiskey_Glass
+[2022.10.01-22.03.06:192][710]LogUObjectHash: Compacting FUObjectHashTables data took   0.66ms
+[2022.10.01-22.03.06:206][710]LogSavePackage: Moving '../../../../../../users/nicole/3D/Projects/ETC/Game Jams/Spooky Game Jam 2022/Spooky_Jam_2022/Saved/Room_SL_Static_EnvironmentF0A07E2746A80ED7BF3F8CA6921A806D.tmp' to '../../../../../../users/nicole/3D/Projects/ETC/Game Jams/Spooky Game Jam 2022/Spooky_Jam_2022/Content/Levels/Room_SL_Static_Environment.umap'
+[2022.10.01-22.03.06:217][710]AssetCheck: New page: Asset Save: Room_SL_Static_Environment
+[2022.10.01-22.03.06:217][710]LogContentValidation: Display: Validating World /Game/Levels/Room_SL_Static_Environment.Room_SL_Static_Environment
