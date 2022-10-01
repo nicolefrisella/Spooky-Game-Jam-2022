@@ -794,3 +794,550 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2022.10.01-19.43.34:645][850]AssetCheck: New page: Asset Save: multiple assets
 [2022.10.01-19.43.34:645][850]LogContentValidation: Display: Validating World /Game/Levels/Room_Master.Room_Master
 [2022.10.01-19.43.34:645][850]LogContentValidation: Display: Validating World /Game/Levels/Room_SL_Static_Environment.Room_SL_Static_Environment
+[2022.10.01-19.52.30:273][362]LogAudioMixer: Display: Audio Buffer Underrun detected.
+[2022.10.01-19.52.37:978][385]LogAudioMixer: Display: Audio Buffer Underrun detected.
+[2022.10.01-19.52.43:595][640]LogAssetEditorSubsystem: Opening Asset editor for World /Game/Prop_test.Prop_Test
+[2022.10.01-19.52.43:604][640]LogUObjectHash: Compacting FUObjectHashTables data took   0.75ms
+[2022.10.01-19.52.43:608][640]Cmd: MAP LOAD FILE="D:/barry/Spooky-Game-Jam-2022/Spooky_Jam_2022/Content/Prop_test.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2022.10.01-19.52.43:608][640]LightingResults: New page: Lighting Build
+[2022.10.01-19.52.43:608][640]LoadErrors: New page: Loading map: Prop_test.umap
+[2022.10.01-19.52.43:609][640]LogWorld: UWorld::CleanupWorld for Room_Master, bSessionEnded=true, bCleanupResources=true
+[2022.10.01-19.52.43:609][640]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.10.01-19.52.43:609][640]LogWorld: UWorld::CleanupWorld for Room_SL_Static_Environment, bSessionEnded=true, bCleanupResources=true
+[2022.10.01-19.52.43:609][640]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.10.01-19.52.43:609][640]LogWorld: UWorld::CleanupWorld for Room_SL_Systems, bSessionEnded=true, bCleanupResources=true
+[2022.10.01-19.52.43:609][640]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.10.01-19.52.43:609][640]MapCheck: New page: Map Check
+[2022.10.01-19.52.43:609][640]LightingResults: New page: Lighting Build
+[2022.10.01-19.52.43:618][640]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000012B83A03880), frame # 73640
+[2022.10.01-19.52.43:618][640]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000012BDC290600), frame # 73640
+[2022.10.01-19.52.43:618][640]LogUObjectHash: Compacting FUObjectHashTables data took   0.57ms
+[2022.10.01-19.52.43:621][640]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2022.10.01-19.52.43:621][640]LogAIModule: Creating AISystem for world Prop_Test
+[2022.10.01-19.52.43:621][640]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000012BDC293400), frame # 73640
+[2022.10.01-19.52.43:621][640]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000012BDCCD2AC0), frame # 73640
+[2022.10.01-19.52.43:631][640]LogUObjectHash: Compacting FUObjectHashTables data took   0.52ms
+[2022.10.01-19.52.43:645][640]Cmd: MAP CHECKDEP NOCLEARLOG
+[2022.10.01-19.52.43:645][640]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.073ms to complete.
+[2022.10.01-19.52.43:645][640]LogFileHelpers: Loading map 'Prop_test' took 0.037
+[2022.10.01-19.52.43:674][640]LogUObjectHash: Compacting FUObjectHashTables data took   0.23ms
+[2022.10.01-19.52.46:040][913]LogAudioMixer: Display: Audio Buffer Underrun detected.
+[2022.10.01-19.53.59:942][690]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Actors/Prop.Prop
+[2022.10.01-19.54.00:131][690]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0005 seconds. Added 125 classes and 0 folders.
+[2022.10.01-19.54.00:946][690]LogSlate: Took 0.000175 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2022.10.01-19.54.00:989][691]LogSlate: Took 0.000336 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2022.10.01-19.54.42:051][ 99]LogSlate: Window 'Prop' being destroyed
+[2022.10.01-19.54.42:055][ 99]LogSlate: Window 'Prop' being destroyed
+[2022.10.01-19.54.42:064][ 99]LogWorld: UWorld::CleanupWorld for World_3, bSessionEnded=true, bCleanupResources=true
+[2022.10.01-19.54.42:064][ 99]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.10.01-19.54.53:218][398]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Actors/Test_Prop.Test_Prop
+[2022.10.01-19.55.32:954][905]LogSlate: Window 'Test_Prop' being destroyed
+[2022.10.01-19.55.32:958][905]LogSlate: Window 'Test_Prop' being destroyed
+[2022.10.01-19.55.32:966][905]LogWorld: UWorld::CleanupWorld for World_4, bSessionEnded=true, bCleanupResources=true
+[2022.10.01-19.55.32:966][905]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.10.01-19.56.00:722][981]LogActorFactory: Actor Factory created Bookshelf
+[2022.10.01-19.56.00:993][ 12]LogActorFactory: Actor Factory created Bookshelf
+[2022.10.01-19.56.36:415][176]Cmd: DELETE
+[2022.10.01-19.56.36:415][176]Cmd: ACTOR DELETE
+[2022.10.01-19.56.36:416][176]LogEditorActor: Deleted Actor: StaticMeshActor
+[2022.10.01-19.56.36:441][176]LogUObjectHash: Compacting FUObjectHashTables data took   2.10ms
+[2022.10.01-19.56.36:449][176]LogEditorActor: Deleted 1 Actors (0.034 secs)
+[2022.10.01-19.56.50:290][429]LogActorFactory: Actor Factory created Bookshelf
+[2022.10.01-19.56.51:517][575]LogActorFactory: Actor Factory created Bookshelf
+[2022.10.01-19.57.25:531][394]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Plane)
+[2022.10.01-19.57.25:796][420]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Plane)
+[2022.10.01-19.57.46:078][548]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2022.10.01-19.58.03:433][559]Cmd: EDIT COPY
+[2022.10.01-19.58.03:652][585]Cmd: EDIT PASTE
+[2022.10.01-19.58.07:976][ 90]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2022.10.01-19.59.33:527][471]LogSlate: Window 'Pick Parent Class' being destroyed
+[2022.10.01-19.59.43:889][702]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Actors/Book_Prop.Book_Prop
+[2022.10.01-20.00.50:608][926]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Actors/Book_Prop" FILE="D:/barry/Spooky-Game-Jam-2022/Spooky_Jam_2022/Content/Actors/Book_Prop.uasset" SILENT=true
+[2022.10.01-20.00.50:614][926]LogSavePackage: Moving 'D:/barry/Spooky-Game-Jam-2022/Spooky_Jam_2022/Saved/Book_Prop031C5CD248F4974717D5A380965B9289.tmp' to 'D:/barry/Spooky-Game-Jam-2022/Spooky_Jam_2022/Content/Actors/Book_Prop.uasset'
+[2022.10.01-20.00.50:627][926]AssetCheck: New page: Asset Save: Book_Prop
+[2022.10.01-20.00.50:627][926]LogContentValidation: Display: Validating Blueprint /Game/Actors/Book_Prop.Book_Prop
+[2022.10.01-20.00.51:620][ 31]BlueprintLog: New page: Compile Book_Prop
+[2022.10.01-20.00.51:652][ 31]LogUObjectHash: Compacting FUObjectHashTables data took   2.14ms
+[2022.10.01-20.00.51:686][ 31]LogSlate: Took 0.000227 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansMono.ttf' (77K)
+[2022.10.01-20.01.48:576][514]BlueprintLog: New page: Compile Book_Prop
+[2022.10.01-20.01.48:640][514]LogUObjectHash: Compacting FUObjectHashTables data took   3.10ms
+[2022.10.01-20.02.06:869][921]LogAudioMixer: Display: Audio Buffer Underrun detected.
+[2022.10.01-20.02.07:570][968]BlueprintLog: New page: Compile Book_Prop
+[2022.10.01-20.02.07:622][968]LogUObjectHash: Compacting FUObjectHashTables data took   3.03ms
+[2022.10.01-20.02.16:937][629]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2022.10.01-20.02.26:330][492]LogAudioMixer: Display: Audio Buffer Underrun detected.
+[2022.10.01-20.02.26:334][492]BlueprintLog: New page: Compile Book_Prop
+[2022.10.01-20.02.26:403][492]LogUObjectHash: Compacting FUObjectHashTables data took   3.03ms
+[2022.10.01-20.02.32:747][932]BlueprintLog: New page: Compile Book_Prop
+[2022.10.01-20.02.32:794][932]LogUObjectHash: Compacting FUObjectHashTables data took   2.66ms
+[2022.10.01-20.02.45:267][922]BlueprintLog: New page: Compile Book_Prop
+[2022.10.01-20.02.45:317][922]LogUObjectHash: Compacting FUObjectHashTables data took   2.69ms
+[2022.10.01-20.02.48:952][194]LogTemp: Repeating last play command: Selected Viewport
+[2022.10.01-20.02.48:964][194]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.10.01-20.02.48:964][194]PIE: New page: PIE session: Prop_test (Oct 1, 2022, 6:02:48 AM)
+[2022.10.01-20.02.48:965][194]LogOnline: OSS: Creating online subsystem instance for: NULL
+[2022.10.01-20.02.48:966][194]LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
+[2022.10.01-20.02.48:966][194]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Prop_test
+[2022.10.01-20.02.48:968][194]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001572s)
+[2022.10.01-20.02.48:969][194]LogAIModule: Creating AISystem for world Prop_Test
+[2022.10.01-20.02.48:969][194]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000012C0645FC00), frame # 137194
+[2022.10.01-20.02.48:969][194]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000012C1B2ED080), frame # 137194
+[2022.10.01-20.02.48:969][194]LogPlayLevel: PIE: World Init took: (0.000939s)
+[2022.10.01-20.02.48:969][194]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Prop_test.Prop_Test to /Game/UEDPIE_0_Prop_test.Prop_Test (0.002623s)
+[2022.10.01-20.02.48:991][194]LogUObjectHash: Compacting FUObjectHashTables data took   2.63ms
+[2022.10.01-20.02.48:993][194]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.10.01-20.02.48:993][194]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.10.01-20.02.48:993][194]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.10.01-20.02.48:993][194]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.10.01-20.02.48:993][194]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.10.01-20.02.48:993][194]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2022.10.01-20.02.48:993][194]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.10.01-20.02.48:993][194]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.10.01-20.02.48:993][194]LogAudio: Display: Using built-in audio occlusion.
+[2022.10.01-20.02.48:993][194]LogAudioMixer: Display: Initializing audio mixer.
+[2022.10.01-20.02.49:004][194]LogAudioMixer: Display: 0: FrontLeft
+[2022.10.01-20.02.49:004][194]LogAudioMixer: Display: 1: FrontRight
+[2022.10.01-20.02.49:027][194]LogAudioMixer: Display: Using Audio Device BenQ LCD (NVIDIA High Definition Audio)
+[2022.10.01-20.02.49:028][194]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.10.01-20.02.49:028][194]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.10.01-20.02.49:028][194]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.10.01-20.02.49:028][194]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2022.10.01-20.02.49:039][194]LogInit: FAudioDevice initialized.
+[2022.10.01-20.02.49:045][194]LogLoad: Game class is 'SpookyGameMode_C'
+[2022.10.01-20.02.49:046][194]LogWorld: Bringing World /Game/UEDPIE_0_Prop_test.Prop_Test up for play (max tick rate 0) at 2022.10.01-13.02.49
+[2022.10.01-20.02.49:046][194]LogWorld: Bringing up level for play took: 0.000710
+[2022.10.01-20.02.49:047][194]LogOnline: OSS: Creating online subsystem instance for: :Context_8
+[2022.10.01-20.02.49:051][194]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0003 seconds. Added 20 classes and 0 folders.
+[2022.10.01-20.02.49:052][194]PIE: Server logged in
+[2022.10.01-20.02.49:053][194]PIE: Play in editor total start time 0.092 seconds.
+[2022.10.01-20.02.57:765][ 11]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.10.01-20.02.57:765][ 11]LogWorld: BeginTearingDown for /Game/UEDPIE_0_Prop_test
+[2022.10.01-20.02.57:765][ 11]LogWorld: UWorld::CleanupWorld for Prop_Test, bSessionEnded=true, bCleanupResources=true
+[2022.10.01-20.02.57:765][ 11]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.10.01-20.02.57:781][ 11]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.10.01-20.02.57:787][ 11]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.10.01-20.02.57:825][ 11]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.10.01-20.02.57:836][ 11]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000012C1B2ED080), frame # 138011
+[2022.10.01-20.02.57:836][ 11]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000012C0645FC00), frame # 138011
+[2022.10.01-20.02.57:862][ 11]LogUObjectHash: Compacting FUObjectHashTables data took   3.76ms
+[2022.10.01-20.02.57:921][ 12]LogPlayLevel: Display: Destroying online subsystem :Context_8
+[2022.10.01-20.02.58:893][ 93]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Bookshelf)
+[2022.10.01-20.03.08:230][787]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Bookshelf)
+[2022.10.01-20.03.18:469][572]BlueprintLog: New page: Compile Book_Prop
+[2022.10.01-20.03.18:531][572]LogUObjectHash: Compacting FUObjectHashTables data took   3.23ms
+[2022.10.01-20.03.21:872][830]LogEditorViewport: Clicking on Actor (LMB): Book_Prop_C (Book_Prop)
+[2022.10.01-20.03.26:281][189]LogTemp: Repeating last play command: Selected Viewport
+[2022.10.01-20.03.26:289][189]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.10.01-20.03.26:289][189]PIE: New page: PIE session: Prop_test (Oct 1, 2022, 6:03:26 AM)
+[2022.10.01-20.03.26:310][189]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Prop_test
+[2022.10.01-20.03.26:312][189]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002050s)
+[2022.10.01-20.03.26:313][189]LogAIModule: Creating AISystem for world Prop_Test
+[2022.10.01-20.03.26:313][189]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000012B84DEA400), frame # 140189
+[2022.10.01-20.03.26:313][189]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000012C46DD9800), frame # 140189
+[2022.10.01-20.03.26:314][189]LogPlayLevel: PIE: World Init took: (0.001435s)
+[2022.10.01-20.03.26:314][189]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Prop_test.Prop_Test to /Game/UEDPIE_0_Prop_test.Prop_Test (0.003646s)
+[2022.10.01-20.03.26:339][189]LogUObjectHash: Compacting FUObjectHashTables data took   2.57ms
+[2022.10.01-20.03.26:343][189]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.10.01-20.03.26:343][189]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.10.01-20.03.26:343][189]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.10.01-20.03.26:343][189]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.10.01-20.03.26:343][189]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.10.01-20.03.26:343][189]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2022.10.01-20.03.26:343][189]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.10.01-20.03.26:343][189]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.10.01-20.03.26:343][189]LogAudio: Display: Using built-in audio occlusion.
+[2022.10.01-20.03.26:343][189]LogAudioMixer: Display: Initializing audio mixer.
+[2022.10.01-20.03.26:353][189]LogAudioMixer: Display: 0: FrontLeft
+[2022.10.01-20.03.26:353][189]LogAudioMixer: Display: 1: FrontRight
+[2022.10.01-20.03.26:375][189]LogAudioMixer: Display: Using Audio Device BenQ LCD (NVIDIA High Definition Audio)
+[2022.10.01-20.03.26:375][189]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.10.01-20.03.26:375][189]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.10.01-20.03.26:375][189]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.10.01-20.03.26:376][189]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2022.10.01-20.03.26:387][189]LogInit: FAudioDevice initialized.
+[2022.10.01-20.03.26:398][189]LogLoad: Game class is 'SpookyGameMode_C'
+[2022.10.01-20.03.26:399][189]LogWorld: Bringing World /Game/UEDPIE_0_Prop_test.Prop_Test up for play (max tick rate 0) at 2022.10.01-13.03.26
+[2022.10.01-20.03.26:399][189]LogWorld: Bringing up level for play took: 0.000490
+[2022.10.01-20.03.26:399][189]LogOnline: OSS: Creating online subsystem instance for: :Context_9
+[2022.10.01-20.03.26:401][189]PIE: Server logged in
+[2022.10.01-20.03.26:402][189]PIE: Play in editor total start time 0.113 seconds.
+[2022.10.01-20.03.31:727][722]LogBlueprintUserMessages: [Book_Prop_2] Move book
+[2022.10.01-20.03.31:727][722]LogBlueprintUserMessages: [Book_Prop_2] Change
+[2022.10.01-20.03.39:412][494]LogBlueprintUserMessages: [FP_Character_C_0] Book_Prop
+[2022.10.01-20.03.48:819][429]LogBlueprintUserMessages: [FP_Character_C_0] clicked locator
+[2022.10.01-20.04.03:948][962]LogBlueprintUserMessages: [FP_Character_C_0] Book_Prop
+[2022.10.01-20.04.06:635][234]LogBlueprintUserMessages: [FP_Character_C_0] clicked locator
+[2022.10.01-20.04.07:774][345]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.10.01-20.04.07:774][345]LogWorld: BeginTearingDown for /Game/UEDPIE_0_Prop_test
+[2022.10.01-20.04.07:774][345]LogWorld: UWorld::CleanupWorld for Prop_Test, bSessionEnded=true, bCleanupResources=true
+[2022.10.01-20.04.07:775][345]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.10.01-20.04.07:798][345]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.10.01-20.04.07:804][345]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.10.01-20.04.07:842][345]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.10.01-20.04.07:843][345]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000012C46DD9800), frame # 144345
+[2022.10.01-20.04.07:843][345]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000012B84DEA400), frame # 144345
+[2022.10.01-20.04.07:845][345]LogUObjectHash: Compacting FUObjectHashTables data took   2.23ms
+[2022.10.01-20.04.07:897][346]LogPlayLevel: Display: Destroying online subsystem :Context_9
+[2022.10.01-20.05.00:433][947]LogSlate: Took 0.027821 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensedItalic.ttf' (160K)
+[2022.10.01-20.05.20:501][ 94]BlueprintLog: New page: Compile Book_Prop
+[2022.10.01-20.05.20:539][ 94]LogUObjectHash: Compacting FUObjectHashTables data took   2.71ms
+[2022.10.01-20.05.22:524][269]LogEditorViewport: Clicking on Actor (LMB): Book_Prop_C (Book_Prop)
+[2022.10.01-20.05.40:245][898]EditorErrors: New page: Actor attachment
+[2022.10.01-20.05.42:126][ 58]Cmd: TRANSACTION UNDO
+[2022.10.01-20.05.42:126][ 58]LogEditorTransaction: Undo Attach actors
+[2022.10.01-20.06.02:292][840]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Prop_test" FILE="D:/barry/Spooky-Game-Jam-2022/Spooky_Jam_2022/Content/Prop_test.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2022.10.01-20.06.02:316][840]LogUObjectHash: Compacting FUObjectHashTables data took   2.76ms
+[2022.10.01-20.06.02:326][840]LogSavePackage: Moving 'D:/barry/Spooky-Game-Jam-2022/Spooky_Jam_2022/Saved/Prop_test583380B94A41691925DC31B022DE5986.tmp' to 'D:/barry/Spooky-Game-Jam-2022/Spooky_Jam_2022/Content/Prop_test.umap'
+[2022.10.01-20.06.02:342][840]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Prop_test_BuiltData" FILE="D:/barry/Spooky-Game-Jam-2022/Spooky_Jam_2022/Content/Prop_test_BuiltData.uasset" SILENT=true
+[2022.10.01-20.06.02:389][840]LogSavePackage: Moving 'D:/barry/Spooky-Game-Jam-2022/Spooky_Jam_2022/Saved/Prop_test_BuiltData5133C9D24C5115A38561DD9A4678F582.tmp' to 'D:/barry/Spooky-Game-Jam-2022/Spooky_Jam_2022/Content/Prop_test_BuiltData.uasset'
+[2022.10.01-20.06.02:404][840]AssetCheck: New page: Asset Save: multiple assets
+[2022.10.01-20.06.02:404][840]LogContentValidation: Display: Validating World /Game/Prop_test.Prop_Test
+[2022.10.01-20.06.02:404][840]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Prop_test_BuiltData.Prop_test_BuiltData
+[2022.10.01-20.07.35:159][456]BlueprintLog: New page: Compile Book_Prop
+[2022.10.01-20.07.35:199][456]LogUObjectHash: Compacting FUObjectHashTables data took   2.37ms
+[2022.10.01-20.07.36:178][538]LogTemp: Repeating last play command: Selected Viewport
+[2022.10.01-20.07.36:187][538]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.10.01-20.07.36:187][538]PIE: New page: PIE session: Prop_test (Oct 1, 2022, 6:07:36 AM)
+[2022.10.01-20.07.36:188][538]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Prop_test
+[2022.10.01-20.07.36:189][538]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001611s)
+[2022.10.01-20.07.36:190][538]LogAIModule: Creating AISystem for world Prop_Test
+[2022.10.01-20.07.36:190][538]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000012C07450E00), frame # 164538
+[2022.10.01-20.07.36:190][538]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000012BD8F80F40), frame # 164538
+[2022.10.01-20.07.36:190][538]LogPlayLevel: PIE: World Init took: (0.000977s)
+[2022.10.01-20.07.36:190][538]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Prop_test.Prop_Test to /Game/UEDPIE_0_Prop_test.Prop_Test (0.002682s)
+[2022.10.01-20.07.36:213][538]LogUObjectHash: Compacting FUObjectHashTables data took   3.16ms
+[2022.10.01-20.07.36:214][538]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.10.01-20.07.36:214][538]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.10.01-20.07.36:214][538]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.10.01-20.07.36:214][538]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.10.01-20.07.36:214][538]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.10.01-20.07.36:214][538]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2022.10.01-20.07.36:214][538]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.10.01-20.07.36:214][538]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.10.01-20.07.36:215][538]LogAudio: Display: Using built-in audio occlusion.
+[2022.10.01-20.07.36:215][538]LogAudioMixer: Display: Initializing audio mixer.
+[2022.10.01-20.07.36:224][538]LogAudioMixer: Display: 0: FrontLeft
+[2022.10.01-20.07.36:224][538]LogAudioMixer: Display: 1: FrontRight
+[2022.10.01-20.07.36:249][538]LogAudioMixer: Display: Using Audio Device BenQ LCD (NVIDIA High Definition Audio)
+[2022.10.01-20.07.36:249][538]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.10.01-20.07.36:249][538]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.10.01-20.07.36:249][538]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.10.01-20.07.36:249][538]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2022.10.01-20.07.36:260][538]LogInit: FAudioDevice initialized.
+[2022.10.01-20.07.36:273][538]LogLoad: Game class is 'SpookyGameMode_C'
+[2022.10.01-20.07.36:274][538]LogWorld: Bringing World /Game/UEDPIE_0_Prop_test.Prop_Test up for play (max tick rate 0) at 2022.10.01-13.07.36
+[2022.10.01-20.07.36:275][538]LogWorld: Bringing up level for play took: 0.000905
+[2022.10.01-20.07.36:275][538]LogOnline: OSS: Creating online subsystem instance for: :Context_10
+[2022.10.01-20.07.36:277][538]PIE: Server logged in
+[2022.10.01-20.07.36:278][538]PIE: Play in editor total start time 0.091 seconds.
+[2022.10.01-20.07.43:400][308]LogAudioMixer: Display: Audio Buffer Underrun detected.
+[2022.10.01-20.07.44:046][376]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.10.01-20.07.44:046][376]LogWorld: BeginTearingDown for /Game/UEDPIE_0_Prop_test
+[2022.10.01-20.07.44:046][376]LogWorld: UWorld::CleanupWorld for Prop_Test, bSessionEnded=true, bCleanupResources=true
+[2022.10.01-20.07.44:047][376]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.10.01-20.07.44:053][376]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.10.01-20.07.44:056][376]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.10.01-20.07.44:089][376]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.10.01-20.07.44:090][376]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000012BD8F80F40), frame # 165376
+[2022.10.01-20.07.44:090][376]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000012C07450E00), frame # 165376
+[2022.10.01-20.07.44:092][376]LogUObjectHash: Compacting FUObjectHashTables data took   2.14ms
+[2022.10.01-20.07.44:137][377]LogPlayLevel: Display: Destroying online subsystem :Context_10
+[2022.10.01-20.08.03:025][183]LogEditorViewport: Clicking on Actor (LMB): Actor (book_end)
+[2022.10.01-20.08.13:431][184]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Prop_test" FILE="D:/barry/Spooky-Game-Jam-2022/Spooky_Jam_2022/Content/Prop_test.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2022.10.01-20.08.13:453][184]LogUObjectHash: Compacting FUObjectHashTables data took   2.07ms
+[2022.10.01-20.08.13:464][184]LogSavePackage: Moving 'D:/barry/Spooky-Game-Jam-2022/Spooky_Jam_2022/Saved/Prop_test8955ABE94BA23F873B6CF3960D749B7A.tmp' to 'D:/barry/Spooky-Game-Jam-2022/Spooky_Jam_2022/Content/Prop_test.umap'
+[2022.10.01-20.08.13:478][184]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Prop_test_BuiltData" FILE="D:/barry/Spooky-Game-Jam-2022/Spooky_Jam_2022/Content/Prop_test_BuiltData.uasset" SILENT=true
+[2022.10.01-20.08.13:483][184]LogSavePackage: Moving 'D:/barry/Spooky-Game-Jam-2022/Spooky_Jam_2022/Saved/Prop_test_BuiltData62B83AE14FA2FBBCB9980D94B3EBA99F.tmp' to 'D:/barry/Spooky-Game-Jam-2022/Spooky_Jam_2022/Content/Prop_test_BuiltData.uasset'
+[2022.10.01-20.08.13:498][184]AssetCheck: New page: Asset Save: multiple assets
+[2022.10.01-20.08.13:498][184]LogContentValidation: Display: Validating World /Game/Prop_test.Prop_Test
+[2022.10.01-20.08.13:498][184]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Prop_test_BuiltData.Prop_test_BuiltData
+[2022.10.01-20.08.16:451][458]LogTemp: Repeating last play command: Selected Viewport
+[2022.10.01-20.08.16:460][458]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.10.01-20.08.16:460][458]PIE: New page: PIE session: Prop_test (Oct 1, 2022, 6:08:16 AM)
+[2022.10.01-20.08.16:460][458]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Prop_test
+[2022.10.01-20.08.16:462][458]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001687s)
+[2022.10.01-20.08.16:463][458]LogAIModule: Creating AISystem for world Prop_Test
+[2022.10.01-20.08.16:463][458]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000012C12DBB200), frame # 168458
+[2022.10.01-20.08.16:463][458]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000012BC57EE340), frame # 168458
+[2022.10.01-20.08.16:463][458]LogPlayLevel: PIE: World Init took: (0.000911s)
+[2022.10.01-20.08.16:463][458]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Prop_test.Prop_Test to /Game/UEDPIE_0_Prop_test.Prop_Test (0.002699s)
+[2022.10.01-20.08.16:484][458]LogUObjectHash: Compacting FUObjectHashTables data took   2.05ms
+[2022.10.01-20.08.16:486][458]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.10.01-20.08.16:486][458]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.10.01-20.08.16:486][458]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.10.01-20.08.16:486][458]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.10.01-20.08.16:486][458]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.10.01-20.08.16:486][458]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2022.10.01-20.08.16:486][458]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.10.01-20.08.16:486][458]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.10.01-20.08.16:487][458]LogAudio: Display: Using built-in audio occlusion.
+[2022.10.01-20.08.16:487][458]LogAudioMixer: Display: Initializing audio mixer.
+[2022.10.01-20.08.16:496][458]LogAudioMixer: Display: 0: FrontLeft
+[2022.10.01-20.08.16:496][458]LogAudioMixer: Display: 1: FrontRight
+[2022.10.01-20.08.16:518][458]LogAudioMixer: Display: Using Audio Device BenQ LCD (NVIDIA High Definition Audio)
+[2022.10.01-20.08.16:518][458]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.10.01-20.08.16:518][458]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.10.01-20.08.16:518][458]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.10.01-20.08.16:519][458]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2022.10.01-20.08.16:530][458]LogInit: FAudioDevice initialized.
+[2022.10.01-20.08.16:566][458]LogLoad: Game class is 'SpookyGameMode_C'
+[2022.10.01-20.08.16:567][458]LogWorld: Bringing World /Game/UEDPIE_0_Prop_test.Prop_Test up for play (max tick rate 0) at 2022.10.01-13.08.16
+[2022.10.01-20.08.16:568][458]LogWorld: Bringing up level for play took: 0.000918
+[2022.10.01-20.08.16:568][458]LogOnline: OSS: Creating online subsystem instance for: :Context_11
+[2022.10.01-20.08.16:570][458]PIE: Server logged in
+[2022.10.01-20.08.16:571][458]PIE: Play in editor total start time 0.111 seconds.
+[2022.10.01-20.08.24:898][266]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.10.01-20.08.24:898][266]LogWorld: BeginTearingDown for /Game/UEDPIE_0_Prop_test
+[2022.10.01-20.08.24:898][266]LogWorld: UWorld::CleanupWorld for Prop_Test, bSessionEnded=true, bCleanupResources=true
+[2022.10.01-20.08.24:899][266]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.10.01-20.08.24:914][266]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.10.01-20.08.24:919][266]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.10.01-20.08.24:939][266]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.10.01-20.08.24:953][266]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000012BC57EE340), frame # 169266
+[2022.10.01-20.08.24:953][266]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000012C12DBB200), frame # 169266
+[2022.10.01-20.08.24:955][266]LogUObjectHash: Compacting FUObjectHashTables data took   2.27ms
+[2022.10.01-20.08.24:998][267]LogPlayLevel: Display: Destroying online subsystem :Context_11
+[2022.10.01-20.08.40:687][912]BlueprintLog: New page: Compile Book_Prop
+[2022.10.01-20.08.40:723][912]LogUObjectHash: Compacting FUObjectHashTables data took   2.30ms
+[2022.10.01-20.08.41:430][974]LogTemp: Repeating last play command: Selected Viewport
+[2022.10.01-20.08.41:438][974]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.10.01-20.08.41:438][974]PIE: New page: PIE session: Prop_test (Oct 1, 2022, 6:08:41 AM)
+[2022.10.01-20.08.41:464][974]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Prop_test
+[2022.10.01-20.08.41:466][974]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001860s)
+[2022.10.01-20.08.41:467][974]LogAIModule: Creating AISystem for world Prop_Test
+[2022.10.01-20.08.41:467][974]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000012BFDEE3800), frame # 170974
+[2022.10.01-20.08.41:467][974]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000012C2BDAAFC0), frame # 170974
+[2022.10.01-20.08.41:467][974]LogPlayLevel: PIE: World Init took: (0.001039s)
+[2022.10.01-20.08.41:467][974]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Prop_test.Prop_Test to /Game/UEDPIE_0_Prop_test.Prop_Test (0.003038s)
+[2022.10.01-20.08.41:491][974]LogUObjectHash: Compacting FUObjectHashTables data took   2.79ms
+[2022.10.01-20.08.41:492][974]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.10.01-20.08.41:492][974]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.10.01-20.08.41:492][974]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.10.01-20.08.41:492][974]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.10.01-20.08.41:492][974]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.10.01-20.08.41:492][974]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2022.10.01-20.08.41:492][974]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.10.01-20.08.41:492][974]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.10.01-20.08.41:492][974]LogAudio: Display: Using built-in audio occlusion.
+[2022.10.01-20.08.41:492][974]LogAudioMixer: Display: Initializing audio mixer.
+[2022.10.01-20.08.41:502][974]LogAudioMixer: Display: 0: FrontLeft
+[2022.10.01-20.08.41:502][974]LogAudioMixer: Display: 1: FrontRight
+[2022.10.01-20.08.41:524][974]LogAudioMixer: Display: Using Audio Device BenQ LCD (NVIDIA High Definition Audio)
+[2022.10.01-20.08.41:524][974]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.10.01-20.08.41:524][974]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.10.01-20.08.41:524][974]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.10.01-20.08.41:525][974]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2022.10.01-20.08.41:536][974]LogInit: FAudioDevice initialized.
+[2022.10.01-20.08.41:562][974]LogLoad: Game class is 'SpookyGameMode_C'
+[2022.10.01-20.08.41:564][974]LogWorld: Bringing World /Game/UEDPIE_0_Prop_test.Prop_Test up for play (max tick rate 0) at 2022.10.01-13.08.41
+[2022.10.01-20.08.41:565][974]LogWorld: Bringing up level for play took: 0.001165
+[2022.10.01-20.08.41:565][974]LogOnline: OSS: Creating online subsystem instance for: :Context_12
+[2022.10.01-20.08.41:567][974]PIE: Server logged in
+[2022.10.01-20.08.41:568][974]PIE: Play in editor total start time 0.131 seconds.
+[2022.10.01-20.08.48:059][631]LogBlueprintUserMessages: [Book_Prop_2] Move book
+[2022.10.01-20.08.48:060][631]LogBlueprintUserMessages: [Book_Prop_2] Change
+[2022.10.01-20.08.48:285][649]LogBlueprintUserMessages: [Test_Prop_2] CHANGE!!
+[2022.10.01-20.08.48:285][649]LogBlueprintUserMessages: [Test_Prop_2] Change
+[2022.10.01-20.08.52:334][ 72]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.10.01-20.08.52:335][ 72]LogWorld: BeginTearingDown for /Game/UEDPIE_0_Prop_test
+[2022.10.01-20.08.52:335][ 72]LogWorld: UWorld::CleanupWorld for Prop_Test, bSessionEnded=true, bCleanupResources=true
+[2022.10.01-20.08.52:335][ 72]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.10.01-20.08.52:343][ 72]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.10.01-20.08.52:347][ 72]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.10.01-20.08.52:381][ 72]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.10.01-20.08.52:381][ 72]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000012C2BDAAFC0), frame # 172072
+[2022.10.01-20.08.52:382][ 72]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000012BFDEE3800), frame # 172072
+[2022.10.01-20.08.52:384][ 72]LogUObjectHash: Compacting FUObjectHashTables data took   2.31ms
+[2022.10.01-20.08.52:429][ 73]LogPlayLevel: Display: Destroying online subsystem :Context_12
+[2022.10.01-20.08.54:109][248]LogTemp: Repeating last play command: Selected Viewport
+[2022.10.01-20.08.54:117][248]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.10.01-20.08.54:117][248]PIE: New page: PIE session: Prop_test (Oct 1, 2022, 6:08:54 AM)
+[2022.10.01-20.08.54:117][248]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Prop_test
+[2022.10.01-20.08.54:119][248]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001534s)
+[2022.10.01-20.08.54:119][248]LogAIModule: Creating AISystem for world Prop_Test
+[2022.10.01-20.08.54:119][248]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000012C03F14E00), frame # 172248
+[2022.10.01-20.08.54:120][248]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000012B8BE03600), frame # 172248
+[2022.10.01-20.08.54:120][248]LogPlayLevel: PIE: World Init took: (0.000888s)
+[2022.10.01-20.08.54:120][248]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Prop_test.Prop_Test to /Game/UEDPIE_0_Prop_test.Prop_Test (0.002508s)
+[2022.10.01-20.08.54:142][248]LogUObjectHash: Compacting FUObjectHashTables data took   2.43ms
+[2022.10.01-20.08.54:143][248]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.10.01-20.08.54:143][248]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.10.01-20.08.54:143][248]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.10.01-20.08.54:143][248]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.10.01-20.08.54:143][248]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.10.01-20.08.54:143][248]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2022.10.01-20.08.54:143][248]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.10.01-20.08.54:143][248]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.10.01-20.08.54:144][248]LogAudio: Display: Using built-in audio occlusion.
+[2022.10.01-20.08.54:144][248]LogAudioMixer: Display: Initializing audio mixer.
+[2022.10.01-20.08.54:153][248]LogAudioMixer: Display: 0: FrontLeft
+[2022.10.01-20.08.54:153][248]LogAudioMixer: Display: 1: FrontRight
+[2022.10.01-20.08.54:177][248]LogAudioMixer: Display: Using Audio Device BenQ LCD (NVIDIA High Definition Audio)
+[2022.10.01-20.08.54:177][248]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.10.01-20.08.54:177][248]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.10.01-20.08.54:177][248]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.10.01-20.08.54:177][248]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2022.10.01-20.08.54:188][248]LogInit: FAudioDevice initialized.
+[2022.10.01-20.08.54:198][248]LogLoad: Game class is 'SpookyGameMode_C'
+[2022.10.01-20.08.54:199][248]LogWorld: Bringing World /Game/UEDPIE_0_Prop_test.Prop_Test up for play (max tick rate 0) at 2022.10.01-13.08.54
+[2022.10.01-20.08.54:199][248]LogWorld: Bringing up level for play took: 0.000681
+[2022.10.01-20.08.54:199][248]LogOnline: OSS: Creating online subsystem instance for: :Context_13
+[2022.10.01-20.08.54:202][248]PIE: Server logged in
+[2022.10.01-20.08.54:203][248]PIE: Play in editor total start time 0.086 seconds.
+[2022.10.01-20.08.56:844][528]LogBlueprintUserMessages: [FP_Character_C_0] Book_Prop
+[2022.10.01-20.08.58:885][740]LogBlueprintUserMessages: [FP_Character_C_0] clicked locator
+[2022.10.01-20.09.01:027][967]LogBlueprintUserMessages: [Book_Prop_2] Move book
+[2022.10.01-20.09.01:027][967]LogBlueprintUserMessages: [Book_Prop_2] Change
+[2022.10.01-20.09.02:242][ 87]LogBlueprintUserMessages: [FP_Character_C_0] Book_Prop
+[2022.10.01-20.09.03:840][252]LogBlueprintUserMessages: [FP_Character_C_0] clicked locator
+[2022.10.01-20.09.05:705][444]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.10.01-20.09.05:705][444]LogWorld: BeginTearingDown for /Game/UEDPIE_0_Prop_test
+[2022.10.01-20.09.05:705][444]LogWorld: UWorld::CleanupWorld for Prop_Test, bSessionEnded=true, bCleanupResources=true
+[2022.10.01-20.09.05:705][444]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.10.01-20.09.05:717][444]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.10.01-20.09.05:720][444]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.10.01-20.09.05:740][444]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.10.01-20.09.05:754][444]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000012B8BE03600), frame # 173444
+[2022.10.01-20.09.05:754][444]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000012C03F14E00), frame # 173444
+[2022.10.01-20.09.05:756][444]LogUObjectHash: Compacting FUObjectHashTables data took   2.19ms
+[2022.10.01-20.09.05:804][445]LogPlayLevel: Display: Destroying online subsystem :Context_13
+[2022.10.01-20.11.57:586][707]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Actors/Book_Prop" FILE="D:/barry/Spooky-Game-Jam-2022/Spooky_Jam_2022/Content/Actors/Book_Prop.uasset" SILENT=true
+[2022.10.01-20.11.57:605][707]LogSavePackage: Moving 'D:/barry/Spooky-Game-Jam-2022/Spooky_Jam_2022/Saved/Book_PropB0D86A6D4F988AC7E9470E94EF4F3983.tmp' to 'D:/barry/Spooky-Game-Jam-2022/Spooky_Jam_2022/Content/Actors/Book_Prop.uasset'
+[2022.10.01-20.11.57:617][707]AssetCheck: New page: Asset Save: Book_Prop
+[2022.10.01-20.11.57:617][707]LogContentValidation: Display: Validating Blueprint /Game/Actors/Book_Prop.Book_Prop
+[2022.10.01-20.12.01:616][152]BlueprintLog: New page: Compile Book_Prop
+[2022.10.01-20.12.01:656][152]LogUObjectHash: Compacting FUObjectHashTables data took   2.92ms
+[2022.10.01-20.12.03:637][361]LogTemp: Repeating last play command: Selected Viewport
+[2022.10.01-20.12.03:645][361]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.10.01-20.12.03:645][361]PIE: New page: PIE session: Prop_test (Oct 1, 2022, 6:12:03 AM)
+[2022.10.01-20.12.03:681][361]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Prop_test
+[2022.10.01-20.12.03:688][361]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006416s)
+[2022.10.01-20.12.03:692][361]LogAIModule: Creating AISystem for world Prop_Test
+[2022.10.01-20.12.03:692][361]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000012C1E46E200), frame # 192361
+[2022.10.01-20.12.03:692][361]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000012BED42D580), frame # 192361
+[2022.10.01-20.12.03:692][361]LogPlayLevel: PIE: World Init took: (0.003771s)
+[2022.10.01-20.12.03:692][361]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Prop_test.Prop_Test to /Game/UEDPIE_0_Prop_test.Prop_Test (0.010922s)
+[2022.10.01-20.12.03:725][361]LogUObjectHash: Compacting FUObjectHashTables data took   2.76ms
+[2022.10.01-20.12.03:726][361]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.10.01-20.12.03:726][361]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.10.01-20.12.03:726][361]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.10.01-20.12.03:726][361]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.10.01-20.12.03:726][361]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.10.01-20.12.03:726][361]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2022.10.01-20.12.03:726][361]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.10.01-20.12.03:726][361]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.10.01-20.12.03:727][361]LogAudio: Display: Using built-in audio occlusion.
+[2022.10.01-20.12.03:727][361]LogAudioMixer: Display: Initializing audio mixer.
+[2022.10.01-20.12.03:736][361]LogAudioMixer: Display: 0: FrontLeft
+[2022.10.01-20.12.03:736][361]LogAudioMixer: Display: 1: FrontRight
+[2022.10.01-20.12.03:760][361]LogAudioMixer: Display: Using Audio Device BenQ LCD (NVIDIA High Definition Audio)
+[2022.10.01-20.12.03:761][361]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.10.01-20.12.03:761][361]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.10.01-20.12.03:761][361]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.10.01-20.12.03:761][361]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2022.10.01-20.12.03:773][361]LogInit: FAudioDevice initialized.
+[2022.10.01-20.12.03:784][361]LogLoad: Game class is 'SpookyGameMode_C'
+[2022.10.01-20.12.03:786][361]LogWorld: Bringing World /Game/UEDPIE_0_Prop_test.Prop_Test up for play (max tick rate 0) at 2022.10.01-13.12.03
+[2022.10.01-20.12.03:786][361]LogWorld: Bringing up level for play took: 0.000777
+[2022.10.01-20.12.03:786][361]LogOnline: OSS: Creating online subsystem instance for: :Context_14
+[2022.10.01-20.12.03:788][361]PIE: Server logged in
+[2022.10.01-20.12.03:789][361]PIE: Play in editor total start time 0.144 seconds.
+[2022.10.01-20.12.08:748][878]LogBlueprintUserMessages: [Book_Prop_2] Change
+[2022.10.01-20.12.12:828][324]LogBlueprintUserMessages: [Book_Prop_2] Change
+[2022.10.01-20.12.13:001][344]LogBlueprintUserMessages: [Test_Prop_2] CHANGE!!
+[2022.10.01-20.12.13:001][344]LogBlueprintUserMessages: [Test_Prop_2] Change
+[2022.10.01-20.12.21:874][323]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.10.01-20.12.21:874][323]LogWorld: BeginTearingDown for /Game/UEDPIE_0_Prop_test
+[2022.10.01-20.12.21:875][323]LogWorld: UWorld::CleanupWorld for Prop_Test, bSessionEnded=true, bCleanupResources=true
+[2022.10.01-20.12.21:875][323]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.10.01-20.12.21:893][323]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.10.01-20.12.21:898][323]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.10.01-20.12.21:937][323]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.10.01-20.12.21:938][323]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000012BED42D580), frame # 194323
+[2022.10.01-20.12.21:938][323]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000012C1E46E200), frame # 194323
+[2022.10.01-20.12.21:940][323]LogUObjectHash: Compacting FUObjectHashTables data took   2.17ms
+[2022.10.01-20.12.21:985][324]LogPlayLevel: Display: Destroying online subsystem :Context_14
+[2022.10.01-20.14.21:114][829]LogAudioMixer: Display: Audio Buffer Underrun detected.
+[2022.10.01-20.16.14:323][646]LogSlate: Window 'Book_Prop' being destroyed
+[2022.10.01-20.16.14:329][646]LogSlate: Window 'Book_Prop' being destroyed
+[2022.10.01-20.16.14:386][646]LogWorld: UWorld::CleanupWorld for World_5, bSessionEnded=true, bCleanupResources=true
+[2022.10.01-20.16.14:386][646]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.10.01-20.16.20:096][294]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Actors/Book_Prop" FILE="D:/barry/Spooky-Game-Jam-2022/Spooky_Jam_2022/Content/Actors/Book_Prop.uasset" SILENT=true
+[2022.10.01-20.16.20:112][294]LogSavePackage: Moving 'D:/barry/Spooky-Game-Jam-2022/Spooky_Jam_2022/Saved/Book_Prop564B804F4D56121EE5FE7DB4712A9EC6.tmp' to 'D:/barry/Spooky-Game-Jam-2022/Spooky_Jam_2022/Content/Actors/Book_Prop.uasset'
+[2022.10.01-20.16.20:127][294]AssetCheck: New page: Asset Save: Book_Prop
+[2022.10.01-20.16.20:127][294]LogContentValidation: Display: Validating Blueprint /Game/Actors/Book_Prop.Book_Prop
+[2022.10.01-20.16.21:690][468]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Actors/Book_Prop" FILE="D:/barry/Spooky-Game-Jam-2022/Spooky_Jam_2022/Content/Actors/Book_Prop.uasset" SILENT=true
+[2022.10.01-20.16.21:702][468]LogSavePackage: Moving 'D:/barry/Spooky-Game-Jam-2022/Spooky_Jam_2022/Saved/Book_PropC8E11D6941C8A60290AF1BB48128DD47.tmp' to 'D:/barry/Spooky-Game-Jam-2022/Spooky_Jam_2022/Content/Actors/Book_Prop.uasset'
+[2022.10.01-20.16.21:712][468]AssetCheck: New page: Asset Save: Book_Prop
+[2022.10.01-20.16.21:712][468]LogContentValidation: Display: Validating Blueprint /Game/Actors/Book_Prop.Book_Prop
+[2022.10.01-20.16.21:874][486]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Actors/Book_Prop" FILE="D:/barry/Spooky-Game-Jam-2022/Spooky_Jam_2022/Content/Actors/Book_Prop.uasset" SILENT=true
+[2022.10.01-20.16.21:885][486]LogSavePackage: Moving 'D:/barry/Spooky-Game-Jam-2022/Spooky_Jam_2022/Saved/Book_Prop77A7B4A949AEBC9F38826A9EA83B69ED.tmp' to 'D:/barry/Spooky-Game-Jam-2022/Spooky_Jam_2022/Content/Actors/Book_Prop.uasset'
+[2022.10.01-20.16.21:895][486]AssetCheck: New page: Asset Save: Book_Prop
+[2022.10.01-20.16.21:895][486]LogContentValidation: Display: Validating Blueprint /Game/Actors/Book_Prop.Book_Prop
+[2022.10.01-20.16.26:244][966]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Prop_test" FILE="D:/barry/Spooky-Game-Jam-2022/Spooky_Jam_2022/Content/Prop_test.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2022.10.01-20.16.26:288][966]LogUObjectHash: Compacting FUObjectHashTables data took   2.56ms
+[2022.10.01-20.16.26:301][966]LogSavePackage: Moving 'D:/barry/Spooky-Game-Jam-2022/Spooky_Jam_2022/Saved/Prop_test4DD4763E477E939B87B4178C09947700.tmp' to 'D:/barry/Spooky-Game-Jam-2022/Spooky_Jam_2022/Content/Prop_test.umap'
+[2022.10.01-20.16.26:316][966]LogFileHelpers: Saving map 'Prop_test' took 0.072
+[2022.10.01-20.16.26:316][966]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Prop_test_BuiltData" FILE="D:/barry/Spooky-Game-Jam-2022/Spooky_Jam_2022/Content/Prop_test_BuiltData.uasset" SILENT=true
+[2022.10.01-20.16.26:322][966]LogSavePackage: Moving 'D:/barry/Spooky-Game-Jam-2022/Spooky_Jam_2022/Saved/Prop_test_BuiltData9B9602E042D4641A365C3688961581F1.tmp' to 'D:/barry/Spooky-Game-Jam-2022/Spooky_Jam_2022/Content/Prop_test_BuiltData.uasset'
+[2022.10.01-20.16.26:336][966]AssetCheck: New page: Asset Save: multiple assets
+[2022.10.01-20.16.26:336][966]LogContentValidation: Display: Validating World /Game/Prop_test.Prop_Test
+[2022.10.01-20.16.26:336][966]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Prop_test_BuiltData.Prop_test_BuiltData
+[2022.10.01-20.16.47:139][394]LogAssetEditorSubsystem: Opening Asset editor for World /Game/Levels/Room_Master.Room_Master
+[2022.10.01-20.16.47:178][394]LogUObjectHash: Compacting FUObjectHashTables data took   3.29ms
+[2022.10.01-20.16.49:697][394]LogSlate: Window 'Save Content' being destroyed
+[2022.10.01-20.16.49:717][394]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Actors/Test_Prop" FILE="D:/barry/Spooky-Game-Jam-2022/Spooky_Jam_2022/Content/Actors/Test_Prop.uasset" SILENT=true
+[2022.10.01-20.16.49:732][394]LogSavePackage: Moving 'D:/barry/Spooky-Game-Jam-2022/Spooky_Jam_2022/Saved/Test_Prop0F4212304A9079094F4EBB9446D7A651.tmp' to 'D:/barry/Spooky-Game-Jam-2022/Spooky_Jam_2022/Content/Actors/Test_Prop.uasset'
+[2022.10.01-20.16.49:733][394]Cmd: MAP LOAD FILE="D:/barry/Spooky-Game-Jam-2022/Spooky_Jam_2022/Content/Levels/Room_Master.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2022.10.01-20.16.49:733][394]LightingResults: New page: Lighting Build
+[2022.10.01-20.16.49:733][394]LoadErrors: New page: Loading map: Room_Master.umap
+[2022.10.01-20.16.49:775][394]LogWorld: UWorld::CleanupWorld for Prop_Test, bSessionEnded=true, bCleanupResources=true
+[2022.10.01-20.16.49:775][394]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.10.01-20.16.49:775][394]MapCheck: New page: Map Check
+[2022.10.01-20.16.49:775][394]LightingResults: New page: Lighting Build
+[2022.10.01-20.16.49:789][394]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000012BDCCD2AC0), frame # 224394
+[2022.10.01-20.16.49:789][394]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000012BDC293400), frame # 224394
+[2022.10.01-20.16.49:792][394]LogUObjectHash: Compacting FUObjectHashTables data took   2.76ms
+[2022.10.01-20.16.49:793][394]LogStreaming: Display: ULevelStreaming::RequestLevel(/Game/Levels/Room_SL_Systems) is flushing async loading
+[2022.10.01-20.16.49:793][394]LogStreaming: Display: Flushing async loaders.
+[2022.10.01-20.16.49:796][394]LogStreaming: Display: ULevelStreaming::RequestLevel(/Game/Levels/Room_SL_Static_Environment) is flushing async loading
+[2022.10.01-20.16.49:801][394]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2022.10.01-20.16.49:801][394]LogAIModule: Creating AISystem for world Room_Master
+[2022.10.01-20.16.49:801][394]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000012B831FD600), frame # 224394
+[2022.10.01-20.16.49:801][394]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000012BDC3860C0), frame # 224394
+[2022.10.01-20.16.49:818][394]LogUObjectHash: Compacting FUObjectHashTables data took   1.53ms
+[2022.10.01-20.16.49:831][394]Cmd: MAP CHECKDEP NOCLEARLOG
+[2022.10.01-20.16.49:832][394]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.124ms to complete.
+[2022.10.01-20.16.49:832][394]LogFileHelpers: Loading map 'Room_Master' took 0.098
+[2022.10.01-20.16.49:899][394]AssetCheck: New page: Asset Save: Test_Prop
+[2022.10.01-20.16.49:899][394]LogContentValidation: Display: Validating Blueprint /Game/Actors/Test_Prop.Test_Prop
+[2022.10.01-20.17.56:432][ 79]LogSlate: Window 'Actor Placement Warning' being destroyed
+[2022.10.01-20.17.56:436][ 79]Message dialog closed, result: Ok, title: Actor Placement Warning, text: The actor will be placed outside the bounds of the current level. Continue?
+[2022.10.01-20.18.11:023][778]LogEditorViewport: Clicking on Actor (LMB): Book_Prop_C (Book_Prop)
+[2022.10.01-20.18.32:923][696]LogAudioMixer: Display: Audio Buffer Underrun detected.
+[2022.10.01-20.20.05:728][529]LogAssetEditorSubsystem: Opening Asset editor for World /Game/Prop_test.Prop_Test
+[2022.10.01-20.20.05:744][529]LogUObjectHash: Compacting FUObjectHashTables data took   1.58ms
+[2022.10.01-20.20.09:129][529]LogSlate: Window 'Save Content' being destroyed
+[2022.10.01-20.20.09:133][529]Cmd: MAP LOAD FILE="D:/barry/Spooky-Game-Jam-2022/Spooky_Jam_2022/Content/Prop_test.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2022.10.01-20.20.09:135][529]LightingResults: New page: Lighting Build
+[2022.10.01-20.20.09:135][529]LoadErrors: New page: Loading map: Prop_test.umap
+[2022.10.01-20.20.09:173][529]LogWorld: UWorld::CleanupWorld for Room_Master, bSessionEnded=true, bCleanupResources=true
+[2022.10.01-20.20.09:174][529]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.10.01-20.20.09:174][529]LogWorld: UWorld::CleanupWorld for Room_SL_Systems, bSessionEnded=true, bCleanupResources=true
+[2022.10.01-20.20.09:174][529]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.10.01-20.20.09:174][529]LogWorld: UWorld::CleanupWorld for Room_SL_Static_Environment, bSessionEnded=true, bCleanupResources=true
+[2022.10.01-20.20.09:174][529]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.10.01-20.20.09:176][529]MapCheck: New page: Map Check
+[2022.10.01-20.20.09:176][529]LightingResults: New page: Lighting Build
+[2022.10.01-20.20.09:212][529]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000012BDC3860C0), frame # 235529
+[2022.10.01-20.20.09:212][529]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000012B831FD600), frame # 235529
+[2022.10.01-20.20.09:214][529]LogUObjectHash: Compacting FUObjectHashTables data took   2.23ms
+[2022.10.01-20.20.09:218][529]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2022.10.01-20.20.09:218][529]LogAIModule: Creating AISystem for world Prop_Test
+[2022.10.01-20.20.09:218][529]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000012C062A2C00), frame # 235529
+[2022.10.01-20.20.09:218][529]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000012C1BFAE340), frame # 235529
+[2022.10.01-20.20.09:236][529]LogUObjectHash: Compacting FUObjectHashTables data took   1.61ms
+[2022.10.01-20.20.09:249][529]Cmd: MAP CHECKDEP NOCLEARLOG
+[2022.10.01-20.20.09:250][529]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.11ms to complete.
+[2022.10.01-20.20.09:250][529]LogFileHelpers: Loading map 'Prop_test' took 0.117
+[2022.10.01-20.20.09:301][529]LogUObjectHash: Compacting FUObjectHashTables data took   0.51ms
