@@ -72,6 +72,8 @@ Spooky_Jam_2022/Saved/*
 
 # Cache files for the editor to use
 DerivedDataCache/*
+*.log
+Spooky_Jam_2022/Saved/Config/Windows/EditorPerProjectUserSettings.ini
+Spooky_Jam_2022/Saved/Config/Windows/EditorPerProjectUserSettings.ini
+Spooky_Jam_2022/Saved/Config/Windows/EditorPerProjectUserSettings.ini
 Spooky_Jam_2022/Saved/Logs/Spooky_Jam_2022.log
-Spooky_Jam_2022/Saved/Config/Windows/Engine.ini
-Spooky_Jam_2022/Saved/Autosaves/PackageRestoreData.json
