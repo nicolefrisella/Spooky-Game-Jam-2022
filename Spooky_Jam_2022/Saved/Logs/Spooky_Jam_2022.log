@@ -32966,3 +32966,36 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2022.10.01-06.50.24:232][307]Cmd: MAP CHECK NOTIFYRESULTS
 [2022.10.01-06.50.24:233][307]MapCheck: New page: Prop_test - Sep 30, 2022, 4:50:24 PM
 [2022.10.01-06.50.24:244][307]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 11.17ms to complete.
+[2022.10.01-06.56.20:795][620]LogAssetEditorSubsystem: Opening Asset editor for World /Game/Main_Level.Main_Level
+[2022.10.01-06.56.20:816][620]LogUObjectHash: Compacting FUObjectHashTables data took   0.62ms
+[2022.10.01-06.56.28:120][620]LogSlate: Window 'Save Content' being destroyed
+[2022.10.01-06.56.28:142][620]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Prop_test" FILE="D:/barry/Spooky-Game-Jam-2022/Spooky_Jam_2022/Content/Prop_test.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2022.10.01-06.56.28:162][620]LogUObjectHash: Compacting FUObjectHashTables data took   0.45ms
+[2022.10.01-06.56.28:169][620]LogSavePackage: Moving 'D:/barry/Spooky-Game-Jam-2022/Spooky_Jam_2022/Saved/Prop_test045894284AF83785011EFD9332C52B50.tmp' to 'D:/barry/Spooky-Game-Jam-2022/Spooky_Jam_2022/Content/Prop_test.umap'
+[2022.10.01-06.56.28:182][620]LogFileHelpers: Saving map 'Prop_test' took 0.040
+[2022.10.01-06.56.28:182][620]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Prop_test_BuiltData" FILE="D:/barry/Spooky-Game-Jam-2022/Spooky_Jam_2022/Content/Prop_test_BuiltData.uasset" SILENT=true
+[2022.10.01-06.56.28:188][620]LogSavePackage: Moving 'D:/barry/Spooky-Game-Jam-2022/Spooky_Jam_2022/Saved/Prop_test_BuiltDataCB39924546BC99BACF09C297A2E20749.tmp' to 'D:/barry/Spooky-Game-Jam-2022/Spooky_Jam_2022/Content/Prop_test_BuiltData.uasset'
+[2022.10.01-06.56.28:188][620]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/SpookyGameMode" FILE="D:/barry/Spooky-Game-Jam-2022/Spooky_Jam_2022/Content/SpookyGameMode.uasset" SILENT=true
+[2022.10.01-06.56.28:193][620]LogSavePackage: Moving 'D:/barry/Spooky-Game-Jam-2022/Spooky_Jam_2022/Saved/SpookyGameModeE6D37424497CFD728CD5309F38C99922.tmp' to 'D:/barry/Spooky-Game-Jam-2022/Spooky_Jam_2022/Content/SpookyGameMode.uasset'
+[2022.10.01-06.56.28:193][620]Cmd: MAP LOAD FILE="D:/barry/Spooky-Game-Jam-2022/Spooky_Jam_2022/Content/Main_Level.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2022.10.01-06.56.28:194][620]LightingResults: New page: Lighting Build
+[2022.10.01-06.56.28:194][620]LoadErrors: New page: Loading map: Main_Level.umap
+[2022.10.01-06.56.28:233][620]LogWorld: UWorld::CleanupWorld for Prop_Test, bSessionEnded=true, bCleanupResources=true
+[2022.10.01-06.56.28:233][620]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.10.01-06.56.28:233][620]MapCheck: New page: Map Check
+[2022.10.01-06.56.28:233][620]LightingResults: New page: Lighting Build
+[2022.10.01-06.56.28:254][620]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000001C226DC4E00), frame # 619620
+[2022.10.01-06.56.28:254][620]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000001C1E7721E00), frame # 619620
+[2022.10.01-06.56.28:256][620]LogUObjectHash: Compacting FUObjectHashTables data took   1.84ms
+[2022.10.01-06.56.28:260][620]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2022.10.01-06.56.28:260][620]LogAIModule: Creating AISystem for world Main_Level
+[2022.10.01-06.56.28:260][620]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001C1C960CC00), frame # 619620
+[2022.10.01-06.56.28:261][620]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001C298472840), frame # 619620
+[2022.10.01-06.56.28:283][620]LogUObjectHash: Compacting FUObjectHashTables data took   1.68ms
+[2022.10.01-06.56.28:295][620]Cmd: MAP CHECKDEP NOCLEARLOG
+[2022.10.01-06.56.28:295][620]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.075ms to complete.
+[2022.10.01-06.56.28:295][620]LogFileHelpers: Loading map 'Main_Level' took 0.102
+[2022.10.01-06.56.28:351][620]AssetCheck: New page: Asset Save: multiple assets
+[2022.10.01-06.56.28:351][620]LogContentValidation: Display: Validating World /Game/Prop_test.Prop_Test
+[2022.10.01-06.56.28:359][620]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Prop_test_BuiltData.Prop_test_BuiltData
+[2022.10.01-06.56.28:359][620]LogContentValidation: Display: Validating Blueprint /Game/SpookyGameMode.SpookyGameMode
